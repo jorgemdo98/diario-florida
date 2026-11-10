@@ -107,4 +107,5 @@ Kurki = Valle Martínez, Marcos Jesús · Manute = López Fernández, Manuel · 
 Duru = Prieto Álvarez, Pedro · Poli = Prieto Gabelas, Pablo · Pelayo = Eyaralar Baizán, Pelayo Vicente ·
 Colli = Collar García, Sergio · Diego = González-Quirós, Diego · Kevin = Amado Rodríguez, Kevin ·
 Lorenzana = Lorenzana Honorato, Miguel · Antón = Martínez Martínez, Antón.
-Apodos aún por confirmar: Mel Guinea, Pelayo Pereira, Luis García Marquínez, Ariel Ortigoza, José Manuel Valdés, Eduardo Álvarez Luengo.
+Mel = Guinea Pavón, Mel · Pope = Pereira Alepuz, Pelayo · Lucho = García Marquínez, Luis · Ari = Ortigoza López, Ariel ·
+José = Valdés Suárez, José Manuel · Edu (o Dudu) = Álvarez Luengo, Eduardo.
