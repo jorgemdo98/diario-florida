@@ -69,3 +69,18 @@ supabase/schema.sql   tablas `comentarios` y `votos`
 
 GitHub Pages cachea CSS/JS ~10 min. Si cambias `css/` o `js/`, sube la versión en los HTML:
 `sed -i -E 's/\?v=[0-9a-z]+"/?v=AAAAMMDDx"/g' *.html` (los JSON de `data/` ya se piden sin caché).
+
+## Leer el buzón (Supabase)
+
+Proyecto: `https://sueumjrcfmpzsdgaubzc.supabase.co` (clave pública en `js/config.js`).
+
+```bash
+U=https://sueumjrcfmpzsdgaubzc.supabase.co; K=$(grep -o 'sb_publishable_[^"]*' js/config.js)
+# todo lo recibido desde la edición anterior
+curl -s "$U/rest/v1/comentarios?select=created_at,edicion,pieza,tipo,nombre,titulo,texto,enlace&created_at=gte.AAAA-MM-DD&order=created_at" -H "apikey: $K" -H "Authorization: Bearer $K"
+# resultados de una encuesta
+curl -s "$U/rest/v1/votos?select=opcion&encuesta=eq.porteros-j8" -H "apikey: $K" -H "Authorization: Bearer $K"
+```
+
+Moderar (ocultar un comentario o marcar `usado_en`) se hace en el panel de Supabase → Table Editor;
+la web solo puede leer e insertar.
