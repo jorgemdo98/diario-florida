@@ -148,7 +148,7 @@ async function encuestaWidget(cont, edicion, enc) {
 /* ───────── Cabecera / pie ───────── */
 function cabecera(pagina, ed) {
   const f = ed ? ed.fecha : new Date().toISOString().slice(0, 10);
-  const meta = ed ? `<b>${fecha(f).split(",")[0]}</b>${fecha(f).split(", ")[1]}<br>Nº ${ed.numero} · Jornada ${ed.jornada}<br>Precio: una caña` : `<b>${fecha(f).split(",")[0]}</b>${fecha(f).split(", ")[1]}`;
+  const meta = ed ? `<b>${fecha(f).split(",")[0]}</b> ${fecha(f).split(", ")[1]}<br>Nº ${ed.numero} · Jornada ${ed.jornada}<br>Precio: una caña` : `<b>${fecha(f).split(",")[0]}</b> ${fecha(f).split(", ")[1]}`;
   const nav = [["index.html", "Portada", "edicion"], ["liga.html", "Clasificación", "liga"], ["plantilla.html", "Plantilla", "plantilla"], ["hemeroteca.html", "Hemeroteca", "hemeroteca"], ["memes.html", "Memes", "memes"]]
     .map(([h, t, p]) => `<a href="${h}"${p === pagina ? ' class="on"' : ""}>${t}</a>`).join("");
   return `<header class="mast">
