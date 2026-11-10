@@ -94,15 +94,15 @@
     { "jugador": "Taín García, Alejandro",     "equipo": "celtic",           "pj": 6, "goles": 5 }
   ],
   "goleadores_florida": [
-    { "jugador": "Valle Martínez, Marcos Jesús",    "apodo": null,    "pj": 7, "goles": 6 },
+    { "jugador": "Valle Martínez, Marcos Jesús",    "apodo": "Kurki",    "pj": 7, "goles": 6 },
     { "jugador": "Collar García, Sergio",           "apodo": "Colli", "pj": 6, "goles": 5 },
     { "jugador": "Eyaralar Baizán, Pelayo Vicente", "apodo": "Pelayo","pj": 7, "goles": 4 },
-    { "jugador": "Ortigoza López, Ariel Virgilio",  "apodo": null,    "pj": 5, "goles": 2 },
-    { "jugador": "Álvarez García, Jorge",           "apodo": null,    "pj": 7, "goles": 2 },
+    { "jugador": "Ortigoza López, Ariel Virgilio",  "apodo": "Ortigoza",    "pj": 5, "goles": 2 },
+    { "jugador": "Álvarez García, Jorge",           "apodo": "Jorge",    "pj": 7, "goles": 2 },
     { "jugador": "Martínez Martínez, Antón",        "apodo": "Antón", "pj": 2, "goles": 1 },
     { "jugador": "González-Quirós Vázquez, Diego",  "apodo": "Diego", "pj": 5, "goles": 1 },
     { "jugador": "Górriz Álvarez, Pedro",           "apodo": "Pedro Górriz", "pj": 6, "goles": 1 },
-    { "jugador": "Prieto Gabelas, Pablo",           "apodo": null,    "pj": 7, "goles": 1 },
-    { "jugador": "Prieto Álvarez, Pedro",           "apodo": null,    "pj": 7, "goles": 1 }
+    { "jugador": "Prieto Gabelas, Pablo",           "apodo": "Poli",    "pj": 7, "goles": 1 },
+    { "jugador": "Prieto Álvarez, Pedro",           "apodo": "Duru",    "pj": 7, "goles": 1 }
   ]
 }

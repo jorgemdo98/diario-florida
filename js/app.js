@@ -320,13 +320,25 @@ async function paginaLiga(root) {
 }
 
 async function paginaPlantilla(root) {
-  const [pl, sagas, liga] = await Promise.all([getJSON("data/plantilla.json"), getJSON("data/sagas.json"), getJSON("data/liga.json")]);
-  const goles = Object.fromEntries(liga.goleadores_florida.map(g => [g.jugador.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, ""), g.goles]));
-  const golesDe = j => j.federacion ? goles[j.federacion.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "")] : null;
+  const [pl, sagas, actas] = await Promise.all([getJSON("data/plantilla.json"), getJSON("data/sagas.json"), getJSON("data/actas.json").catch(() => ({ partidos: [] }))]);
+  const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "");
+  // Estadísticas calculadas a partir de las actas oficiales
+  const st = {};
+  const S = n => st[norm(n)] ||= { conv: 0, tit: 0, ent: 0, goles: 0, am: 0 };
+  for (const p of actas.partidos) {
+    const f = p.florida; if (!f) continue;
+    f.titulares.forEach(x => { const s = S(x.replace(/^\d+ /, "")); s.conv++; s.tit++; });
+    f.suplentes.forEach(x => S(x.replace(/^\d+ /, "")).conv++);
+    f.cambios.forEach(c => S(c.entra).ent++);
+    f.tarjetas.forEach(t => S(t.jugador).am++);
+    p.goles.filter(g => g.equipo === "florida").forEach(g => S(g.jugador).goles++);
+  }
   const sagaDe = Object.fromEntries(sagas.sagas.map(s => [s.slug, s]));
-  const ficha = (j, rol) => { const g = golesDe(j); return `<div class="ficha" id="${esc(j.slug)}">${g ? `<span class="dorsal">⚽ ${g}</span>` : ""}
+  const ficha = (j, rol) => { const s = j.federacion && st[norm(j.federacion)]; const g = s?.goles;
+    const linea = s ? `<p class="aviso" style="margin-top:6px"><b>${s.tit + s.ent}</b> partidos jugados (${s.tit} de titular) · <b>${s.goles}</b> goles · <b>${s.am}</b> amarillas · ${s.conv} convocatorias</p>` : (j.federacion ? `<p class="aviso" style="margin-top:6px">Aún sin convocatorias en liga.</p>` : "");
+    return `<div class="ficha" id="${esc(j.slug)}">${g ? `<span class="dorsal">⚽ ${g}</span>` : ""}
     <div class="pos">${esc(rol || j.posicion || "Jugador")}</div><h3>${esc(j.apodo)}</h3>${j.instagram ? `<a class="aviso" href="https://www.instagram.com/${esc(j.instagram)}/" target="_blank" rel="noopener">@${esc(j.instagram)}</a>` : ""}
-    <p>${md(j.bio || "")}</p><div class="tags">${(j.sagas || []).map(s => sagaDe[s] ? `<a href="#saga-${s}">${esc(sagaDe[s].titulo)}</a>` : "").join("")}${j.confirmar ? `<span class="conf">Ficha por confirmar</span>` : ""}</div></div>`; };
+    <p>${md(j.bio || "")}</p>${linea}<div class="tags">${(j.sagas || []).map(s => sagaDe[s] ? `<a href="#saga-${s}">${esc(sagaDe[s].titulo)}</a>` : "").join("")}${j.confirmar ? `<span class="conf">Apodo por confirmar</span>` : ""}</div></div>`; };
   root.innerHTML = cabecera("plantilla") + `<div class="pagina">
     <h1>La <em>Plantilla</em></h1><p class="lead">Fichas oficiosas del vestuario. Si algo no cuadra, corrígelo en el <a href="buzon.html">buzón</a>.</p>
     <h2 class="seccion-t">Banquillo y despachos</h2><div class="fichas">${pl.cuerpo_tecnico.map(j => ficha(j, j.rol)).join("")}</div>

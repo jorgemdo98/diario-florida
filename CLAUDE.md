@@ -86,3 +86,25 @@ curl -s "$U/rest/v1/votos?select=opcion&encuesta=eq.porteros-j8" -H "apikey: $K"
 
 Moderar (ocultar un comentario o marcar `usado_en`) se hace en el panel de Supabase → Table Editor;
 la web solo puede leer e insertar.
+
+## Actas de los partidos (leer SIEMPRE antes de escribir la crónica)
+
+Cada partido tiene acta oficial con minutos de goles, alineaciones, cambios y tarjetas:
+`https://www.asturfutbol.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=<ID>&cod_acta=<ID>`
+
+- El `CodActa` sale de los enlaces de resultados en la página de clasificación de la jornada.
+- Asturfútbol pide sesión: abrirla en el navegador (no con curl).
+- Guardar cada acta en `data/actas.json` (mismo formato que las existentes). La página de plantilla
+  calcula sola partidos, titularidades, goles y amarillas de cada jugador a partir de ese fichero.
+- Usar las actas para dar contexto a las crónicas: minuto de cada gol, quién entró por quién,
+  tarjetas, titularidades de cada portero, etc. Lo que cuente el vestuario manda en el tono; el acta, en los datos.
+
+## Apodos ↔ nombre federativo (ver data/plantilla.json)
+
+Guty = Gutiérrez Llamazares, Alejandro · Fran = Artime Naveda, Francisco · Giorgio = Moreno de Orbe, Jorge ·
+Jorge = Álvarez García, Jorge · Serra = Rodríguez Serrano, Daniel · Mingo = Sandoval Sisa, Domingo Gabriel ·
+Kurki = Valle Martínez, Marcos Jesús · Manute = López Fernández, Manuel · Iñaki = González Bayón, Ignacio ·
+Duru = Prieto Álvarez, Pedro · Poli = Prieto Gabelas, Pablo · Pelayo = Eyaralar Baizán, Pelayo Vicente ·
+Colli = Collar García, Sergio · Diego = González-Quirós, Diego · Kevin = Amado Rodríguez, Kevin ·
+Lorenzana = Lorenzana Honorato, Miguel · Antón = Martínez Martínez, Antón.
+Apodos aún por confirmar: Mel Guinea, Pelayo Pereira, Luis García Marquínez, Ariel Ortigoza, José Manuel Valdés, Eduardo Álvarez Luengo.
