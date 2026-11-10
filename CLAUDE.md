@@ -64,3 +64,8 @@ supabase/schema.sql   tablas `comentarios` y `votos`
 - Entrenador: Francisco Javier Mesa. Presidente (y jugador): Pedro Górriz.
 - Dos Jorges: Jorge Moreno = **Giorgio** (redactor) y Jorge Álvarez.
 - Porteros: Guty y Fran.
+
+## Caché del navegador
+
+GitHub Pages cachea CSS/JS ~10 min. Si cambias `css/` o `js/`, sube la versión en los HTML:
+`sed -i -E 's/\?v=[0-9a-z]+"/?v=AAAAMMDDx"/g' *.html` (los JSON de `data/` ya se piden sin caché).
