@@ -41,7 +41,9 @@ supabase/schema.sql   tablas `comentarios` y `votos`
    Para memes sobre fotos propias, en el JSON de la edición usar `{ "foto", "arriba", "abajo" }`.
 6. **Escribir `data/ediciones/AAAA-MM-DD.json`** copiando la estructura de la anterior
    (`portada`, `ticker`, `piezas`, `breves`, `memes`, `encuesta`, `proximo`). La encuesta lleva un
-   `id` nuevo. Incrementar `numero`.
+   `id` nuevo. Incrementar `numero`. Poner `"publicada"` con la hora UTC de publicación (ISO) en la edición
+   y en `index.json`: marca el corte de lo que sale en «La voz del lector» (todo lo recibido entre la
+   publicación anterior y esta se publica automáticamente, sin revisión).
 7. **Añadirla a `data/ediciones/index.json`** (la más reciente se muestra en portada).
 8. **Actualizar sagas**: nuevo capítulo en las que avancen, actualizar contadores
    (p. ej. jornadas de sequía de Mingo), cerrar (`"estado": "cerrada"`) las que terminen.

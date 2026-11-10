@@ -179,6 +179,45 @@ function memeHTML(m) {
   if (m.img) return `<figure class="meme"><a ${enlace}><img src="${esc(m.img)}" alt="${esc(m.alt || "")}" loading="lazy"></a></figure>`;
   return `<figure class="meme"><a ${enlace}><div class="overlay-meme"><img src="${esc(m.foto)}" alt="" style="object-position:${esc(m.pos || "50% 50%")}" loading="lazy"><div class="t a">${esc(m.arriba || "")}</div><div class="t b">${esc(m.abajo || "")}</div></div></a>${cap}</figure>`;
 }
+/* La voz del lector: todo lo que llegó al buzón (y los comentarios a la edición anterior)
+   entre la publicación de la edición anterior y la de esta sale publicado, sin filtro. */
+const esImagen = u => /^https?:\/\//.test(u || "") && (/\.(jpe?g|png|gif|webp)(\?|$)/i.test(u) || /api\.memegen\.link\/images\//.test(u));
+const publicadaDe = e => e && (e.publicada || e.fecha + "T23:59:59Z");
+async function vozDelLector(cont, ed, prev, esUltima) {
+  if (!API.ok || !cont) return;
+  const hasta = publicadaDe(ed), desde = prev ? publicadaDe(prev) : "2000-01-01T00:00:00Z";
+  const q = `select=created_at,edicion,pieza,tipo,nombre,titulo,texto,enlace&and=(created_at.gte.${encodeURIComponent(desde)},created_at.lt.${encodeURIComponent(hasta)})&order=created_at.asc&limit=200`;
+  let items = [], veredicto = "", espera = 0;
+  try {
+    items = await API.get("comentarios", q);
+    if (prev) {
+      const pe = await getJSON(`data/ediciones/${prev.fecha}.json`);
+      if (pe.encuesta) {
+        const vs = await API.get("votos", `select=opcion&encuesta=eq.${encodeURIComponent(pe.encuesta.id)}`);
+        if (vs.length) {
+          const tot = vs.length, cuenta = pe.encuesta.opciones.map((o, i) => ({ o, n: vs.filter(v => v.opcion === i).length })).sort((a, b) => b.n - a.n);
+          veredicto = `<div class="caja encuesta" style="margin-bottom:16px"><h3>Veredicto del jurado popular</h3><div class="pad"><p class="preg">${esc(pe.encuesta.pregunta)}</p>${cuenta.map(c => `<div class="op" style="cursor:default"><span class="barra" style="width:${100 * c.n / tot}%"></span><span>${esc(c.o)}</span><span>${Math.round(100 * c.n / tot)}% · ${c.n}</span></div>`).join("")}<p class="aviso">${tot} votos. Gana: <b>${esc(cuenta[0].o)}</b></p></div></div>`;
+        }
+      }
+    }
+    if (esUltima) espera = (await API.get("comentarios", `select=created_at&created_at=gte.${encodeURIComponent(hasta)}`)).length;
+  } catch (e) { console.warn("voz del lector", e); }
+  const tipoTxt = { sugerencia: "Exclusiva del lector", meme: "Meme del lector", comentario: "Réplica" };
+  const tarjeta = c => `<div class="voz-item voz-${esc(c.tipo)}">
+      <span class="voz-tipo">${tipoTxt[c.tipo] || "Carta"}</span>
+      ${c.titulo ? `<h4>${esc(c.titulo)}</h4>` : ""}
+      ${c.tipo === "comentario" && c.pieza ? `<p class="aviso">Sobre «${esc(c.titulo || c.pieza)}» (${fecha(c.edicion, false)})</p>` : ""}
+      ${esImagen(c.enlace) ? `<img src="${esc(c.enlace)}" alt="" loading="lazy">` : ""}
+      <p>${esc(c.texto)}</p>
+      ${c.enlace && !esImagen(c.enlace) ? `<p><a href="${esc(c.enlace)}" target="_blank" rel="noopener nofollow">Ver enlace</a></p>` : ""}
+      <div class="voz-firma">— ${esc(c.nombre)}</div></div>`;
+  if (!items.length && !veredicto && !espera) return;
+  cont.innerHTML = `<h2 class="seccion-t" style="margin-top:28px">La voz del lector</h2>
+    <p class="aviso">Todo lo que llegó al buzón y a los comentarios desde la edición anterior, publicado tal cual. Aquí no se censura a nadie (casi).</p>
+    ${veredicto}
+    ${items.length ? `<div class="voz">${items.map(tarjeta).join("")}</div>` : ""}
+    ${espera ? `<p class="voz-espera">📬 Hay <b>${espera}</b> mensaje${espera === 1 ? "" : "s"} en el buzón esperando a la próxima edición. <a href="buzon.html">Manda el tuyo</a>.</p>` : ""}`;
+}
 async function paginaEdicion(root) {
   const [indice, liga, sagas] = await Promise.all([getJSON("data/ediciones/index.json"), getJSON("data/liga.json"), getJSON("data/sagas.json")]);
   const pedida = new URLSearchParams(location.search).get("e");
@@ -232,7 +271,10 @@ async function paginaEdicion(root) {
       <div class="memes">${ed.memes.map(memeHTML).join("")}</div>
       <p class="aviso" style="margin-top:10px">¿Tienes uno mejor? <a href="memes.html"><b>Hazlo en el generador</b></a> y mándalo al buzón.</p>
       ${ed.breves?.length ? `<h2 class="seccion-t" style="margin-top:28px">Breves</h2><div class="breves">${ed.breves.map(b => `<div class="breve">${b.foto ? `<img src="${esc(b.foto)}" alt="" loading="lazy">` : ""}<div><h4>${esc(b.titulo)}</h4><p>${md(b.texto)}</p></div></div>`).join("")}</div>` : ""}
+      <section id="voz"></section>
     </div>` + pie();
+  const prev = orden[orden.indexOf(meta) + 1];
+  vozDelLector($("#voz"), ed, prev, meta === orden[0]);
 
   const cont = $("#piezas");
   for (const p of ed.piezas) {
@@ -309,7 +351,7 @@ async function paginaBuzon(root) {
   const pre = new URLSearchParams(location.search);
   root.innerHTML = cabecera("buzon") + `<div class="pagina">
     <h1>Buzón del <em>lector</em></h1>
-    <p class="lead">¿Algo que debería salir en la próxima edición? ¿Una exclusiva del vestuario, una foto, un meme, una queja o una réplica a algo que hemos publicado? Escríbelo aquí. La redacción lo lee todo antes de cada número (uno por semana, después de cada partido).</p>
+    <p class="lead">¿Algo que debería salir en la próxima edición? ¿Una exclusiva del vestuario, una foto, un meme, una queja o una réplica a algo que hemos publicado? Escríbelo aquí: <b>todo lo que llegue se publica en la siguiente edición</b> (una por semana, después de cada partido), en la sección «La voz del lector». Y si da para noticia, la redacción la convierte en portada.</p>
     <div class="dos">
       <section class="caja"><h3>Enviar a la redacción</h3><div class="pad">${API.ok ? `
         <form class="cf" id="fb">
