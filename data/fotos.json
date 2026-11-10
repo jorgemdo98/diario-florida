@@ -1,0 +1,14 @@
+{
+  "_nota": "Banco de fotos para el generador de memes. Añade aquí cada foto nueva que se guarde en img/ig/ (fuente: Instagram del club).",
+  "fotos": [
+    { "src": "img/ig/j7-1.jpg", "texto": "Once ante el Juvencia B (J7)", "fecha": "2026-11-08" },
+    { "src": "img/ig/j7-2.jpg", "texto": "La Florida en La Pixarra (J7)", "fecha": "2026-11-08" },
+    { "src": "img/ig/j7-3.jpg", "texto": "Jugada ante el Juvencia B (J7)", "fecha": "2026-11-08" },
+    { "src": "img/ig/oct19.jpg", "texto": "Once con la segunda equipación", "fecha": "2026-10-19" },
+    { "src": "img/ig/nov06b.jpg", "texto": "Presentación de Iñaki", "fecha": "2026-11-06" },
+    { "src": "img/ig/nov06a.jpg", "texto": "Cartel del club", "fecha": "2026-11-06" },
+    { "src": "img/ig/ago25.jpg", "texto": "Calendario 2026/27", "fecha": "2026-08-25" },
+    { "src": "img/ig/ago21.jpg", "texto": "Cartel de pretemporada", "fecha": "2026-08-21" },
+    { "src": "img/ig/jul10.jpg", "texto": "Campaña de abonados", "fecha": "2026-07-10" }
+  ]
+}

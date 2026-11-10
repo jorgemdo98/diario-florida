@@ -1,0 +1,108 @@
+{
+  "competicion": "3ª Asturfútbol · Grupo 2",
+  "temporada": "2026-2027",
+  "fuente": "https://www.asturfutbol.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codcompeticion=22880347&codgrupo=23036375&codjornada=7",
+  "fuente_goleadores": "https://www.asturfutbol.es/pnfg/NPcd/NFG_CMP_Goleadores?cod_primaria=1000120&codcompeticion=22880347&codtemporada=22&codgrupo=23036375",
+  "actualizado": "2026-11-10",
+  "ultima_jornada": 7,
+  "nuestro": "florida",
+  "_nota_orden": "Orden oficial de la última jornada (desempates de la federación). Si no coincide con los resultados, la web recalcula por puntos, diferencia y goles.",
+  "clasificacion_oficial": ["celtic","berron","siero","manjoya","centro-asturiano","florida","san-ignacio","guillen","oviedo-city","fresneda","efro","grisu","juvencia","colloto","rayo-mercadin","rosal"],
+  "equipos": {
+    "celtic":           { "nombre": "Celtic de Puerto F.C. \"A\"",     "corto": "Celtic de Puerto", "siglas": "CEL", "color": "#1d3b8f", "escudo": null },
+    "berron":           { "nombre": "Berrón C.F. \"A\"",              "corto": "Berrón",           "siglas": "BER", "color": "#e6c200", "escudo": null },
+    "siero":            { "nombre": "Club Siero \"B\"",               "corto": "Siero B",          "siglas": "SIE", "color": "#c8102e", "escudo": "img/escudos/siero.jpg" },
+    "manjoya":          { "nombre": "La Manjoya \"A\"",               "corto": "La Manjoya",       "siglas": "MAN", "color": "#c8102e", "escudo": "img/escudos/manjoya.png" },
+    "centro-asturiano": { "nombre": "Centro Asturiano Oviedo \"A\"",  "corto": "Centro Asturiano", "siglas": "CAO", "color": "#1f4fa3", "escudo": "img/escudos/centro-asturiano.jpg" },
+    "florida":          { "nombre": "Club Atlético de La Florida \"A\"", "corto": "La Florida",    "siglas": "FLO", "color": "#ff6a00", "escudo": "img/escudos/florida.jpg" },
+    "san-ignacio":      { "nombre": "C.D. San Ignacio Oviedo \"A\"",  "corto": "San Ignacio",      "siglas": "SIG", "color": "#1f4fa3", "escudo": null },
+    "guillen":          { "nombre": "A.D. Guillén Lafuerza \"A\"",    "corto": "Guillén Lafuerza", "siglas": "GUI", "color": "#444",    "escudo": "img/escudos/guillen.jpg" },
+    "oviedo-city":      { "nombre": "Oviedo City F.C. \"A\"",         "corto": "Oviedo City",      "siglas": "OVC", "color": "#1f4fa3", "escudo": "img/escudos/oviedo-city.png" },
+    "fresneda":         { "nombre": "La Fresneda \"B\"",              "corto": "La Fresneda B",    "siglas": "FRE", "color": "#2e7d32", "escudo": "img/escudos/fresneda.jpg" },
+    "efro":             { "nombre": "Efro \"B\"",                     "corto": "Efro B",           "siglas": "EFR", "color": "#1f4fa3", "escudo": "img/escudos/efro.png" },
+    "grisu":            { "nombre": "Grisú C.F. \"A\"",               "corto": "Grisú",            "siglas": "GRI", "color": "#c8102e", "escudo": null },
+    "juvencia":         { "nombre": "Real Juvencia \"B\"",            "corto": "Juvencia B",       "siglas": "JUV", "color": "#1f4fa3", "escudo": "img/escudos/juvencia.png" },
+    "colloto":          { "nombre": "S.D. Colloto \"B\"",             "corto": "Colloto B",        "siglas": "COL", "color": "#2e7d32", "escudo": "img/escudos/colloto.jpg" },
+    "rayo-mercadin":    { "nombre": "Club Rayo Mercadín \"A\"",       "corto": "Rayo Mercadín",    "siglas": "RAY", "color": "#777",    "escudo": "img/escudos/rayo-mercadin.png" },
+    "rosal":            { "nombre": "Rosal C.F. \"A\"",               "corto": "Rosal",            "siglas": "ROS", "color": "#7a1f2b", "escudo": "img/escudos/rosal.png" }
+  },
+  "jornadas": [
+    { "n": 1, "fecha": "2026-09-27", "partidos": [
+      ["colloto", 1, 4, "manjoya"], ["rayo-mercadin", 0, 3, "celtic"], ["florida", 4, 0, "oviedo-city"], ["centro-asturiano", 5, 3, "guillen"],
+      ["berron", 4, 1, "efro"], ["rosal", 1, 1, "fresneda"], ["juvencia", 1, 8, "siero"], ["grisu", 3, 4, "san-ignacio"] ] },
+    { "n": 2, "fecha": "2026-10-04", "partidos": [
+      ["manjoya", 5, 0, "grisu"], ["celtic", 10, 0, "colloto"], ["oviedo-city", 3, 2, "rayo-mercadin"], ["guillen", 1, 1, "florida"],
+      ["efro", 1, 2, "centro-asturiano"], ["fresneda", 1, 5, "berron"], ["siero", 5, 2, "rosal"], ["san-ignacio", 3, 0, "juvencia"] ] },
+    { "n": 3, "fecha": "2026-10-11", "partidos": [
+      ["manjoya", 0, 4, "celtic"], ["colloto", 0, 2, "oviedo-city"], ["rayo-mercadin", 1, 2, "guillen"], ["florida", 4, 1, "efro"],
+      ["centro-asturiano", 7, 2, "fresneda"], ["berron", 2, 0, "siero"], ["rosal", 0, 4, "san-ignacio"], ["grisu", 2, 2, "juvencia"] ] },
+    { "n": 4, "fecha": "2026-10-18", "partidos": [
+      ["celtic", 8, 0, "grisu"], ["oviedo-city", 0, 2, "manjoya"], ["guillen", 7, 2, "colloto"], ["efro", 3, 2, "rayo-mercadin"],
+      ["fresneda", 4, 2, "florida"], ["siero", 2, 1, "centro-asturiano"], ["san-ignacio", 1, 0, "berron"], ["juvencia", 3, 0, "rosal"] ] },
+    { "n": 5, "fecha": "2026-10-25", "partidos": [
+      ["celtic", 7, 2, "oviedo-city"], ["manjoya", 4, 0, "guillen"], ["colloto", 3, 3, "efro"], ["rayo-mercadin", 0, 1, "fresneda"],
+      ["florida", 0, 2, "siero"], ["centro-asturiano", 1, 0, "san-ignacio"], ["berron", 5, 0, "juvencia"], ["grisu", 2, 1, "rosal"] ] },
+    { "n": 6, "fecha": "2026-11-01", "partidos": [
+      ["oviedo-city", 4, 2, "grisu"], ["guillen", 3, 2, "celtic"], ["efro", 0, 4, "manjoya"], ["fresneda", 0, 2, "colloto"],
+      ["siero", 6, 1, "rayo-mercadin"], ["san-ignacio", 2, 4, "florida"], ["juvencia", 1, 3, "centro-asturiano"], ["rosal", 2, 7, "berron"] ] },
+    { "n": 7, "fecha": "2026-11-08", "partidos": [
+      ["oviedo-city", 1, 1, "guillen"], ["celtic", 6, 0, "efro"], ["manjoya", 4, 1, "fresneda"], ["colloto", 0, 6, "siero"],
+      ["rayo-mercadin", 3, 1, "san-ignacio"], ["florida", 9, 0, "juvencia"], ["centro-asturiano", 6, 1, "rosal"], ["grisu", 0, 4, "berron"] ] }
+  ],
+  "calendario_florida": [
+    { "j": 1,  "fecha": "2026-09-27", "rival": "oviedo-city",      "casa": true },
+    { "j": 2,  "fecha": "2026-10-04", "rival": "guillen",          "casa": false },
+    { "j": 3,  "fecha": "2026-10-11", "rival": "efro",             "casa": true },
+    { "j": 4,  "fecha": "2026-10-18", "rival": "fresneda",         "casa": false },
+    { "j": 5,  "fecha": "2026-10-25", "rival": "siero",            "casa": true },
+    { "j": 6,  "fecha": "2026-11-01", "rival": "san-ignacio",      "casa": false },
+    { "j": 7,  "fecha": "2026-11-08", "rival": "juvencia",         "casa": true },
+    { "j": 8,  "fecha": "2026-11-15", "rival": "rosal",            "casa": false },
+    { "j": 9,  "fecha": "2026-11-22", "rival": "berron",           "casa": true },
+    { "j": 10, "fecha": "2026-11-29", "rival": "centro-asturiano", "casa": false },
+    { "j": 11, "fecha": "2026-12-06", "rival": "grisu",            "casa": false },
+    { "j": 12, "fecha": "2026-12-13", "rival": "rayo-mercadin",    "casa": true },
+    { "j": 13, "fecha": "2026-12-20", "rival": "colloto",          "casa": false },
+    { "j": 14, "fecha": "2027-01-10", "rival": "manjoya",          "casa": true },
+    { "j": 15, "fecha": "2027-01-17", "rival": "celtic",           "casa": false },
+    { "j": 16, "fecha": "2027-01-24", "rival": "oviedo-city",      "casa": false },
+    { "j": 17, "fecha": "2027-01-31", "rival": "guillen",          "casa": true },
+    { "j": 18, "fecha": "2027-02-07", "rival": "efro",             "casa": false },
+    { "j": 19, "fecha": "2027-02-14", "rival": "fresneda",         "casa": true },
+    { "j": 20, "fecha": "2027-02-21", "rival": "siero",            "casa": false },
+    { "j": 21, "fecha": "2027-02-28", "rival": "san-ignacio",      "casa": true },
+    { "j": 22, "fecha": "2027-03-07", "rival": "juvencia",         "casa": false },
+    { "j": 23, "fecha": "2027-03-14", "rival": "rosal",            "casa": true },
+    { "j": 24, "fecha": "2027-04-04", "rival": "berron",           "casa": false },
+    { "j": 25, "fecha": "2027-04-11", "rival": "centro-asturiano", "casa": true },
+    { "j": 26, "fecha": "2027-04-18", "rival": "grisu",            "casa": true },
+    { "j": 27, "fecha": "2027-04-25", "rival": "rayo-mercadin",    "casa": false },
+    { "j": 28, "fecha": "2027-05-02", "rival": "colloto",          "casa": true },
+    { "j": 29, "fecha": "2027-05-09", "rival": "manjoya",          "casa": false },
+    { "j": 30, "fecha": "2027-05-16", "rival": "celtic",           "casa": true }
+  ],
+  "goleadores_liga": [
+    { "jugador": "Díaz Onís, Juan José",       "equipo": "siero",            "pj": 6, "goles": 9 },
+    { "jugador": "Suárez Alcántara, Marcos",   "equipo": "manjoya",          "pj": 7, "goles": 9 },
+    { "jugador": "García Vázquez, Rodrigo",    "equipo": "centro-asturiano", "pj": 7, "goles": 8 },
+    { "jugador": "Pérez Nina, Brayan Alfredo", "equipo": "oviedo-city",      "pj": 7, "goles": 8 },
+    { "jugador": "Borge Uría, Cristian",       "equipo": "celtic",           "pj": 7, "goles": 7 },
+    { "jugador": "Rivera Rodríguez, Darío",    "equipo": "guillen",          "pj": 6, "goles": 6 },
+    { "jugador": "Valle Martínez, Marcos Jesús","equipo": "florida",         "pj": 7, "goles": 6 },
+    { "jugador": "Manzano Gómez, Christian",   "equipo": "berron",           "pj": 7, "goles": 6 },
+    { "jugador": "Collar García, Sergio",      "equipo": "florida",          "pj": 6, "goles": 5 },
+    { "jugador": "Taín García, Alejandro",     "equipo": "celtic",           "pj": 6, "goles": 5 }
+  ],
+  "goleadores_florida": [
+    { "jugador": "Valle Martínez, Marcos Jesús",    "apodo": null,    "pj": 7, "goles": 6 },
+    { "jugador": "Collar García, Sergio",           "apodo": "Colli", "pj": 6, "goles": 5 },
+    { "jugador": "Eyaralar Baizán, Pelayo Vicente", "apodo": "Pelayo","pj": 7, "goles": 4 },
+    { "jugador": "Ortigoza López, Ariel Virgilio",  "apodo": null,    "pj": 5, "goles": 2 },
+    { "jugador": "Álvarez García, Jorge",           "apodo": null,    "pj": 7, "goles": 2 },
+    { "jugador": "Martínez Martínez, Antón",        "apodo": "Antón", "pj": 2, "goles": 1 },
+    { "jugador": "González-Quirós Vázquez, Diego",  "apodo": "Diego", "pj": 5, "goles": 1 },
+    { "jugador": "Górriz Álvarez, Pedro",           "apodo": "Pedro Górriz", "pj": 6, "goles": 1 },
+    { "jugador": "Prieto Gabelas, Pablo",           "apodo": null,    "pj": 7, "goles": 1 },
+    { "jugador": "Prieto Álvarez, Pedro",           "apodo": null,    "pj": 7, "goles": 1 }
+  ]
+}

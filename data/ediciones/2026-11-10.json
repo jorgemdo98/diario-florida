@@ -1,0 +1,179 @@
+{
+  "fecha": "2026-11-10",
+  "numero": 1,
+  "jornada": 7,
+  "titulo_web": "Festín en La Pixarra",
+  "resumen": "9-0 al Juvencia B: póker de Pelayo, hat-trick de Colli y Diego, por fin, estrena su marcador.",
+  "ticker": [
+    "La Florida 9 - 0 Real Juvencia B",
+    "Póker de Pelayo",
+    "Hat-trick de Colli",
+    "Diego rompe su sequía desde el banquillo",
+    "Kevin, fuera por despedida",
+    "Giorgio vuelve al once y Guty le salva",
+    "Mingo sigue sin marcar",
+    "Kurki: isquio... ¿y el dedo?",
+    "Manute debuta y sobrevive (a duras penas)",
+    "Fran vuelve: ¿guerra de porteros?",
+    "Próxima parada: Rosal C.F."
+  ],
+  "portada": {
+    "kicker": "Jornada 7 · 3ª Asturfútbol · Grupo 2",
+    "titular": ["FESTÍN EN", "LA PIXARRA"],
+    "subtitulo": "La Florida pasa por encima del Juvencia B con póker de Pelayo, hat-trick de Colli y goles de Kurki y Diego. Mesa rota medio equipo y el equipo ni se entera.",
+    "foto": "img/ig/j7-1.jpg",
+    "foto_pos": "50% 62%",
+    "foto_pie": "El once de La Florida antes del 9-0 en La Pixarra. Foto: @clubatleticodelaflorida",
+    "marcador": { "local": "florida", "gl": 9, "gv": 0, "visitante": "juvencia",
+      "goles_local": ["Pelayo ×4", "Colli ×3", "Kurki", "Diego"] },
+    "pieza": "cronica",
+    "laterales": [
+      { "etiqueta": "Diego", "titulo": "POR FIN, EL 9", "texto": "Siete jornadas mirando desde el banquillo y estrena su marcador. ¿Billete al once?", "foto": "img/ig/j7-2.jpg", "pieza": "diego" },
+      { "etiqueta": "Exclusiva", "titulo": "KEVIN, BAJA POR DESPEDIDA", "texto": "Dos días de fiesta y fuera de la lista. Más noches que Ronaldinho.", "foto": "img/memes/2026-11-10-2.jpg", "pieza": "kevin", "tono": "negro" },
+      { "etiqueta": "Parte médico", "titulo": "KURKI: ISQUIO... ¿Y EL DEDO?", "texto": "Se rompe el isquiotibial y el fisio le mira el pie. Investigamos.", "foto": "img/memes/2026-11-10-3.jpg", "pieza": "kurki" },
+      { "etiqueta": "Debut", "titulo": "MANUTE: «4 SPRINTS Y YA»", "texto": "Se estrena en liga y pide la hora con 25 minutos por delante.", "foto": "img/memes/2026-11-10-4.jpg", "pieza": "manute", "tono": "naranja" }
+    ],
+    "franja": [
+      { "etiqueta": "La duda", "titulo": "¿GUTY O FRAN?", "texto": "Una portería a cero cada uno. Mesa decide. Vota abajo.", "pieza": "porteros" },
+      { "etiqueta": "Vuelve al once", "titulo": "GIORGIO, CESIÓN DE TERROR", "texto": "Regresa a la titularidad y casi se marca un gol. Guty le salva.", "pieza": "giorgio" },
+      { "etiqueta": "Próximo rival", "titulo": "ROSAL C.F.", "texto": "Colista, 1 punto, 28 goles encajados. Dom 15/11, a domicilio.", "pieza": "previa", "escudo": "rosal" }
+    ]
+  },
+  "piezas": [
+    {
+      "id": "cronica", "seccion": "Crónica", "firma": "Redacción",
+      "titulo": "Festín en La Pixarra: nueve goles, cuatro firmas y cero sustos (casi)",
+      "subtitulo": "La Florida golea al Real Juvencia B en la jornada 7 con una alineación llena de rotaciones que respondió como si llevara toda la vida jugando junta.",
+      "foto": "img/ig/j7-3.jpg", "foto_pie": "La Florida, de naranja, durante el partido. Foto: @clubatleticodelaflorida",
+      "cuerpo": [
+        "Hay partidos que se ganan y partidos que se disfrutan. El del domingo en La Pixarra fue de los segundos: **9-0 al Real Juvencia B**, la mayor goleada del equipo en lo que va de temporada y la segunda portería a cero del curso.",
+        "Mesa aprovechó la ocasión para tocar medio once. Hubo rotaciones por todas partes y, lejos de notarse, el equipo funcionó como un reloj. Los que entraron respondieron y los que esperaban su oportunidad la cogieron al vuelo.",
+        "El gran nombre fue **Pelayo**, que se fue a casa con el balón bajo el brazo tras firmar un **póker**. Cuatro goles en un partido que, curiosamente, son los cuatro de su temporada: cuando se pone, se pone. **Colli** no quiso ser menos y añadió un **hat-trick** que le sube a 5 en liga. Completaron la goleada **Kurki** —que pagó su gol con el isquiotibial, pero esa es otra historia— y **Diego**, que por fin estrenó su casillero.",
+        "Con la victoria, La Florida suma **13 puntos**, se asienta en la **sexta plaza** y mira de reojo a un pelotón de cabeza donde cinco equipos están empatados a 18. La diferencia de goles, eso sí, ya es de récord: 24 a favor y 10 en contra.",
+        "El próximo domingo toca visitar al **Rosal C.F.**, colista con un solo punto. Partido para confirmar que esto va en serio... o para llevarse un disgusto de los que escuecen."
+      ],
+      "meme": null
+    },
+    {
+      "id": "diego", "seccion": "Protagonista", "saga": "diego-banquillo", "firma": "Redacción",
+      "titulo": "Diego rompe el maleficio: el 9 estrena su marcador",
+      "subtitulo": "El delantero estrella del equipo marca su primer gol en liga tras siete jornadas empezando en el banquillo. ¿Es el empujón que necesitaba para entrar en el once?",
+      "foto": "img/memes/2026-11-10-1.jpg", "foto_pie": "Diego, resumido en dos viñetas.",
+      "cuerpo": [
+        "Siete jornadas. Siete domingos calentando banda, mirando el reloj y esperando la llamada de Mesa. Para el delantero estrella del equipo, la paciencia empezaba a parecerse demasiado a la resignación.",
+        "Hasta el domingo. En plena goleada, **Diego** encontró por fin la portería y estrenó su marcador personal en liga. No fue el gol más bonito del día —con nueve, la competencia era dura—, pero fue probablemente el más celebrado del banquillo.",
+        "La pregunta ahora es obligada: **¿será este el impulso que necesita para llegar al once inicial?** La pelota está en el tejado de Mesa. Diego, por su parte, ya ha dejado su recado: cuando le dan minutos, marca.",
+        "En la redacción abrimos contador: jornadas de Diego como titular en liga: **0**. Seguiremos informando."
+      ]
+    },
+    {
+      "id": "kevin", "seccion": "Exclusiva", "saga": "kevin-y-la-noche", "firma": "Redacción",
+      "titulo": "Kevin, baja por despedida: la noche le ganó la titularidad",
+      "subtitulo": "El fijo del once en liga se queda fuera de la convocatoria tras dos días de fiesta antes del partido. Asegura estar centrado para volver ante el Rosal.",
+      "foto": "img/memes/2026-11-10-2.jpg", "foto_pie": "Kevin, el lunes por la mañana, según fuentes cercanas.",
+      "cuerpo": [
+        "Kevin venía siendo titular en prácticamente todos los partidos de liga. Un fijo. Un intocable. Hasta que se cruzó en su camino una **despedida de dos días** justo antes del partido.",
+        "Resultado: **fuera de la convocatoria**. Mesa no se anduvo con rodeos y el equipo, sin él, le metió nueve al Juvencia. Mal momento para que la ausencia no se note.",
+        "Las comparaciones son odiosas, pero en el vestuario ya circula la que más le duele: **tiene más fiesta que Ronaldinho en sus mejores tiempos**. Con la diferencia de que Ronaldinho, al día siguiente, hacía la elástica.",
+        "Eso sí, fuentes de la plantilla aseguran que se le ve **centrado y en plena forma física**, listo para reaparecer este domingo en el campo del Rosal. Mesa tendrá la última palabra. Y nosotros, la cámara preparada."
+      ]
+    },
+    {
+      "id": "kurki", "seccion": "Parte médico", "saga": "enigma-kurki", "firma": "Gabinete de investigación",
+      "titulo": "El enigma de Kurki: se rompe el isquio y le miran el dedo del pie",
+      "subtitulo": "El autor de uno de los nueve goles se lesionó del isquiotibial. Fue al fisio y salió con el dedo del pie bajo sospecha. La redacción pide explicaciones.",
+      "foto": "img/memes/2026-11-10-7.jpg", "foto_pie": "Hay lesiones y lesiones.",
+      "cuerpo": [
+        "**Kurki** firmó su gol en el 9-0 y, poco después, notó el pinchazo: **lesión del isquiotibial**. Hasta ahí, todo dentro de lo normal en un futbolista amateur con trabajo los lunes.",
+        "Lo raro vino después. Al pasar por el fisio, el diagnóstico se fue de paseo pierna abajo: **«el dedo del pie pinta feo»**.",
+        "Desde esta redacción lanzamos la pregunta que se hace todo el vestuario: **¿alguien nos puede explicar qué ha hecho este chaval para lesionarse del isquio y que le valoren el dedo?** ¿Celebró el gol pateando el banderín? ¿Tropezó con la pierna buena? ¿Es el primer caso documentado de isquiotibial que llega hasta la uña?",
+        "Se aceptan teorías en los comentarios. La más creíble (o la más absurda) saldrá publicada la semana que viene."
+      ]
+    },
+    {
+      "id": "manute", "seccion": "Debut", "firma": "Redacción",
+      "titulo": "Manute se estrena en liga: «Pegué 4 sprints y ya no podía más»",
+      "subtitulo": "El debut más honesto de la temporada: cuatro arrancadas, cero oxígeno y 25 minutos que se hicieron eternos.",
+      "foto": "img/memes/2026-11-10-4.jpg", "foto_pie": "Manute, minuto 65.",
+      "cuerpo": [
+        "Por fin llegó el día. Después de semanas dejándose la piel en los entrenamientos sin premio en forma de minutos, **Manute debutó en liga** en la goleada ante el Juvencia B.",
+        "Sus declaraciones tras el partido pasarán a la historia del club por su sinceridad: **«Pegué 4 sprints y ya no podía más. Me dijeron que quedaban 25 minutos todavía y solo quería acabar ya»**.",
+        "Dando la talla desde el inicio, di que sí. Desde la redacción proponemos a la directiva que el próximo debut se haga con una botella de oxígeno en la banda. Por si acaso."
+      ]
+    },
+    {
+      "id": "mingo", "seccion": "Sequía", "saga": "sequia-mingo", "firma": "Redacción",
+      "titulo": "Mingo, el MVP que no encuentra la portería",
+      "subtitulo": "El mejor jugador del partido en San Ignacio sigue sin marcar en liga. Ni en un 9-0.",
+      "foto": "img/memes/2026-11-10-5.jpg", "foto_pie": "Dos cosas que no aparecen.",
+      "cuerpo": [
+        "La semana pasada fue el **MVP** en San Ignacio. Esta semana, en un partido en el que marcaron hasta los lesionados, **Mingo sigue a cero en liga**.",
+        "No es falta de esfuerzo ni de llegada. Es que, simplemente, **a Mingo se le resisten más los goles que a Kevin la caída del pelo**. Y eso, en este vestuario, es mucho decir.",
+        "Abrimos contador oficial de la sequía. Cuando caiga el primero, prometemos portada."
+      ]
+    },
+    {
+      "id": "porteros", "seccion": "La duda", "saga": "guerra-porteros", "firma": "Redacción",
+      "titulo": "Guty o Fran: Mesa tiene un problema (de los buenos)",
+      "subtitulo": "Guty logra su primera portería a cero y Fran vuelve tras una lesión de película. Empate técnico bajo palos.",
+      "foto": "img/memes/2026-11-10-6.jpg", "foto_pie": "La situación en la portería, explicada para todos los públicos.",
+      "cuerpo": [
+        "Con el 9-0, **Guty** firmó su **primera portería a cero de la temporada**. La firmó sufriendo, eso sí: una cesión horripilante de Giorgio dejó a un rival solo delante de él y Guty tuvo que sacar una parada maravillosa para que el cero siguiera en el marcador.",
+        "Con esto, **los dos porteros del equipo ya tienen una portería a cero cada uno**: Fran la consiguió en la jornada 1 (4-0 al Oviedo City) y Guty en la 7. Empate técnico.",
+        "Y justo ahora vuelve **Fran**, recuperado de su **gravísima lesión**: una infección en una herida de la rodilla que, según la versión oficial del vestuario, casi le cuesta la amputación de la pierna derecha. Ahí es nada. Está disponible para el domingo.",
+        "**¿Por quién se decantará Francisco Javier Mesa?** ¿Premia la portería a cero de Guty o devuelve el puesto a Fran? ¿Conseguirá cualquiera de los dos dejarla a cero otra vez contra el Rosal? Vota en el jurado popular."
+      ]
+    },
+    {
+      "id": "giorgio", "seccion": "El rincón del servidor", "saga": "rincon-del-servidor", "firma": "Giorgio (en primera persona)",
+      "titulo": "Giorgio vuelve al once... y casi se marca un gol",
+      "subtitulo": "Jorge Moreno, ya conocido como Giorgio para no confundirlo con el otro Jorge, regresa a la titularidad tras quedarse fuera de la convocatoria anterior. Dejó dudas. Y una cesión para el museo de los horrores.",
+      "foto": "img/memes/2026-11-10-8.jpg", "foto_pie": "La toma de decisiones de Giorgio, en tiempo real.",
+      "cuerpo": [
+        "En el vestuario ya hay dos Jorges, y para evitar líos uno de ellos ha pasado a llamarse **Giorgio**. Más elegante, más italiano y, a juzgar por lo visto el domingo, igual de peligroso para su propio portero.",
+        "Giorgio **volvió al once inicial** después de quedarse fuera de la convocatoria en la jornada anterior. Una vuelta que tenía que ser de reivindicación y que acabó siendo, digamos, **de dudas**.",
+        "La jugada que todo el mundo recuerda: una **cesión horripilante al portero** que dejó a un rival solo ante Guty. Ocasión clarísima del Juvencia, en un partido en el que el Juvencia no tuvo ninguna. Por suerte, **Guty la salvó de forma maravillosa**, mantuvo su primera portería a cero de la temporada y se ganó el derecho a recordárselo a Giorgio durante varias semanas.",
+        "Quien firma esta columna (sí, es él) asume su responsabilidad y se postula como candidato número uno a ver el partido del Rosal desde la grada. Honestidad periodística ante todo."
+      ]
+    },
+    {
+      "id": "convocatoria", "seccion": "Vestuario", "firma": "Redacción",
+      "titulo": "Vuelven Serra, Lorenzana y Antón: cinco se van a la grada",
+      "subtitulo": "Mesa recupera efectivos para visitar al Rosal, pero la lista se queda corta. ¿Quiénes serán los afortunados que verán el partido desde la grada?",
+      "cuerpo": [
+        "Buenas noticias para Mesa: esta semana vuelven a estar disponibles **Serra**, **Antón** y **Lorenzana**, conocido en el vestuario como *el asesino del equipo*: nadie reparte más palos que él. Los delanteros del Rosal ya pueden ir comprando espinilleras de las gordas.",
+        "La mala noticia, para algunos, es que con tanta gente disponible **cinco jugadores se quedarán sin convocar**. ¿Quiénes serán los afortunados que podrán disfrutar desde la grada del gran despliegue futbolístico del club?",
+        "La redacción se moja: candidato número uno, **el servidor que escribe esto** (Giorgio), que ya tuvo su oportunidad esta semana y la aprovechó para casi provocar un gol en contra con una cesión que Guty tuvo que arreglar. Los otros cuatro nombres, el domingo."
+      ]
+    },
+    {
+      "id": "previa", "seccion": "Previa J8", "firma": "Redacción",
+      "titulo": "Próxima parada: Rosal C.F., el colista que no ha ganado aún",
+      "subtitulo": "Domingo 15 de noviembre, a domicilio. Un punto en siete jornadas y 28 goles encajados. Partido trampa de manual.",
+      "escudo": "rosal",
+      "cuerpo": [
+        "El **Rosal C.F.** llega a la jornada 8 como **último clasificado**: 1 punto, ningún triunfo, 7 goles a favor y **28 en contra**. Su único empate fue en la jornada 1 ante La Fresneda (1-1) y desde entonces encadena seis derrotas, la última un 6-1 en el campo del Centro Asturiano.",
+        "Sobre el papel, partido para seguir sumando. En la práctica, el típico domingo en el que el colista se encuentra con el día de su vida. Mesa recupera a Serra, Lorenzana y Antón, y Kevin promete volver centrado.",
+        "Las dudas: la portería (Guty o Fran), el estado del dedo —perdón, del isquio— de Kurki y si Diego habrá hecho suficiente para estrenarse como titular."
+      ]
+    }
+  ],
+  "breves": [
+    { "titulo": "Iñaki, nuevo fichaje", "texto": "El club anunció el 6 de noviembre la llegada de Iñaki para reforzar la defensa. Bienvenido a la familia.", "foto": "img/ig/nov06b.jpg" },
+    { "titulo": "Campaña de abonados", "texto": "20 € para ver todos los partidos en La Pixarra. Un barrio, un equipo, una familia.", "foto": "img/ig/jul10.jpg" }
+  ],
+  "memes": [
+    { "img": "img/memes/2026-11-10-1.jpg", "alt": "Drake: ser titular no; estrenarse en la jornada 7 desde el banquillo sí", "pieza": "diego" },
+    { "img": "img/memes/2026-11-10-3.jpg", "alt": "¿Esto es un isquiotibial? El fisio señalando el dedo del pie de Kurki", "pieza": "kurki" },
+    { "img": "img/memes/2026-11-10-6.jpg", "alt": "Mesa mirando a Fran mientras Guty y su portería a cero le observan", "pieza": "porteros" },
+    { "img": "img/memes/2026-11-10-8.jpg", "alt": "Giorgio eligiendo la cesión a Guty en vez de despejar", "pieza": "giorgio" },
+    { "img": "img/memes/2026-11-10-5.jpg", "alt": "Los goles de Mingo y el pelo de Kevin señalándose", "pieza": "mingo" },
+    { "foto": "img/ig/j7-1.jpg", "arriba": "Nueve goles", "abajo": "y Kevin de despedida", "pos": "50% 62%", "pieza": "kevin" }
+  ],
+  "encuesta": {
+    "id": "porteros-j8",
+    "pregunta": "¿Quién debe ponerse bajo palos en el campo del Rosal?",
+    "opciones": ["Guty, que viene de dejarla a cero", "Fran, que ha vuelto de entre los muertos", "Los dos, uno en cada palo"]
+  },
+  "proximo": { "j": 8, "fecha": "2026-11-15", "rival": "rosal", "casa": false }
+}

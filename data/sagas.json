@@ -1,0 +1,24 @@
+{
+  "_nota": "Hilos que se arrastran de edición en edición. Cada nueva edición debe revisar estas sagas, añadir capítulo si hay novedad y cerrar las que terminen. Es lo que da continuidad (y mala leche) al periódico.",
+  "sagas": [
+    { "slug": "diego-banquillo", "titulo": "La travesía del banquillo", "protagonista": "diego", "estado": "abierta",
+      "resumen": "El delantero estrella lleva 7 jornadas saliendo desde el banquillo. En la J7 estrenó por fin su marcador. ¿Llegará al once?",
+      "capitulos": [ { "edicion": "2026-11-10", "texto": "Primer gol en liga en la J7 (9-0 al Juvencia B), saliendo desde el banquillo por séptima vez." } ] },
+    { "slug": "kevin-y-la-noche", "titulo": "Kevin y la noche", "protagonista": "kevin", "estado": "abierta",
+      "resumen": "Titular fijo hasta que una despedida de dos días le dejó sin convocatoria. Dice estar centrado.",
+      "capitulos": [ { "edicion": "2026-11-10", "texto": "Fuera de la convocatoria de la J7 por dos días de despedida. Promete reaparecer ante el Rosal." } ] },
+    { "slug": "sequia-mingo", "titulo": "La sequía de Mingo", "protagonista": "mingo", "estado": "abierta",
+      "resumen": "MVP en San Ignacio, cero goles en liga. Contador de jornadas sin marcar.",
+      "contador": { "etiqueta": "jornadas sin marcar en liga", "valor": 7 },
+      "capitulos": [ { "edicion": "2026-11-10", "texto": "Ni en un 9-0. Se le resisten más los goles que a Kevin la caída del pelo." } ] },
+    { "slug": "enigma-kurki", "titulo": "El enigma del dedo de Kurki", "protagonista": "kurki", "estado": "abierta",
+      "resumen": "Se lesiona del isquiotibial y el fisio le acaba valorando el dedo del pie. La redacción investiga.",
+      "capitulos": [ { "edicion": "2026-11-10", "texto": "Gol y lesión de isquio en la J7. El fisio dice que el dedo del pie 'pinta feo'." } ] },
+    { "slug": "guerra-porteros", "titulo": "La guerra de los guantes", "protagonista": "mesa", "estado": "abierta",
+      "resumen": "Guty y Fran, una portería a cero cada uno. Fran vuelve de su infección de rodilla. ¿Por quién se decanta Mesa?",
+      "capitulos": [ { "edicion": "2026-11-10", "texto": "Empate técnico: Fran (J1, 4-0) y Guty (J7, 9-0) con una portería a cero cada uno." } ] },
+    { "slug": "rincon-del-servidor", "titulo": "El rincón del servidor", "protagonista": "giorgio", "estado": "abierta",
+      "resumen": "Giorgio, redactor de este periódico, también juega (a veces). Y lo cuenta con la honestidad que exige el oficio.",
+      "capitulos": [ { "edicion": "2026-11-10", "texto": "Vuelve al once tras quedarse fuera en la J6. Cesión horripilante a Guty, que la salva de forma maravillosa." } ] }
+  ]
+}
