@@ -25,7 +25,8 @@ supabase/schema.sql   tablas `comentarios` y `votos`
 
 1. **Leer el contexto**: la última edición en `data/ediciones/`, `data/sagas.json` (hilos abiertos)
    y `data/plantilla.json`. Lo que pasó antes condiciona el tono y los chistes de ahora.
-2. **Leer el buzón** (si Supabase está activo): todo lo que haya en `comentarios` desde la edición
+2. **Leer las notas de la semana** en `redaccion/notas-edicion-N.md` (lo que el vestuario va contando entre partidos).
+   **Leer el buzón** (si Supabase está activo): todo lo que haya en `comentarios` desde la edición
    anterior. Las propuestas buenas se convierten en piezas o breves; los comentarios a piezas se
    pueden citar ("Un lector nos escribe…"). Marcar `usado_en` con la fecha de la nueva edición.
 3. **Actualizar `data/liga.json`** desde Asturfútbol (resultados de la jornada, `clasificacion_oficial`,
