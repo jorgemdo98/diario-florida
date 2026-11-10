@@ -1,4 +1,4 @@
-/* PIXARRA · Diario deportivo del Club Atlético de La Florida */
+/* FLORIDA · Diario deportivo del Club Atlético de La Florida */
 :root{
   --naranja:#ff6a00; --naranja-2:#ff8c1a; --naranja-osc:#d94f00;
   --negro:#121212; --negro-2:#1d1d1d; --gris:#6b6b6b; --linea:#d9d2c5;
@@ -274,3 +274,29 @@ footer.pie{background:var(--negro);color:#bbb;font-family:var(--f-cond);font-siz
 footer.pie b{color:var(--naranja)}
 footer.pie a{color:#fff}
 .oculto{display:none!important}
+
+/* ───────── Publicidad (patrocinador) ───────── */
+.ad{position:relative;display:flex;align-items:center;justify-content:center;gap:28px;text-decoration:none;color:#fff;overflow:hidden;
+  background:radial-gradient(120% 140% at 15% 0%,#2d6fd6 0%,#123a8a 45%,#0a1f55 100%)}
+.ad::before{content:"";position:absolute;inset:0;opacity:.35;pointer-events:none;
+  background:repeating-radial-gradient(ellipse at 110% 120%,transparent 0 18px,rgba(255,255,255,.18) 19px,transparent 20px)}
+.ad>*{position:relative}
+.ad-tag{position:absolute;top:5px;left:8px;font-family:var(--f-cond);font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.65}
+.ad-escudo{width:74px;height:74px;border-radius:50%;background:#fff;padding:2px;flex:none}
+.ad-marca{display:flex;flex-direction:column;align-items:center;line-height:1}
+.ad-oj{font-family:"Michroma",var(--f-cond);font-size:clamp(22px,3.6vw,40px);letter-spacing:.32em;color:#dfe9ff;white-space:nowrap}
+.ad-oj i{font-style:normal;opacity:.6;letter-spacing:0;margin:0 .1em 0 -.2em}
+.ad-rn{font-family:"Montserrat",var(--f-cond);font-weight:300;font-size:clamp(20px,2.8vw,32px);letter-spacing:.02em;margin-top:6px}
+.ad-sub{font-family:"Montserrat",var(--f-cond);font-weight:500;font-size:11px;letter-spacing:.3em;text-transform:uppercase;opacity:.85;margin-top:10px}
+.ad-centro{display:flex;flex-direction:column;align-items:center}
+.ad-faldon{padding:22px 20px;border-top:3px solid var(--negro);border-bottom:3px solid var(--negro)}
+.ad-faldon:hover .ad-oj{color:#fff}
+.ad-franja{border-bottom:6px solid var(--negro)}
+.ad-franja .ad-faldon{border:0}
+.ad-pie .ad-faldon{border-bottom:0}
+.ad-roba{flex-direction:column;gap:10px;padding:26px 16px 18px;border:3px solid var(--negro);text-align:center;min-height:300px}
+.ad-roba .ad-oj{font-size:21px}
+.ad-roba .ad-rn{font-size:22px}
+.ad-roba .ad-claim{margin:4px 0 0;font-family:var(--f-cond);font-size:19px;line-height:1.15}
+.ad-roba .ad-claim b{color:var(--naranja-2);font-weight:900;text-transform:uppercase}
+@media (max-width:640px){.ad-faldon .ad-escudo{width:48px;height:48px}.ad-faldon{gap:12px;padding:20px 10px}.ad-oj{letter-spacing:.18em}.ad-faldon .ad-escudo:last-child{display:none}}

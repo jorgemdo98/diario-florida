@@ -1,4 +1,4 @@
-# PIXARRA
+# FLORIDA
 
 El diario deportivo (y satírico) del **Club Atlético de La Florida** · Oviedo.
 *Un barrio. Un equipo. Una familia.*

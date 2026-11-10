@@ -1,7 +1,7 @@
-/* PIXARRA · motor del periódico (sin dependencias, sin build) */
+/* FLORIDA · motor del periódico (sin dependencias, sin build) */
 (() => {
 "use strict";
-const CFG = window.PIXARRA || {};
+const CFG = window.FLORIDA || {};
 const $ = (s, r = document) => r.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\*(.+?)\*/g, "<i>$1</i>");
@@ -80,14 +80,14 @@ const API = {
   async post(tabla, fila) { const r = await fetch(`${CFG.supabaseUrl}/rest/v1/${tabla}`, { method: "POST", headers: { ...this.h(), Prefer: "return=minimal" }, body: JSON.stringify(fila) }); if (!r.ok) throw new Error(await r.text()); }
 };
 const SIN_BACKEND = `<p class="aviso">El buzón aún no está conectado. En cuanto la redacción active la base de datos podrás escribir aquí.</p>`;
-const votante = () => { let v = ls.get("pixarra-votante"); if (!v) { v = Math.random().toString(36).slice(2) + Date.now().toString(36); ls.set("pixarra-votante", v); } return v; };
+const votante = () => { let v = ls.get("florida-votante"); if (!v) { v = Math.random().toString(36).slice(2) + Date.now().toString(36); ls.set("florida-votante", v); } return v; };
 
 function comentariosWidget(edicion, pieza, titulo) {
   const d = document.createElement("details");
   d.className = "coment";
   d.innerHTML = `<summary>Comentarios <span class="n"></span></summary><div class="lista"></div>${API.ok ? `
     <form class="cf">
-      <input name="nombre" maxlength="40" placeholder="Tu nombre o apodo" required value="${esc(ls.get("pixarra-nombre") || "")}">
+      <input name="nombre" maxlength="40" placeholder="Tu nombre o apodo" required value="${esc(ls.get("florida-nombre") || "")}">
       <textarea name="texto" maxlength="1500" placeholder="¿Qué opinas? Lo mejor puede salir en la próxima edición." required></textarea>
       <div class="fila"><button class="btn" type="submit">Publicar</button><span class="aviso msg"></span></div>
     </form>` : SIN_BACKEND}`;
@@ -108,7 +108,7 @@ function comentariosWidget(edicion, pieza, titulo) {
     btn.disabled = true; msg.className = "aviso msg"; msg.textContent = "Enviando…";
     try {
       await API.post("comentarios", { edicion, pieza, tipo: "comentario", nombre, titulo, texto });
-      ls.set("pixarra-nombre", nombre); f.texto.value = ""; msg.className = "aviso msg ok"; msg.textContent = "¡Publicado!"; cargar();
+      ls.set("florida-nombre", nombre); f.texto.value = ""; msg.className = "aviso msg ok"; msg.textContent = "¡Publicado!"; cargar();
     } catch (e) { msg.className = "aviso msg err"; msg.textContent = "Error al enviar. Prueba otra vez."; }
     btn.disabled = false;
   });
@@ -118,7 +118,7 @@ function comentariosWidget(edicion, pieza, titulo) {
 
 async function encuestaWidget(cont, edicion, enc) {
   if (!enc) return;
-  const clave = `pixarra-voto-${enc.id}`;
+  const clave = `florida-voto-${enc.id}`;
   cont.innerHTML = `<div class="caja encuesta"><h3>El jurado popular</h3><div class="pad"><p class="preg">${esc(enc.pregunta)}</p>
     ${enc.opciones.map((o, i) => `<button type="button" class="op" data-i="${i}"><span class="barra"></span><span>${esc(o)}</span><span class="n"></span></button>`).join("")}
     <p class="aviso msg">${API.ok ? "Un voto por persona." : "La votación se abrirá cuando se active la base de datos."}</p></div></div>`;
@@ -153,13 +153,23 @@ function cabecera(pagina, ed) {
     .map(([h, t, p]) => `<a href="${h}"${p === pagina ? ' class="on"' : ""}>${t}</a>`).join("");
   return `<header class="mast">
       <div class="meta">${meta}</div>
-      <a class="logo" href="index.html">PIXARRA</a>
+      <a class="logo" href="index.html">FLORIDA</a>
       <div class="lema"><span>Un barrio.</span><span>Un equipo.</span><span>Una familia.</span><small>El diario del C.A. de La Florida</small></div>
       <div class="sublogo">Diario deportivo del Club Atlético de La Florida · Oviedo</div>
     </header>
     <nav class="menu">${nav}<a class="cta${pagina === "buzon" ? " on" : ""}" href="buzon.html">✍ Buzón del lector</a></nav>`;
 }
-const pie = () => `<footer class="pie"><span><b>PIXARRA</b> · Periódico satírico del vestuario del C.A. de La Florida. Datos reales, mala leche inventada.</span>
+/* Publicidad: patrocinador principal del club */
+const SPONSOR_URL = "https://www.omodajaecoo.es/";
+const escudoClub = `<img class="ad-escudo" src="img/escudos/florida.jpg" alt="">`;
+function anuncio(tipo = "faldon") {
+  const marca = `<div class="ad-marca"><span class="ad-oj">OMODA <i>|</i> JAECOO</span><span class="ad-rn">resnovamotor</span></div>`;
+  if (tipo === "roba") return `<a class="ad ad-roba" href="${SPONSOR_URL}" target="_blank" rel="noopener sponsored"><span class="ad-tag">Publicidad</span>
+    ${escudoClub}${marca}<p class="ad-claim">Más autonomía que Manute:<br><b>aguanta los 90 minutos.</b></p><span class="ad-sub">Patrocinador principal · C.A. de La Florida</span></a>`;
+  return `<a class="ad ad-faldon" href="${SPONSOR_URL}" target="_blank" rel="noopener sponsored"><span class="ad-tag">Publicidad</span>
+    ${escudoClub}<div class="ad-centro">${marca}<span class="ad-sub">Patrocinador principal</span></div>${escudoClub}</a>`;
+}
+const pie = () => `<div class="ad-pie">${anuncio()}</div><footer class="pie"><span><b>FLORIDA</b> · Periódico satírico del vestuario del C.A. de La Florida. Datos reales, mala leche inventada.</span>
   <span>Datos: <a href="https://www.asturfutbol.es" target="_blank" rel="noopener">Asturfútbol</a> · Fotos: <a href="https://www.instagram.com/clubatleticodelaflorida/" target="_blank" rel="noopener">@clubatleticodelaflorida</a> · Memes: <a href="https://memegen.link" target="_blank" rel="noopener">memegen.link</a></span></footer>`;
 
 /* ───────── Edición (portada) ───────── */
@@ -175,7 +185,7 @@ async function paginaEdicion(root) {
   const orden = [...indice].sort((a, b) => b.fecha.localeCompare(a.fecha));
   const meta = orden.find(e => e.fecha === pedida) || orden[0];
   const ed = await getJSON(`data/ediciones/${meta.fecha}.json`);
-  document.title = `PIXARRA · ${ed.titulo_web}`;
+  document.title = `FLORIDA · ${ed.titulo_web}`;
   const P = ed.portada, M = P.marcador, sagaDe = Object.fromEntries(sagas.sagas.map(s => [s.slug, s]));
   const tick = ed.ticker.map(t => `<span>${esc(t)}</span>`).join("");
   const eqM = id => `<div class="eq">${crest(liga, id)}${esc(liga.equipos[id].corto)}</div>`;
@@ -203,10 +213,12 @@ async function paginaEdicion(root) {
     <section class="franja">${P.franja.map(f => `
       <a class="fr" href="#${esc(f.pieza)}">${f.escudo ? crest(liga, f.escudo) : ""}<div><div class="et">${esc(f.etiqueta)}</div><h4>${esc(f.titulo)}</h4><p>${md(f.texto)}</p></div></a>`).join("")}
     </section>
+    <div class="ad-franja">${anuncio()}</div>
     <div class="cuerpo">
       <main id="piezas"><h2 class="seccion-t">En esta edición</h2></main>
       <aside class="side">
         <section>${proximoHTML(liga, ed.proximo)}</section>
+        <section>${anuncio("roba")}</section>
         <section id="encuesta"></section>
         <section class="caja"><h3>Clasificación <a href="liga.html">Completa ›</a></h3>${tablaHTML(liga, { compacta: true })}</section>
         <section class="caja"><h3>Pichichi naranja</h3>${goleadoresHTML(liga)}</section>
@@ -287,7 +299,7 @@ async function paginaPlantilla(root) {
 
 async function paginaHemeroteca(root) {
   const indice = await getJSON("data/ediciones/index.json");
-  root.innerHTML = cabecera("hemeroteca") + `<div class="pagina"><h1>Heme<em>roteca</em></h1><p class="lead">Todas las portadas de PIXARRA, una por jornada.</p>
+  root.innerHTML = cabecera("hemeroteca") + `<div class="pagina"><h1>Heme<em>roteca</em></h1><p class="lead">Todas las portadas de FLORIDA, una por jornada.</p>
     <div class="hemero">${[...indice].sort((a, b) => b.fecha.localeCompare(a.fecha)).map(e => `<a class="hcard" href="index.html?e=${e.fecha}"><img src="${esc(e.portada)}" alt="" loading="lazy"><div><small>Nº ${e.numero} · Jornada ${e.jornada} · ${fecha(e.fecha, false)}</small><h3>${esc(e.titulo)}</h3><p>${esc(e.resumen)}</p></div></a>`).join("")}</div></div>` + pie();
 }
 
@@ -303,7 +315,7 @@ async function paginaBuzon(root) {
         <form class="cf" id="fb">
           <label class="aviso">Tipo</label>
           <select name="tipo"><option value="sugerencia">Propuesta de noticia</option><option value="comentario">Comentario / réplica a algo publicado</option><option value="meme">Meme</option></select>
-          <input name="nombre" maxlength="40" placeholder="Tu nombre o apodo" required value="${esc(ls.get("pixarra-nombre") || "")}">
+          <input name="nombre" maxlength="40" placeholder="Tu nombre o apodo" required value="${esc(ls.get("florida-nombre") || "")}">
           <input name="titulo" maxlength="140" placeholder="Titular propuesto (opcional)" value="${esc(pre.get("titulo") || "")}">
           <textarea name="texto" maxlength="3000" placeholder="¿Qué pasó? Cuanto más detalle, mejor." required style="min-height:150px">${esc(pre.get("texto") || "")}</textarea>
           <input name="enlace" maxlength="600" placeholder="Enlace a foto o meme (opcional)" value="${esc(pre.get("enlace") || "")}">
@@ -329,7 +341,7 @@ async function paginaBuzon(root) {
     const fila = { edicion: ult.fecha, pieza: null, tipo: f.tipo.value, nombre: f.nombre.value.trim(), titulo: f.titulo.value.trim() || null, texto: f.texto.value.trim(), enlace: f.enlace.value.trim() || null };
     if (fila.enlace && !/^https?:\/\//.test(fila.enlace)) { msg.className = "aviso msg err"; msg.textContent = "El enlace debe empezar por http"; return; }
     btn.disabled = true; msg.textContent = "Enviando…";
-    try { await API.post("comentarios", fila); ls.set("pixarra-nombre", fila.nombre); f.reset(); f.nombre.value = fila.nombre; msg.className = "aviso msg ok"; msg.textContent = "¡Recibido! La redacción lo tendrá en cuenta."; cargar(); }
+    try { await API.post("comentarios", fila); ls.set("florida-nombre", fila.nombre); f.reset(); f.nombre.value = fila.nombre; msg.className = "aviso msg ok"; msg.textContent = "¡Recibido! La redacción lo tendrá en cuenta."; cargar(); }
     catch { msg.className = "aviso msg err"; msg.textContent = "Error al enviar. Prueba otra vez."; }
     btn.disabled = false;
   });

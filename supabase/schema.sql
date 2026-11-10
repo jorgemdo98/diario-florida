@@ -1,4 +1,4 @@
--- PIXARRA · base de datos del buzón, comentarios y encuestas (Supabase / Postgres)
+-- FLORIDA · base de datos del buzón, comentarios y encuestas (Supabase / Postgres)
 -- Pegar entero en Supabase → SQL Editor → Run.
 -- Los lectores (rol "anon") solo pueden LEER e INSERTAR. Nadie puede editar ni borrar
 -- desde la web; la moderación se hace desde el panel de Supabase.

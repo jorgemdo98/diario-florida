@@ -1,4 +1,4 @@
-/* PIXARRA · Generador de memes (canvas + memegen.link) */
+/* FLORIDA · Generador de memes (canvas + memegen.link) */
 (async () => {
 "use strict";
 const { $, esc, getJSON, cabecera, pie } = window.PX;
@@ -105,7 +105,7 @@ $("#fichero").addEventListener("change", e => {
 ["arriba", "abajo", "tam", "color"].forEach(id => $("#" + id).addEventListener("input", draw));
 $("#descargar").addEventListener("click", () => {
   try {
-    cv.toBlob(b => { const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "meme-pixarra.png"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000); }, "image/png");
+    cv.toBlob(b => { const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "meme-florida.png"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000); }, "image/png");
   } catch { const u = urlMemegen(); if (u) window.open(u, "_blank"); else estado.textContent = "Tu navegador no deja descargar esta imagen; usa el enlace de memegen."; }
 });
 $("#buzon").addEventListener("click", () => {

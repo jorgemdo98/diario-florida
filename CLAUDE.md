@@ -1,4 +1,4 @@
-# PIXARRA · guía de la redacción
+# FLORIDA · guía de la redacción
 
 Periódico deportivo satírico del **Club Atlético de La Florida** (Oviedo, 3ª Asturfútbol, Grupo 2).
 Una edición por semana, publicada el lunes/martes después de cada partido. Web estática en GitHub Pages:
