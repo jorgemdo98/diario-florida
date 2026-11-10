@@ -4,6 +4,6 @@
 // RLS de supabase/schema.sql (solo se puede insertar y leer, nunca borrar ni editar).
 window.FLORIDA = {
   nombre: "FLORIDA",
-  supabaseUrl: "",
-  supabaseKey: ""
+  supabaseUrl: "https://sueumjrcfmpzsdgaubzc.supabase.co",
+  supabaseKey: "sb_publishable_0YbvpfJz-DnmdnD5L0Yo3A_DxlVXN2E"
 };
