@@ -300,3 +300,12 @@ footer.pie a{color:#fff}
 .ad-roba .ad-claim{margin:4px 0 0;font-family:var(--f-cond);font-size:19px;line-height:1.15}
 .ad-roba .ad-claim b{color:var(--naranja-2);font-weight:900;text-transform:uppercase}
 @media (max-width:640px){.ad-faldon .ad-escudo{width:48px;height:48px}.ad-faldon{gap:12px;padding:20px 10px}.ad-oj{letter-spacing:.18em}.ad-faldon .ad-escudo:last-child{display:none}}
+/* Pantallas muy estrechas */
+.cuerpo>*,.dos>*,.gen>*{min-width:0}
+.pieza h2,.hero h1,.lat h3,.fr h4{overflow-wrap:break-word}
+@media (max-width:420px){
+  .ad-oj{font-size:clamp(13px,5.2vw,22px);letter-spacing:.12em}
+  .ad-rn{font-size:18px}
+  .ad-sub{font-size:9px;letter-spacing:.18em;text-align:center}
+  .ad-faldon .ad-escudo{display:none}
+}
