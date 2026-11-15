@@ -16,6 +16,7 @@ buzon.html            buzón del lector (Supabase)
 data/ediciones/AAAA-MM-DD.json   contenido de cada edición
 img/ig/               fotos del Instagram del club
 img/memes/            memes ya renderizados (AAAA-MM-DD-N.jpg)
+img/mvp/              carteles «MVP del partido» (tools/mvp.sh)
 img/escudos/          escudos de los rivales (asturfutbol.es)
 tools/meme.sh         genera un meme con memegen.link → img/memes/
 supabase/schema.sql   tablas `comentarios` y `votos`
@@ -40,6 +41,13 @@ supabase/schema.sql   tablas `comentarios` y `votos`
 5. **Memes**: `bash tools/meme.sh img/memes/AAAA-MM-DD-N.jpg <plantilla> "línea 1" "línea 2"`.
    Plantillas útiles: drake, db, fine, pigeon, harold, spiderman, pooh, exit, wonka, gru, both, stonks.
    Para memes sobre fotos propias, en el JSON de la edición usar `{ "foto", "arriba", "abajo" }`.
+   **Cartel MVP** (estilo de los del Instagram del club): `bash tools/mvp.sh img/mvp/jN-nombre.jpg NOMBRE img/ig/foto.jpg x,y,w,h "línea 1" "línea 2" [escudo x,y,w]`
+   (Chrome headless + `tools/mvp.html`; `x,y,w,h` = recorte del jugador en la foto). Se puede usar de foto de portada.
+   **Foto de portada tapada por el titular**: el titular ocupa la mitad izquierda del hero. Si los jugadores están en el
+   centro, reencuadrar con `tools/encuadre.html?foto=..&dx=..&dy=..&z=..` (Chrome headless 1600×1200; mueve la foto a la
+   derecha y rellena con la misma foto difuminada) y guardar como `img/ig/jN-1-portada.jpg`. Ver el comentario del fichero.
+   En móvil el titular ocupa todo el ancho: añadir en `portada` un `"foto_movil"` (recorte cerrado del grupo, p. ej.
+   `img/ig/jN-1-movil.jpg`) y en pantallas ≤600 px la foto va entera arriba y el titular debajo, sin taparla.
 6. **Escribir `data/ediciones/AAAA-MM-DD.json`** copiando la estructura de la anterior
    (`portada`, `ticker`, `piezas`, `breves`, `memes`, `encuesta`, `proximo`). La encuesta lleva un
    `id` nuevo. Incrementar `numero`. Poner `"publicada"` con la hora UTC de publicación (ISO) en la edición

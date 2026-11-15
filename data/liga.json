@@ -1,16 +1,16 @@
 {
   "competicion": "3ª Asturfútbol · Grupo 2",
   "temporada": "2026-2027",
-  "fuente": "https://www.asturfutbol.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codcompeticion=22880347&codgrupo=23036375&codjornada=7",
+  "fuente": "https://www.asturfutbol.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codcompeticion=22880347&codgrupo=23036375&codjornada=8",
   "fuente_goleadores": "https://www.asturfutbol.es/pnfg/NPcd/NFG_CMP_Goleadores?cod_primaria=1000120&codcompeticion=22880347&codtemporada=22&codgrupo=23036375",
-  "actualizado": "2026-11-10",
-  "ultima_jornada": 7,
+  "actualizado": "2026-11-15",
+  "ultima_jornada": 8,
   "nuestro": "florida",
   "_nota_orden": "Orden oficial de la última jornada (desempates de la federación). Si no coincide con los resultados, la web recalcula por puntos, diferencia y goles.",
-  "clasificacion_oficial": ["celtic","berron","siero","manjoya","centro-asturiano","florida","san-ignacio","guillen","oviedo-city","fresneda","efro","grisu","juvencia","colloto","rayo-mercadin","rosal"],
+  "clasificacion_oficial": ["celtic","manjoya","centro-asturiano","berron","siero","florida","san-ignacio","guillen","oviedo-city","fresneda","efro","juvencia","grisu","colloto","rayo-mercadin","rosal"],
   "equipos": {
     "celtic":           { "nombre": "Celtic de Puerto F.C. \"A\"",     "corto": "Celtic de Puerto", "siglas": "CEL", "color": "#1d3b8f", "escudo": null },
-    "berron":           { "nombre": "Berrón C.F. \"A\"",              "corto": "Berrón",           "siglas": "BER", "color": "#e6c200", "escudo": null },
+    "berron":           { "nombre": "Berrón C.F. \"A\"",              "corto": "Berrón",           "siglas": "BER", "color": "#e6c200", "escudo": "img/escudos/berron.jpg" },
     "siero":            { "nombre": "Club Siero \"B\"",               "corto": "Siero B",          "siglas": "SIE", "color": "#c8102e", "escudo": "img/escudos/siero.jpg" },
     "manjoya":          { "nombre": "La Manjoya \"A\"",               "corto": "La Manjoya",       "siglas": "MAN", "color": "#c8102e", "escudo": "img/escudos/manjoya.png" },
     "centro-asturiano": { "nombre": "Centro Asturiano Oviedo \"A\"",  "corto": "Centro Asturiano", "siglas": "CAO", "color": "#1f4fa3", "escudo": "img/escudos/centro-asturiano.jpg" },
@@ -47,7 +47,10 @@
       ["siero", 6, 1, "rayo-mercadin"], ["san-ignacio", 2, 4, "florida"], ["juvencia", 1, 3, "centro-asturiano"], ["rosal", 2, 7, "berron"] ] },
     { "n": 7, "fecha": "2026-11-08", "partidos": [
       ["oviedo-city", 1, 1, "guillen"], ["celtic", 6, 0, "efro"], ["manjoya", 4, 1, "fresneda"], ["colloto", 0, 6, "siero"],
-      ["rayo-mercadin", 3, 1, "san-ignacio"], ["florida", 9, 0, "juvencia"], ["centro-asturiano", 6, 1, "rosal"], ["grisu", 0, 4, "berron"] ] }
+      ["rayo-mercadin", 3, 1, "san-ignacio"], ["florida", 9, 0, "juvencia"], ["centro-asturiano", 6, 1, "rosal"], ["grisu", 0, 4, "berron"] ] },
+    { "n": 8, "fecha": "2026-11-15", "partidos": [
+      ["guillen", 7, 1, "grisu"], ["efro", null, null, "oviedo-city"], ["fresneda", 1, 2, "celtic"], ["siero", 0, 1, "manjoya"],
+      ["san-ignacio", 6, 2, "colloto"], ["juvencia", null, null, "rayo-mercadin"], ["rosal", 0, 2, "florida"], ["berron", 2, 4, "centro-asturiano"] ] }
   ],
   "calendario_florida": [
     { "j": 1,  "fecha": "2026-09-27", "rival": "oviedo-city",      "casa": true },
@@ -82,27 +85,30 @@
     { "j": 30, "fecha": "2027-05-16", "rival": "celtic",           "casa": true }
   ],
   "goleadores_liga": [
-    { "jugador": "Díaz Onís, Juan José",       "equipo": "siero",            "pj": 6, "goles": 9 },
-    { "jugador": "Suárez Alcántara, Marcos",   "equipo": "manjoya",          "pj": 7, "goles": 9 },
-    { "jugador": "García Vázquez, Rodrigo",    "equipo": "centro-asturiano", "pj": 7, "goles": 8 },
-    { "jugador": "Pérez Nina, Brayan Alfredo", "equipo": "oviedo-city",      "pj": 7, "goles": 8 },
-    { "jugador": "Borge Uría, Cristian",       "equipo": "celtic",           "pj": 7, "goles": 7 },
-    { "jugador": "Rivera Rodríguez, Darío",    "equipo": "guillen",          "pj": 6, "goles": 6 },
-    { "jugador": "Valle Martínez, Marcos Jesús","equipo": "florida",         "pj": 7, "goles": 6 },
-    { "jugador": "Manzano Gómez, Christian",   "equipo": "berron",           "pj": 7, "goles": 6 },
-    { "jugador": "Collar García, Sergio",      "equipo": "florida",          "pj": 6, "goles": 5 },
-    { "jugador": "Taín García, Alejandro",     "equipo": "celtic",           "pj": 6, "goles": 5 }
+    { "jugador": "Díaz Onís, Juan José",           "equipo": "siero",            "pj": 6, "goles": 9 },
+    { "jugador": "Suárez Alcántara, Marcos",       "equipo": "manjoya",          "pj": 7, "goles": 9 },
+    { "jugador": "Rivera Rodríguez, Darío",        "equipo": "guillen",          "pj": 7, "goles": 9 },
+    { "jugador": "García Vázquez, Rodrigo",        "equipo": "centro-asturiano", "pj": 8, "goles": 9 },
+    { "jugador": "Pérez Nina, Brayan Alfredo",     "equipo": "oviedo-city",      "pj": 7, "goles": 8 },
+    { "jugador": "Borge Uría, Cristian",           "equipo": "celtic",           "pj": 8, "goles": 8 },
+    { "jugador": "Rendón Cifuentes, Santiago",     "equipo": "celtic",           "pj": 7, "goles": 6 },
+    { "jugador": "Valle Martínez, Marcos Jesús",   "equipo": "florida",          "pj": 7, "goles": 6 },
+    { "jugador": "Flórez Urdangaray, Juan",        "equipo": "san-ignacio",      "pj": 8, "goles": 6 },
+    { "jugador": "Manzano Gómez, Christian",       "equipo": "berron",           "pj": 8, "goles": 6 },
+    { "jugador": "Collar García, Sergio",          "equipo": "florida",          "pj": 7, "goles": 5 },
+    { "jugador": "Eyaralar Baizán, Pelayo Vicente","equipo": "florida",          "pj": 8, "goles": 5 }
   ],
   "goleadores_florida": [
-    { "jugador": "Valle Martínez, Marcos Jesús",    "apodo": "Kurki",    "pj": 7, "goles": 6 },
-    { "jugador": "Collar García, Sergio",           "apodo": "Colli", "pj": 6, "goles": 5 },
-    { "jugador": "Eyaralar Baizán, Pelayo Vicente", "apodo": "Pelayo","pj": 7, "goles": 4 },
+    { "jugador": "Valle Martínez, Marcos Jesús",    "apodo": "Kurki",  "pj": 7, "goles": 6 },
+    { "jugador": "Collar García, Sergio",           "apodo": "Colli",  "pj": 7, "goles": 5 },
+    { "jugador": "Eyaralar Baizán, Pelayo Vicente", "apodo": "Pelayo", "pj": 8, "goles": 5 },
     { "jugador": "Ortigoza López, Ariel Virgilio",  "apodo": "Ari",    "pj": 5, "goles": 2 },
-    { "jugador": "Álvarez García, Jorge",           "apodo": "Jorge",    "pj": 7, "goles": 2 },
-    { "jugador": "Martínez Martínez, Antón",        "apodo": "Antón", "pj": 2, "goles": 1 },
-    { "jugador": "González-Quirós Vázquez, Diego",  "apodo": "Diego", "pj": 5, "goles": 1 },
-    { "jugador": "Górriz Álvarez, Pedro",           "apodo": "Pedro Górriz", "pj": 6, "goles": 1 },
-    { "jugador": "Prieto Gabelas, Pablo",           "apodo": "Poli",    "pj": 7, "goles": 1 },
-    { "jugador": "Prieto Álvarez, Pedro",           "apodo": "Duru",    "pj": 7, "goles": 1 }
+    { "jugador": "Álvarez García, Jorge",           "apodo": "Jorge",  "pj": 8, "goles": 2 },
+    { "jugador": "Rodríguez Serrano, Daniel",       "apodo": "Serra",  "pj": 3, "goles": 1 },
+    { "jugador": "Martínez Martínez, Antón",        "apodo": "Antón",  "pj": 2, "goles": 1 },
+    { "jugador": "González-Quirós Vázquez, Diego",  "apodo": "Diego",  "pj": 6, "goles": 1 },
+    { "jugador": "Górriz Álvarez, Pedro",           "apodo": "Pedro Górriz", "pj": 7, "goles": 1 },
+    { "jugador": "Prieto Gabelas, Pablo",           "apodo": "Poli",   "pj": 8, "goles": 1 },
+    { "jugador": "Prieto Álvarez, Pedro",           "apodo": "Duru",   "pj": 8, "goles": 1 }
   ]
 }

@@ -1,6 +1,9 @@
 {
   "_nota": "Banco de fotos para el generador de memes. Añade aquí cada foto nueva que se guarde en img/ig/ (fuente: Instagram del club).",
   "fotos": [
+    { "src": "img/ig/j8-1.webp", "texto": "Once ante el Rosal (J8)", "fecha": "2026-11-15" },
+    { "src": "img/ig/jul28-serra.jpg", "texto": "Serra, presentación como fichaje", "fecha": "2026-07-28" },
+    { "src": "img/mvp/j8-serra.jpg", "texto": "Serra, MVP de la J8", "fecha": "2026-11-15" },
     { "src": "img/ig/j7-1.jpg", "texto": "Once ante el Juvencia B (J7)", "fecha": "2026-11-08" },
     { "src": "img/ig/j7-2.jpg", "texto": "La Florida en La Pixarra (J7)", "fecha": "2026-11-08" },
     { "src": "img/ig/j7-3.jpg", "texto": "Jugada ante el Juvencia B (J7)", "fecha": "2026-11-08" },

@@ -112,6 +112,15 @@ a{color:inherit}
   .hero .sub{font-size:18px}
   .laterales{grid-template-columns:1fr}
 }
+/* Portada con "foto_movil": en móvil la foto va entera arriba (bajo el marcador) y el titular debajo, sin taparla */
+.hero>img.bg-movil{display:none}
+@media (max-width:600px){
+  .hero:has(>img.bg-movil){min-height:0;justify-content:flex-start}
+  .hero:has(>img.bg-movil)>img.bg{display:none}
+  .hero:has(>img.bg-movil)::after{display:none}
+  .hero>img.bg-movil{display:block;width:100%;height:auto;margin-top:140px}
+  .hero:has(>img.bg-movil) .txt{padding-top:16px}
+}
 
 /* Escudos */
 .escudo{width:44px;height:44px;object-fit:contain;display:inline-flex;align-items:center;justify-content:center;flex:none}

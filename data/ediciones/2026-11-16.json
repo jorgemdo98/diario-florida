@@ -1,0 +1,194 @@
+{
+  "fecha": "2026-11-16",
+  "numero": 2,
+  "publicada": "2026-11-15T18:55:00Z",
+  "jornada": 8,
+  "titulo_web": "Serra abre la lata",
+  "resumen": "0-2 en el campo del Rosal: Serra sale del banquillo, marca a los cinco minutos y es MVP. Pelayo sentencia en el 88' y Fran deja otra portería a cero.",
+  "ticker": [
+    "Rosal C.F. 0 - 2 La Florida",
+    "Serra, MVP: entra en el 71' y marca en el 76'",
+    "Pelayo sentencia en el 88'",
+    "Segunda portería a cero seguida",
+    "Kevin, lateral izquierdo tras 12 horas de fiesta",
+    "Manute, baja: rotura en el aductor por las chilenas",
+    "Kurki, casi descartado para el Berrón: el dedo",
+    "Mesa elige a Fran, la opción menos votada",
+    "Mel vuelve al once · Lorenzana debuta de titular",
+    "La Florida, a 2 puntos de Siero y Berrón",
+    "Mingo: 8 jornadas sin marcar",
+    "Próxima parada: Berrón en La Pixarra"
+  ],
+  "portada": {
+    "kicker": "Jornada 8 · 3ª Asturfútbol · Grupo 2",
+    "titular": ["SERRA ABRE", "LA LATA"],
+    "subtitulo": "Setenta y cinco minutos de ocasiones falladas y balones sacados bajo palos. Entra Serra, marca a la salida de un rechace y desatasca el partido. Pelayo pone el 0-2 en el 88' y Fran firma otra portería a cero.",
+    "foto": "img/ig/j8-1-portada.jpg",
+    "foto_pos": "100% 40%",
+    "foto_movil": "img/ig/j8-1-movil.jpg",
+    "foto_pie": "El once de La Florida antes del 0-2 en el campo del Rosal.",
+    "marcador": { "local": "rosal", "gl": 0, "gv": 2, "visitante": "florida",
+      "goles_local": ["Serra 76'", "Pelayo 88'"] },
+    "pieza": "cronica",
+    "laterales": [
+      { "etiqueta": "MVP", "titulo": "SERRA: CINCO MINUTOS Y GOL", "texto": "Sale del banquillo en el 71' y en el 76' ya ha resuelto lo que el equipo no pudo en tres cuartos de partido.", "foto": "img/mvp/j8-serra.jpg", "pieza": "mvp", "tono": "naranja" },
+      { "etiqueta": "Exclusiva", "titulo": "KEVIN, 12 HORAS DE FIESTA Y LATERAL IZQUIERDO", "texto": "Central de toda la vida, de lateral por sorpresa y con resaca. Agradeció el cambio como un gol. Y promete.", "foto": "img/memes/2026-11-16-1.jpg", "pieza": "kevin", "tono": "negro" },
+      { "etiqueta": "Parte médico", "titulo": "MANUTE: 500 CHILENAS, UN ADUCTOR", "texto": "Pequeña rotura en el aductor. La causa: el fútbol-tenis del lunes.", "foto": "img/memes/2026-11-16-2.jpg", "pieza": "manute" },
+      { "etiqueta": "La portería", "titulo": "MESA ELIGE A FRAN (EL 10% DE LOS VOTOS)", "texto": "El pueblo pedía a los dos. Mesa puso a Fran. Fran la dejó a cero.", "foto": "img/memes/2026-11-16-7.jpg", "pieza": "porteros" }
+    ],
+    "franja": [
+      { "etiqueta": "La tabla", "titulo": "A DOS DE SIERO Y BERRÓN", "texto": "Siero cae ante La Manjoya y Berrón ante el Centro Asturiano. La Florida se acerca.", "pieza": "tabla" },
+      { "etiqueta": "Buzón del lector", "titulo": "¿QUÉ LE PASA A JORGE?", "texto": "Un lector nos alerta: el otro Jorge está triste. Investigamos.", "pieza": "jorge" },
+      { "etiqueta": "Próximo rival", "titulo": "BERRÓN C.F.", "texto": "18 puntos, viene de perder 2-4. Dom 22/11, en La Pixarra.", "pieza": "previa", "escudo": "berron" }
+    ]
+  },
+  "piezas": [
+    {
+      "id": "cronica", "seccion": "Crónica", "firma": "Redacción",
+      "titulo": "Serra abre la lata: el Rosal resiste 75 minutos y La Florida gana con calma",
+      "subtitulo": "Partido atascado en el campo del colista, con ocasiones de sobra y una línea de gol del Rosal que parecía tener imán. Hasta que salió Serra.",
+      "foto": "img/memes/2026-11-16-5.jpg", "foto_pie": "La Florida, minuto 70, según fuentes del banquillo.",
+      "cuerpo": [
+        "Había avisado esta redacción: partido trampa de manual. El **Rosal C.F.**, colista con un punto, no tenía nada que perder y se dedicó a lo único que podía hacer: aguantar. Y aguantó mucho más de lo que nadie esperaba.",
+        "La Florida tuvo **muchísimas ocasiones claras**. Unas las falló ella sola y otras se las **sacaron bajo la línea** los defensas del Rosal, que el domingo parecían tener más brazos y piernas de los reglamentarios. El gol que abriera la lata no llegaba y el reloj corría.",
+        "El Rosal también tuvo lo suyo: **un par de ocasiones** que la defensa y **Fran** atajaron sin dramas. Y algo más: con el 0-0 todavía en el marcador, **Poli** hizo una **mano clarísima** dentro del área, de las que son penalti sin discusión, y además **delante del juez de línea**. Ni el árbitro ni el línea la vieron. O no quisieron verla. Y aquí está la noticia del día, más allá del marcador: **el equipo no se aceleró**. Mantuvo la calma, siguió jugando y no se volvió loco, algo de lo que solía pecar y que en otras tardes le había pasado factura.",
+        "En el **71'** Mesa movió el banquillo: **Lucho** por **Mel** y **Serra** por **Duru**. Cinco minutos después, en el **76'**, Serra cazó un **rechace** y puso el **0-1**. Fin del atasco. **Pelayo** cerró el partido en el **88'** con el **0-2**: su quinto gol de la temporada, cinco en los dos últimos partidos.",
+        "Antes, en el **55'**, habían entrado **Jorge** por **Kevin** —cambio que Kevin agradeció como pocas cosas en su vida, ver pieza aparte— y **Poli** por **Lorenzana**. En el **89'**, **Diego** sustituyó a Mingo para disfrutar de los últimos minutos.",
+        "Por la derecha llegó casi todo: **Pope** y **Pelayo** se dieron cuenta pronto de que tenían una **superioridad enorme** en esa banda y la explotaron hasta generar la mayoría de las ocasiones del equipo. Por dentro, **Colli** hizo su fútbol: controlar, pausar y habilitar a los otros delanteros y a las bandas. Y **Mel**, de vuelta en el once, jugó un partidazo hasta su cambio.",
+        "Tres puntos, **tercera victoria seguida**, **segunda portería a cero consecutiva** (tercera del curso) y **16 puntos**. La Florida sigue sexta, pero la jornada le ha sentado de maravilla: Siero y Berrón perdieron y ahora están **a solo dos puntos**. Ojo, porque llegan dos de ellos seguidos."
+      ]
+    },
+    {
+      "id": "mvp", "seccion": "MVP de la jornada", "firma": "Redacción",
+      "titulo": "Serra, el desatascador: del banquillo al gol en cinco minutos",
+      "subtitulo": "Vuelve tras la roja de La Fresneda y las vacaciones, sale en el 71' por Duru y en el 76' marca el gol que desbloquea el partido. MVP sin discusión.",
+      "foto": "img/mvp/j8-serra.jpg", "foto_pie": "El cartel del MVP de la jornada 8. Foto original: @clubatleticodelaflorida",
+      "cuerpo": [
+        "Hay jugadores que necesitan noventa minutos para entrar en un partido. A **Serra** le bastaron cinco. Entró en el **71'** con el 0-0 todavía en el marcador y la sensación de que el balón no iba a entrar ni empujándolo con la mano. En el **76'**, estaba donde tenía que estar: rechace, gol y partido desatascado.",
+        "Es su **primer gol en liga**. Su último recuerdo en liga era la **roja en el 95' de La Fresneda**: expulsión, un partido de sanción y, después, unas vacaciones que alargaron la ausencia. (La semana pasada esta redacción habló de amarilla: fe de erratas, fue roja.) Vaya forma de volver: de la expulsión al MVP.",
+        "Por eso es el **MVP de la jornada 8**: por salir desde el banquillo con el partido más torcido que un cable de auriculares y **cumplir a la perfección**. Apareció, marcó y desatascó un partido que llevaba 75 minutos cerrado con candado.",
+        "Desde la redacción, y a falta de una foto del partido, le hemos hecho su cartel de MVP como los del Instagram del club. Si el club quiere usarlo, que lo use. Si Serra quiere ponérselo de fondo de pantalla, también."
+      ]
+    },
+    {
+      "id": "kevin", "seccion": "Exclusiva", "saga": "kevin-y-la-noche", "firma": "Redacción",
+      "titulo": "Kevin, de la barra al lateral izquierdo: 12 horas de fiesta y titular",
+      "subtitulo": "El central reaparece en el once... de lateral izquierdo. Venía de doce horas de fiesta que terminaron a las 2 de la mañana. Cumplió, sufrió y promete no volver a hacerlo. ¿Le creemos?",
+      "foto": "img/memes/2026-11-16-1.jpg", "foto_pie": "La preparación de Kevin para la jornada 8, en dos viñetas.",
+      "cuerpo": [
+        "La semana pasada contábamos que **Kevin** se había quedado fuera de la convocatoria tras una despedida de dos días y que aseguraba estar **centrado** para volver ante el Rosal. Volvió. Lo de centrado, ya tal.",
+        "Según fuentes del vestuario, el sábado Kevin encadenó **12 horas de fiesta**, bebiendo, **hasta las 2 de la mañana**. Y el domingo a las 12:00 estaba en el once. Pero no en su sitio: **Poli salió del once** y Mesa colocó a Kevin, central de toda la vida, de **lateral izquierdo**.",
+        "El propio Kevin **no daba crédito** cuando se enteró. Pero aceptó el reto y, hay que reconocerlo, **cumplió con un buen papel**. Eso sí, cuando en el **55'** vio levantarse el cartel con su dorsal para que entrase Jorge, lo celebró como un gol: **agradeció enormemente el cambio** y por fin pudo descansar.",
+        "Tras el partido, Kevin hizo una **promesa solemne**: **dejar de salir de fiesta el día antes de los partidos**. La redacción toma nota y abre contador, porque el calendario no podía ser más exigente: **Berrón** (18 puntos) y **Centro Asturiano** (21) en las dos próximas jornadas. El equipo necesita al Kevin del 100%, no al del 60% con gafas de sol.",
+        "**¿Cumplirá Kevin su promesa?** Vota en el jurado popular. Y si alguien le ve por la calle un sábado por la noche, ya sabe dónde está el buzón."
+      ]
+    },
+    {
+      "id": "manute", "seccion": "Parte médico", "saga": "cuerpo-manute", "firma": "Gabinete de investigación",
+      "titulo": "Manute, baja por lesión: pequeña rotura en el aductor tras 500 chilenas",
+      "subtitulo": "Lo que empezó como un fútbol-tenis el lunes ha terminado en la enfermería. Su equipo, por cierto, no ganó ni un partido.",
+      "foto": "img/memes/2026-11-16-2.jpg", "foto_pie": "La relación de Manute con su aductor, explicada.",
+      "cuerpo": [
+        "En el entrenamiento del **lunes**, en pleno fútbol-tenis, a **Manute** se le ocurrió que el mejor modo de ganar un punto era la **chilena**. Y lo intentó. Una vez. Y otra. Y, según el recuento del vestuario, unas **500 veces**.",
+        "El resultado deportivo: su equipo —**Manute, Duru y Mel**— **no ganó ni un solo partido** y quedó **último** del entrenamiento. El resultado médico: una **pequeña rotura en el aductor** que le ha dejado **fuera de la convocatoria** ante el Rosal.",
+        "No es que no hubiera señales. En su debut, ante el Juvencia B, Manute confesó aquello de **«Pegué 4 sprints y ya no podía más»**. Y en el buzón, un lector que firma como **Dudux** ya dejó caer sus sospechas: *«Manute, ¿4 sprints?, lo dudo»*. Viendo cómo reparte ahora sus esfuerzos, la teoría cobra fuerza: los sprints no los daba porque estaba guardando energía para las chilenas.",
+        "Abrimos saga oficial: **el cuerpo de Manute**. Le deseamos una pronta recuperación y le pedimos, por favor, que la próxima vez que juegue al fútbol-tenis remate de cabeza, como todo el mundo."
+      ]
+    },
+    {
+      "id": "porteros", "seccion": "La portería", "saga": "guerra-porteros", "firma": "Redacción",
+      "titulo": "El pueblo pidió a los dos, Mesa eligió a Fran y Fran la dejó a cero",
+      "subtitulo": "El jurado popular votó en masa por «los dos, uno en cada palo». Fran, la opción menos votada, fue titular y respondió con una portería a cero.",
+      "foto": "img/memes/2026-11-16-7.jpg", "foto_pie": "La solución que proponen los lectores.",
+      "cuerpo": [
+        "La semana pasada preguntábamos quién debía ponerse bajo palos en el campo del Rosal. Los lectores hablaron: **10 votos**, y un 60% (6) pidió **«los dos, uno en cada palo»**. **Guty** se llevó un 30% (3) y **Fran**, el que *había vuelto de entre los muertos*, un **10% (1 voto)**.",
+        "**Francisco Javier Mesa**, como buen entrenador, leyó la encuesta con atención y puso a **Fran**. Guty se quedó en el banquillo.",
+        "Y Fran respondió: **portería a cero**. El Rosal tuvo un par de ocasiones y entre la defensa y él las resolvieron sin sustos. Ni rastro de la rodilla que, según la versión oficial del vestuario, casi le cuesta la pierna.",
+        "Con esto, la **guerra de los guantes** queda así: **Fran, dos porterías a cero** (J1 y J8) y cinco titularidades; **Guty, una** (J7) y tres titularidades. El equipo, eso sí, lleva **dos partidos seguidos sin encajar** y solo **10 goles en contra en 8 jornadas**. Quien se ponga, que siga así."
+      ]
+    },
+    {
+      "id": "pizarra", "seccion": "La pizarra", "firma": "Redacción",
+      "titulo": "Mel vuelve, Lorenzana debuta y la banda derecha se convierte en autopista",
+      "subtitulo": "Las notas del once: lo que funcionó (mucho) y lo que costó (el gol) en el campo del Rosal.",
+      "cuerpo": [
+        "**Mel**: vuelta al once y **muy buen partido**. Ante el Juvencia empezó en el banquillo; ante el Rosal fue de lo mejor hasta que dejó su sitio a Lucho en el 71'.",
+        "**Pope y Pelayo**: la banda derecha fue suya. Vieron enseguida que allí tenían una **superioridad enorme** y la explotaron sin piedad. **La mayoría de las ocasiones** del equipo salieron de esa banda. Pelayo, además, marcó el 0-2: cinco goles en los dos últimos partidos y empatado con Colli como segundo máximo goleador del equipo.",
+        "**Colli**: su fútbol de siempre. **Controlar el balón, pausar y habilitar** a los delanteros y a las bandas. No marcó, pero el partido pasó por sus botas.",
+        "**Lorenzana**: **debut como titular** en liga y **cumplió con su papel**. El *asesino del equipo* se fue al cambio en el 55' sin tarjeta, lo que confirma que los árbitros siguen sin verle o que el domingo se portó bien. Investigamos.",
+        "**Kevin**: de **lateral izquierdo** por primera vez. Ver pieza aparte (y no le juzguéis muy fuerte).",
+        "**Poli**: se quedó fuera del once para dejar sitio a Kevin en el lateral. Entró en el 55' por Lorenzana y, con el 0-0, se marcó una **mano de penalti clarísimo delante del juez de línea**, que miró hacia otro lado. No sabemos qué les habrá hecho Poli a los árbitros, pero esta redacción quiere el contacto. Lo que habría podido ser el 1-0 del colista se quedó en anécdota.",
+        "**El equipo**: la mejor noticia. Ni prisas ni nervios con el 0-0 en el minuto 75 en el campo del colista. Antes era de lo que solía pecar y lo pagaba caro. El domingo, no."
+      ]
+    },
+    {
+      "id": "tabla", "seccion": "La tabla", "firma": "Redacción",
+      "titulo": "Así está la pelea por arriba: tres líderes, dos a tiro y La Florida al acecho",
+      "subtitulo": "Celtic, La Manjoya y Centro Asturiano comparten liderato con 21 puntos. Siero y Berrón, con 18, pinchan. La Florida, sexta con 16, se queda a dos.",
+      "cuerpo": [
+        "La jornada 8 ha dejado la parte alta de la tabla más apretada que el vestuario después de un 9-0. Arriba, tres equipos empatados a **21 puntos**: **Celtic de Puerto** (ganó 1-2 en La Fresneda), **La Manjoya** (ganó 0-1 en el campo del Siero) y **Centro Asturiano** (ganó 2-4 en el del Berrón).",
+        "Justo debajo, con **18**, los dos que han pinchado: **Berrón** y **Siero B**. Y ahí aparece La Florida: **sexta con 16 puntos**, a **solo dos** de ambos y a cinco del liderato. Hace una semana estábamos a cinco del grupo de cabeza; ahora el grupo se ha partido y tenemos a dos de ellos al alcance de la mano.",
+        "Por detrás, **San Ignacio** (15) y **Guillén Lafuerza** (14) aprietan: San Ignacio le endosó un 6-2 al Colloto B y Guillén un 7-1 al Grisú. Abajo, el **Rosal** sigue colista con 1 punto y sin conocer la victoria.",
+        "Lo mejor: La Florida tiene **26 goles a favor y solo 10 en contra**, la defensa empieza a ser de las serias y llegan **dos enfrentamientos directos seguidos**. Si se gana al Berrón el domingo, lo adelantamos. Así de fácil (y así de difícil)."
+      ]
+    },
+    {
+      "id": "jorge", "seccion": "Buzón del lector", "firma": "Gabinete de investigación",
+      "titulo": "¿Qué le pasa a Jorge? Un lector nos alerta y la redacción investiga",
+      "subtitulo": "El otro Jorge, el de verdad, anda triste. Las teorías del buzón van desde la política nacional hasta el corazón. Y el gol.",
+      "foto": "img/memes/2026-11-16-9.jpg", "foto_pie": "Jorge Álvarez, cuando le preguntas si está bien.",
+      "cuerpo": [
+        "El buzón del lector ha funcionado y nos ha traído una preocupación seria. Un lector que firma, sin rodeos, como **«Jorge Álvarez está triste»** nos escribe: *«¿Qué le pasa a Jorge?»*.",
+        "Las teorías del remitente, sin filtro: que la **dimisión de Óscar Puente** le esté afectando **laboral, personal y deportivamente**; **problemas románticos**; o un **desencuentro con el gol**. Y remata con un dato misterioso: *«El nuevo sobrino no termina de encontrar su prime»*. La redacción no sabe quién es el nuevo sobrino, pero lo vamos a averiguar.",
+        "Vamos a los hechos, que es lo nuestro. **Jorge Álvarez** (no confundir con Giorgio) ha sido **fijo en el once** casi toda la temporada y lleva **2 goles** en liga (uno de penalti), en Efro y San Ignacio. Ante el Rosal **empezó en el banquillo** y entró en el **55'** por Kevin. Lo del gol y lo del banquillo, por tanto, tiene cierta base documental. Lo de Óscar Puente y el corazón, de momento, no.",
+        "Jorge, si lees esto: **este es un barrio, un equipo y una familia**. Cuéntanos qué te pasa por el buzón. Y si es lo del gol, el Berrón viene a La Pixarra el domingo."
+      ]
+    },
+    {
+      "id": "contadores", "seccion": "Los contadores", "firma": "Redacción",
+      "titulo": "Mingo sigue seco, Diego sigue esperando y el dedo de Kurki ya da la cara",
+      "subtitulo": "Repaso a las sagas abiertas que no avanzan... o que avanzan hacia atrás.",
+      "foto": "img/memes/2026-11-16-4.jpg", "foto_pie": "La sequía de Mingo, vista desde el espacio.",
+      "cuerpo": [
+        "**Mingo**: titular otra vez y otra vez **sin marcar**. Se fue cambiado en el 89'. El contador oficial sube a **8 jornadas sin gol en liga**. Contra el colista tampoco. La promesa sigue en pie: el día que marque, portada.",
+        "**Diego**: el delantero estrella entró en el **89'** por Mingo. Después de estrenarse goleando ante el Juvencia, esta vez le tocó un minuto y el descuento. Contador de titularidades en liga: **0**. Ocho jornadas.",
+        "**Kurki**: el máximo goleador del equipo (6) **no estuvo convocado**. Y por fin hay parte, aunque no el que esperábamos: el problema es **el dedo del pie**. El mismo que el fisio dijo que *pintaba feo* cuando él había ido por el isquio. Según fuentes del vestuario, **hasta el viernes no puede ni empezar a trotar**, así que lo más probable es que **se pierda también la visita del Berrón**. El enigma se resuelve a medias: sabemos qué le duele, pero seguimos sin saber cómo se lesiona uno el isquio y acaba de baja por el dedo. Las teorías, al buzón.",
+        "**La convocatoria**: la semana pasada anunciábamos que cinco se quedarían fuera. No hizo falta: entre lesiones y ausencias, **fueron convocados todos los disponibles**. La criba de verdad llega ahora."
+      ]
+    },
+    {
+      "id": "previa", "seccion": "Previa J9 y J10", "firma": "Redacción",
+      "titulo": "Dos finales seguidas: Berrón en casa y Centro Asturiano fuera",
+      "subtitulo": "El calendario aprieta justo cuando la tabla se pone bonita. Dos rivales directos, seis puntos en juego y la posibilidad de meterse de lleno arriba.",
+      "escudo": "berron",
+      "cuerpo": [
+        "**Jornada 9 · domingo 22 de noviembre · La Pixarra**: **La Florida – Berrón C.F.** El Berrón llega con **18 puntos** (6 victorias y 2 derrotas), 29 goles a favor y solo 9 en contra. El domingo perdió **2-4 en su campo** ante el Centro Asturiano y vendrá con ganas de revancha. Su referencia arriba: **Christian Manzano**, 6 goles. Si ganamos, **le adelantamos**.",
+        "**Jornada 10 · domingo 29 de noviembre · a domicilio**: **Centro Asturiano – La Florida**. Uno de los tres líderes, con **21 puntos** (7 victorias y una sola derrota, en el campo del Siero) y otros 29 goles a favor. Tiene a **Rodrigo García**, 9 goles, empatado en lo más alto del pichichi.",
+        "Son **partidos importantísimos**. Hay que esforzarse y **darlo todo** para ganarlos. Las claves: que la banda derecha siga siendo una autopista, que el equipo mantenga la calma que demostró en el Rosal, que la defensa siga sin encajar y, sobre todo, que **Kevin llegue dormido... de la noche anterior, en su cama**.",
+        "**Llega la criba.** Ante el Rosal fueron convocados todos los que estaban disponibles; no se quedó nadie fuera. Eso se acaba: en las próximas semanas **se reincorpora gente** (Antón, el primero) y **tendrán que quedarse fuera tres o cuatro jugadores** cada domingo. Ahí se verá quién entra en la lista, quién la ve desde la grada y, sobre todo, **quién cuenta de verdad con la confianza del míster** para dos partidos tan difíciles.",
+        "Bajas: **Manute** (aductor) y, muy probablemente, **Kurki** (el dedo: hasta el viernes no puede ni trotar). Buena noticia: **Antón ya está disponible** y entra en la pelea por la convocatoria. Y en observación permanente: la vida nocturna de Kevin."
+      ]
+    }
+  ],
+  "breves": [
+    { "titulo": "Tres victorias seguidas", "texto": "San Ignacio (2-4), Juvencia B (9-0) y Rosal (0-2): 15 goles a favor y 2 en contra en las tres últimas jornadas. La mejor racha de la temporada." },
+    { "titulo": "El Rosal, sin victorias", "texto": "El colista suma 1 punto en 8 jornadas. Contra La Florida aguantó 75 minutos y vio tres amarillas, una de ellas para su entrenador (70')." },
+    { "titulo": "Pelayo, imparable", "texto": "Póker ante el Juvencia y gol ante el Rosal: cinco goles en dos partidos que le colocan con 5, empatado con Colli y a uno de Kurki en el pichichi naranja." }
+  ],
+  "memes": [
+    { "img": "img/memes/2026-11-16-6.jpg", "alt": "Winnie the Pooh: Serra suplente; Serra, desatascador oficial del Club Atlético de La Florida", "pieza": "mvp" },
+    { "img": "img/memes/2026-11-16-1.jpg", "alt": "Drake: dormir antes del partido no; 12 horas de fiesta y titular de lateral izquierdo sí", "pieza": "kevin" },
+    { "img": "img/memes/2026-11-16-2.jpg", "alt": "El novio distraído: Manute mirando 500 chilenas en el fútbol-tenis mientras su aductor protesta", "pieza": "manute" },
+    { "img": "img/memes/2026-11-16-5.jpg", "alt": "This is fine: minuto 70, 0-0 contra el colista, todo controlado", "pieza": "cronica" },
+    { "img": "img/memes/2026-11-16-7.jpg", "alt": "¿Guty o Fran? El 60% de los lectores: ¿por qué no los dos?", "pieza": "porteros" },
+    { "img": "img/memes/2026-11-16-8.jpg", "alt": "La paloma: Diego entrando en el 89' — ¿es esto una titularidad?", "pieza": "contadores" },
+    { "img": "img/memes/2026-11-16-4.jpg", "alt": "Astronautas: ¿Mingo tampoco marcó al colista? Siempre ha sido así", "pieza": "contadores" },
+    { "img": "img/memes/2026-11-16-9.jpg", "alt": "Harold: Jorge Álvarez, todo bien, de verdad", "pieza": "jorge" }
+  ],
+  "encuesta": {
+    "id": "kevin-promesa-j9",
+    "pregunta": "Kevin promete no salir de fiesta la víspera de los partidos. ¿Cumplirá ante Berrón y Centro Asturiano?",
+    "opciones": ["Sí, dos de dos: nace un nuevo Kevin", "Uno de dos: el del Berrón, que es en casa", "Ni uno: la noche es joven"]
+  },
+  "proximo": { "j": 9, "fecha": "2026-11-22", "rival": "berron", "casa": true }
+}

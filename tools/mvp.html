@@ -1,0 +1,107 @@
+<!doctype html>
+<!--
+  Cartel «MVP del partido» (1080×1350) al estilo de los del Instagram del club.
+  Se renderiza con Chrome headless (ver tools/mvp.sh). Parámetros por URL:
+    nombre   SERRA
+    foto     ruta a la foto (relativa a este fichero), p. ej. ../img/ig/jul28-serra.jpg
+    crop     x,y,w,h del recorte del jugador dentro de la foto original (px)
+    escudo   x,y,w del escudo dentro de la misma foto (opcional; si no, ../img/escudos/florida.jpg)
+    linea1   JORNADA 8 · ROSAL 0-2 LA FLORIDA
+    linea2   GOL 76' · DESDE EL BANQUILLO
+-->
+<html lang="es"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Permanent+Marker&display=block" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1350px;background:#0a0a0a;overflow:hidden}
+  .lienzo{position:relative;width:1080px;height:1350px;overflow:hidden;
+    background:radial-gradient(ellipse at 60% 40%,#2a1408 0%,#0a0a0a 60%)}
+  .brocha{position:absolute;background:#ff6a00;filter:url(#rugoso)}
+  .b1{width:1500px;height:120px;left:-200px;top:330px;transform:rotate(-24deg);opacity:.9}
+  .b2{width:1400px;height:60px;left:-100px;top:520px;transform:rotate(-24deg);opacity:.55}
+  .b3{width:1300px;height:34px;left:0;top:1010px;transform:rotate(-24deg);opacity:.7}
+  .b4{width:700px;height:200px;right:-160px;top:-40px;transform:rotate(-24deg);opacity:.85}
+  .b5{width:900px;height:90px;left:-300px;top:1180px;transform:rotate(-24deg);opacity:.5}
+  .fantasma{position:absolute;overflow:hidden}
+  .fantasma img{position:absolute;max-width:none}
+  .f-izq{left:-70px;top:270px;width:520px;height:900px;filter:grayscale(1) contrast(1.1) brightness(.7);opacity:.38;
+    -webkit-mask-image:linear-gradient(to right,transparent,#000 35%,#000 60%,transparent)}
+  .f-der{right:-150px;top:180px;width:640px;height:1000px;opacity:.55;mix-blend-mode:screen;
+    filter:grayscale(1) sepia(1) saturate(6) hue-rotate(-18deg) brightness(.85);
+    -webkit-mask-image:linear-gradient(to left,transparent,#000 30%,#000 70%,transparent)}
+  .principal{position:absolute;left:300px;top:330px;width:500px;height:820px;overflow:hidden;
+    -webkit-mask-image:linear-gradient(to bottom,#000 78%,transparent 100%);transform:rotate(-2deg)}
+  .principal img{position:absolute;max-width:none}
+  .marco{position:absolute;left:286px;top:316px;width:528px;height:700px;border:6px solid #ff6a00;border-bottom:none;transform:rotate(-2deg);
+    box-shadow:0 0 60px rgba(255,106,0,.35)}
+  .escudo{position:absolute;left:40px;top:40px;width:190px;height:190px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 5px #fff,0 6px 30px rgba(0,0,0,.6);background:#fff}
+  .escudo img{position:absolute;max-width:none}
+  .patro{position:absolute;left:0;right:0;top:44px;text-align:center;color:#fff}
+  .patro .m{font:44px/1 'Bebas Neue';letter-spacing:9px}
+  .patro .m span{color:#ff6a00;margin:0 14px}
+  .patro .r{font:26px/1 'Bebas Neue';letter-spacing:3px;opacity:.85;margin-top:4px}
+  .cinta{position:absolute;left:50%;top:132px;transform:translateX(-50%) rotate(-1.5deg);color:#fff;
+    font:40px/1 'Bebas Neue';letter-spacing:4px;padding:12px 40px 8px;z-index:1}
+  .cinta::before{content:"";position:absolute;inset:0;background:#ff6a00;filter:url(#rugoso2);z-index:-1}
+  .lema{position:absolute;right:44px;top:250px;text-align:right;font:34px/1.05 'Permanent Marker';color:#fff;transform:rotate(-6deg);
+    text-shadow:0 3px 0 #000,0 0 14px #000,0 0 6px #000}
+  .lema b{color:#ffb27a;font-weight:400}
+  .corona{position:absolute;left:50%;top:205px;transform:translateX(-50%);width:110px}
+  .mvp{position:absolute;left:0;right:0;top:225px;text-align:center;font:250px/1 'Permanent Marker';color:#ff6a00;
+    transform:rotate(-5deg);text-shadow:0 8px 0 #000,0 0 50px rgba(0,0,0,.6);letter-spacing:6px}
+  .nombre{position:absolute;left:0;right:0;bottom:120px;text-align:center;font:210px/1 'Permanent Marker';color:#fff;
+    transform:rotate(-4deg);text-shadow:0 8px 0 #000,0 0 40px rgba(0,0,0,.8);letter-spacing:4px}
+  .pie{position:absolute;left:0;right:0;bottom:0;height:96px;background:#000;border-top:5px solid #ff6a00;display:flex;flex-direction:column;justify-content:center;padding:0 46px}
+  .pie .l1{font:40px/1 'Bebas Neue';color:#fff;letter-spacing:3px}
+  .pie .l2{font:28px/1 'Bebas Neue';color:#ff6a00;letter-spacing:3px;margin-top:4px}
+  .firma{position:absolute;right:46px;bottom:30px;font:22px/1 'Bebas Neue';color:#888;letter-spacing:3px}
+  .vertical{position:absolute;left:12px;top:520px;writing-mode:vertical-rl;transform:rotate(180deg);font:150px/1 'Anton';color:rgba(255,255,255,.06);letter-spacing:8px}
+</style></head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="rugoso"><feTurbulence type="fractalNoise" baseFrequency=".035 .9" numOctaves="3" seed="4"/><feDisplacementMap in="SourceGraphic" scale="38"/></filter>
+  <filter id="rugoso2"><feTurbulence type="fractalNoise" baseFrequency=".05 .6" numOctaves="2" seed="9"/><feDisplacementMap in="SourceGraphic" scale="12"/></filter>
+</svg>
+<div class="lienzo">
+  <div class="brocha b4"></div><div class="brocha b1"></div><div class="brocha b2"></div><div class="brocha b3"></div><div class="brocha b5"></div>
+  <div class="vertical">LA FLORIDA</div>
+  <div class="fantasma f-izq"><img data-crop></div>
+  <div class="fantasma f-der"><img data-crop></div>
+  <div class="marco"></div>
+  <div class="principal"><img data-crop></div>
+  <div class="escudo"><img id="esc"></div>
+  <div class="patro"><div class="m">OMODA<span>|</span>JAECOO</div><div class="r">RESNOVAMOTOR</div></div>
+  <div class="cinta">MVP DEL PARTIDO</div>
+  <svg class="corona" viewBox="0 0 100 50"><path d="M5 45 L12 10 L32 30 L50 4 L68 30 L88 10 L95 45 Z" fill="none" stroke="#ff6a00" stroke-width="5" stroke-linejoin="round"/></svg>
+  <div class="mvp">MVP</div>
+  <div class="lema">UN BARRIO.<br><b>UN EQUIPO.</b><br>UNA FAMILIA.</div>
+  <div class="nombre" id="nombre"></div>
+  <div class="pie"><div class="l1" id="l1"></div><div class="l2" id="l2"></div></div>
+  <div class="firma">FLORIDA · EL DIARIO</div>
+</div>
+<script>
+  const q = new URLSearchParams(location.search);
+  const foto = q.get("foto"), [cx, cy, cw, ch] = (q.get("crop") || "0,0,1000,1500").split(",").map(Number);
+  document.getElementById("nombre").textContent = q.get("nombre") || "";
+  document.getElementById("l1").textContent = q.get("linea1") || "";
+  document.getElementById("l2").textContent = q.get("linea2") || "";
+  // Recorta [cx,cy,cw,ch] de la foto para que cubra cada caja (como object-fit: cover, centrado arriba)
+  for (const img of document.querySelectorAll("img[data-crop]")) {
+    const box = img.parentElement.getBoundingClientRect();
+    const s = Math.max(box.width / cw, box.height / ch);
+    img.src = foto;
+    img.style.width = "auto"; img.style.height = "auto";
+    img.onload = () => {
+      img.style.width = img.naturalWidth * s + "px";
+      img.style.left = -(cx * s) + (box.width - cw * s) / 2 + "px";
+      img.style.top = -(cy * s) + "px";
+    };
+  }
+  const esc = document.getElementById("esc"), e = q.get("escudo");
+  if (e) {
+    const [ex, ey, ew] = e.split(",").map(Number), s = 190 / ew;
+    esc.src = foto;
+    esc.onload = () => { esc.style.width = esc.naturalWidth * s + "px"; esc.style.left = -ex * s + "px"; esc.style.top = -ey * s + "px"; };
+  } else { esc.src = "../img/escudos/florida.jpg"; esc.style.width = "100%"; }
+</script>
+</body></html>

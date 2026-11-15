@@ -58,7 +58,9 @@ function tablaHTML(liga, { compacta = false } = {}) {
 function proximoHTML(liga, p) {
   if (!p) return "";
   const loc = p.casa ? liga.nuestro : p.rival, vis = p.casa ? p.rival : liga.nuestro;
-  const dias = Math.ceil((new Date(p.fecha + "T12:00:00") - Date.now()) / 864e5);
+  // Días de calendario (no horas): el lunes, para un partido el domingo siguiente, faltan 6
+  const hoy = new Date(); hoy.setHours(12, 0, 0, 0);
+  const dias = Math.round((new Date(p.fecha + "T12:00:00") - hoy) / 864e5);
   const cuenta = dias > 1 ? `Faltan ${dias} días` : dias === 1 ? "¡Mañana!" : dias === 0 ? "¡Hoy hay partido!" : "";
   return `<div class="proximo"><div class="et">Próximo partido · Jornada ${p.j}</div>
     <div class="vs">${crest(liga, loc)}<b>VS</b>${crest(liga, vis)}</div>
@@ -235,6 +237,7 @@ async function paginaEdicion(root) {
     <section class="portada">
       <div class="hero">
         <img class="bg" src="${esc(P.foto)}" alt="" style="object-position:${esc(P.foto_pos || "50% 50%")}">
+        ${P.foto_movil ? `<img class="bg-movil" src="${esc(P.foto_movil)}" alt="">` : ""}
         ${M ? `<div class="marcador">${eqM(M.local)}<div class="num">${M.gl}<i>-</i>${M.gv}</div>${eqM(M.visitante)}${M.goles_local ? `<div class="goles">${M.goles_local.map(esc).join(" · ")}</div>` : ""}</div>` : ""}
         <div class="txt">
           <span class="kicker">${esc(P.kicker)}</span>
@@ -312,7 +315,7 @@ async function paginaLiga(root) {
     <div class="dos">
       <section class="caja"><h3>Calendario de La Florida</h3><div class="scroll-x"><table class="tabla"><thead><tr><th>J</th><th>Fecha</th><th style="text-align:left">Local</th><th>Res.</th><th style="text-align:left">Visitante</th></tr></thead><tbody>${nuestros}</tbody></table></div></section>
       <div>
-        <section class="caja" style="margin-bottom:26px"><h3>Resultados jornada ${ult.n}</h3><table class="tabla"><tbody>${ult.partidos.map(([a, ga, gb, b]) => `<tr${a === liga.nuestro || b === liga.nuestro ? ' class="nos"' : ""}><td class="eq">${crest(liga, a)}${esc(liga.equipos[a].corto)}</td><td class="pts">${ga} - ${gb}</td><td class="eq">${crest(liga, b)}${esc(liga.equipos[b].corto)}</td></tr>`).join("")}</tbody></table></section>
+        <section class="caja" style="margin-bottom:26px"><h3>Resultados jornada ${ult.n}</h3><table class="tabla"><tbody>${ult.partidos.map(([a, ga, gb, b]) => `<tr${a === liga.nuestro || b === liga.nuestro ? ' class="nos"' : ""}><td class="eq">${crest(liga, a)}${esc(liga.equipos[a].corto)}</td><td class="pts">${ga == null ? "—" : `${ga} - ${gb}`}</td><td class="eq">${crest(liga, b)}${esc(liga.equipos[b].corto)}</td></tr>`).join("")}</tbody></table></section>
         <section class="caja" style="margin-bottom:26px"><h3>Goleadores de La Florida</h3>${goleadoresHTML(liga)}</section>
         <section class="caja"><h3>Pichichi de la liga <a href="${esc(liga.fuente_goleadores)}" target="_blank" rel="noopener">Ver todo ›</a></h3><table class="tabla"><thead><tr><th style="text-align:left">Jugador</th><th style="text-align:left">Equipo</th><th>Goles</th></tr></thead><tbody>${liga.goleadores_liga.map(g => `<tr${g.equipo === liga.nuestro ? ' class="nos"' : ""}><td class="eq">${esc(g.jugador.split(",").reverse().join(" ").trim())}</td><td class="eq">${crest(liga, g.equipo)}${esc(liga.equipos[g.equipo].corto)}</td><td class="pts">${g.goles}</td></tr>`).join("")}</tbody></table></section>
       </div>
@@ -324,18 +327,18 @@ async function paginaPlantilla(root) {
   const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "");
   // Estadísticas calculadas a partir de las actas oficiales
   const st = {};
-  const S = n => st[norm(n)] ||= { conv: 0, tit: 0, ent: 0, goles: 0, am: 0 };
+  const S = n => st[norm(n)] ||= { conv: 0, tit: 0, ent: 0, goles: 0, am: 0, rojas: 0 };
   for (const p of actas.partidos) {
     const f = p.florida; if (!f) continue;
     f.titulares.forEach(x => { const s = S(x.replace(/^\d+ /, "")); s.conv++; s.tit++; });
     f.suplentes.forEach(x => S(x.replace(/^\d+ /, "")).conv++);
     f.cambios.forEach(c => S(c.entra).ent++);
-    f.tarjetas.forEach(t => S(t.jugador).am++);
+    f.tarjetas.forEach(t => t.tipo === "roja" ? S(t.jugador).rojas++ : S(t.jugador).am++);
     p.goles.filter(g => g.equipo === "florida").forEach(g => S(g.jugador).goles++);
   }
   const sagaDe = Object.fromEntries(sagas.sagas.map(s => [s.slug, s]));
   const ficha = (j, rol) => { const s = j.federacion && st[norm(j.federacion)]; const g = s?.goles;
-    const linea = s ? `<p class="aviso" style="margin-top:6px"><b>${s.tit + s.ent}</b> partidos jugados (${s.tit} de titular) · <b>${s.goles}</b> goles · <b>${s.am}</b> amarillas · ${s.conv} convocatorias</p>` : (j.federacion ? `<p class="aviso" style="margin-top:6px">Aún sin convocatorias en liga.</p>` : "");
+    const linea = s ? `<p class="aviso" style="margin-top:6px"><b>${s.tit + s.ent}</b> partidos jugados (${s.tit} de titular) · <b>${s.goles}</b> goles · <b>${s.am}</b> amarillas${s.rojas ? ` · <b>${s.rojas}</b> roja${s.rojas > 1 ? "s" : ""}` : ""} · ${s.conv} convocatorias</p>` : (j.federacion ? `<p class="aviso" style="margin-top:6px">Aún sin convocatorias en liga.</p>` : "");
     return `<div class="ficha" id="${esc(j.slug)}">${g ? `<span class="dorsal">⚽ ${g}</span>` : ""}
     <div class="pos">${esc(rol || j.posicion || "Jugador")}</div><h3>${esc(j.apodo)}</h3>${j.instagram ? `<a class="aviso" href="https://www.instagram.com/${esc(j.instagram)}/" target="_blank" rel="noopener">@${esc(j.instagram)}</a>` : ""}
     <p>${md(j.bio || "")}</p>${linea}<div class="tags">${(j.sagas || []).map(s => sagaDe[s] ? `<a href="#saga-${s}">${esc(sagaDe[s].titulo)}</a>` : "").join("")}${j.confirmar ? `<span class="conf">Apodo por confirmar</span>` : ""}</div></div>`; };
