@@ -48,10 +48,6 @@
     { "slug": "tarjetero-pope", "titulo": "Pope contra el mundo", "protagonista": "pope", "estado": "abierta",
       "resumen": "Protesta todo. En la J9, amarilla por protestar en el 19' y segunda en el 95' por una entrada que tocó balón. Sancionado para el Centro Asturiano.",
       "capitulos": [
-        { "edicion": "2026-11-23", "texto": "Doble amarilla ante el Berrón (19' y 90'+5): la primera por protestar, la segunda por una entrada fea que tocó balón. Un rival le define como «un señor de 45 años que insulta a un niño de 18». Se pierde la J10." } ] },
-    { "slug": "donde-esta-duru", "titulo": "¿Dónde está Duru?", "protagonista": "duru", "estado": "cerrada",
-      "resumen": "Tras el Berrón, comida en el Pichote, cañas y 14 horas sin rastro. El lunes a las 11:07 aparece, sano, salvo y dormido. MVP de la jornada 9.",
-      "capitulos": [
-        { "edicion": "2026-11-23", "texto": "Titular ante el Berrón (sale en el 58'). Tras la comida y las cañas, desaparece. El lunes a las 7:45 su madre llama a Górriz; el vestuario se moviliza (Mel: «El coche está. Él no»). A las 11:07 aparece, dormido, en casa de una nueva amistad. MVP de la jornada." } ] }
+        { "edicion": "2026-11-23", "texto": "Doble amarilla ante el Berrón (19' y 90'+5): la primera por protestar, la segunda por una entrada fea que tocó balón. Un rival le define como «un señor de 45 años que insulta a un niño de 18». Se pierde la J10." } ] }
   ]
 }

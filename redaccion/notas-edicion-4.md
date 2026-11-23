@@ -5,8 +5,6 @@ el buzón (Supabase), el acta de la J10 y las sagas abiertas.
 
 ## Pendiente de la edición nº 3
 
-- **Duru**: apareció el lunes 23 a las 11:07 (saga `donde-esta-duru`, cerrada). Falta su versión de los hechos.
-  Sin datos de terceros: la persona con la que estuvo no se nombra ni se identifica.
 - **Pope**: roja por doble amarilla en la J9 → sancionado para la J10. Saga `tarjetero-pope`.
 - **Kevin**: cumplió ante el Berrón (1 de 2). Queda el Centro Asturiano.
 - **Kurki**: convocado en la J9 pero no jugó (molestias en el isquio). ¿Llega a la J10?
