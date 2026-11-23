@@ -3,34 +3,35 @@
   "numero": 3,
   "publicada": "2026-11-23T10:38:00Z",
   "jornada": 9,
-  "titulo_web": "Apareció Duru",
-  "resumen": "Especial: 14 horas sin rastro de Duru tras el tercer tiempo del Berrón, un vestuario movilizado y un final feliz (y dormido). MVP de la jornada. En el campo, 1-1 con gol en propia, penalti en contra y roja a Pope.",
+  "titulo_web": "Mucha sed, poco gol",
+  "resumen": "1-1 ante el Berrón en La Pixarra: La Florida domina pero solo marca cuando le echa una mano un defensa rival (el acta se lo da a Colli). Penalti en el 72', roja a Pope, nace La Chopa y, por la noche, 213 euros en el Bulevar.",
   "ticker": [
-    "ÚLTIMA HORA: APARECIÓ DURU",
-    "Lunes, 11:07: sano, salvo y dormido",
-    "Duru, MVP de la jornada por su compromiso fuera del campo",
     "La Florida 1 - 1 Berrón",
-    "El 1-0: en propia... que el acta da a Colli",
-    "Iñaki, el mejor sobre el césped",
-    "Pope, expulsado: baja ante el Centro Asturiano",
-    "Tercer tiempo: 47 cervezas, 15 copas, 213 €",
-    "Kevin cumple: esposado al sofá el sábado",
-    "Fran comete el penalti y nace LA CHOPA",
+    "El 1-0: centro de Pelayo y gol en propia... que el acta da a Colli",
+    "Penalti en el 72': 1-1",
+    "Iñaki, MVP en su estreno de titular",
+    "Gol anulado a Iñaki por un fuera de juego dudoso",
+    "Pope, expulsado por doble amarilla: baja ante el Centro Asturiano",
+    "Diego, sin convocar · Kurki, convocado y sin jugar",
     "Guty: «LA TENGO GRABADA, EH»",
-    "#FreeDuru",
+    "Fran comete el penalti y nace LA CHOPA",
+    "Kevin cumple: esposado al sofá el sábado",
+    "Tercer tiempo: 47 cervezas, 15 copas, 213 €",
+    "Cuarto partido seguido sin perder",
+    "Mingo: 9 jornadas sin marcar",
     "Próxima parada: Centro Asturiano, fuera"
   ],
   "portada": {
-    "kicker": "Especial · Jornada 9 · 3ª Asturfútbol",
+    "kicker": "Jornada 9 · 3ª Asturfútbol · Grupo 2",
     "titular": [
-      "APARECIÓ",
-      "DURU"
+      "MUCHA SED,",
+      "POCO GOL"
     ],
-    "subtitulo": "Comida, cañas, 213 euros y, después, nada: catorce horas sin rastro, una madre preocupada y un vestuario entero buscándole un lunes por la mañana. A las 11:07, la noticia: sano, salvo y profundamente dormido. Ah, y el domingo se empató 1-1 con el Berrón.",
-    "foto": "img/vestuario/j9-portada-duru.jpg",
-    "foto_pos": "100% 30%",
-    "foto_movil": "img/vestuario/j9-duru-movil.jpg",
-    "foto_pie": "Duru (a la derecha), el domingo por la noche, con Colli. Última imagen conocida antes de la desaparición.",
+    "subtitulo": "La Florida domina al Berrón como dominó al Rosal, pero sin Kurki no hay manera: ocasiones clarísimas al limbo, un gol anulado y un 1-0 que, según el vestuario, se metió el rival. Penalti en el 72' y 1-1. Por la noche, en el Bulevar, ni una fallada.",
+    "foto": "img/vestuario/j9-portada.jpg",
+    "foto_pos": "100% 50%",
+    "foto_movil": "img/vestuario/j9-campo-movil.jpg",
+    "foto_pie": "Saque de esquina de La Florida ante el Berrón en La Pixarra. Foto: el vestuario.",
     "marcador": {
       "local": "florida",
       "gl": 1,
@@ -41,51 +42,51 @@
         "Darío (p.) 72'"
       ]
     },
-    "pieza": "duru",
+    "pieza": "cronica",
     "laterales": [
       {
         "etiqueta": "MVP",
-        "titulo": "DURU, MVP FUERA DEL CAMPO",
-        "texto": "Por su ardua labor y su compromiso con el gol y con el equipo. Dentro del campo y, sobre todo, fuera.",
-        "foto": "img/mvp/j9-duru.jpg",
+        "titulo": "IÑAKI YA CARBURA",
+        "texto": "Primer partido de titular, de lateral izquierdo, y de lo mejor del equipo. Hasta marcó, pero se lo anularon.",
+        "foto": "img/mvp/j9-inaki.jpg",
         "pieza": "mvp",
         "tono": "naranja"
       },
       {
-        "etiqueta": "El partido",
-        "titulo": "1-1: MUCHA SED, POCO GOL",
-        "texto": "Dominio, ocasiones al limbo, gol en propia del Berrón y penalti en el 72'.",
-        "foto": "img/vestuario/j9-campo.jpg",
-        "pieza": "cronica",
+        "etiqueta": "Tercer tiempo",
+        "titulo": "213 EUROS Y NI UNA OCASIÓN FALLADA",
+        "texto": "Comida en el Pichote, cañas hasta la noche y un preticket de la mesa 15 que ya es historia del club.",
+        "foto": "img/vestuario/j9-cuenta.jpg",
+        "pieza": "tercer-tiempo",
         "tono": "negro"
       },
-      {
-        "etiqueta": "Sobre el césped",
-        "titulo": "IÑAKI YA CARBURA",
-        "texto": "Primera titularidad, de lateral izquierdo, y el más votado por el vestuario.",
-        "foto": "img/mvp/j9-inaki.jpg",
-        "pieza": "inaki"
-      },
-      {
-        "etiqueta": "Tercer tiempo",
-        "titulo": "213 EUROS EN LA MESA 15",
-        "texto": "47 cervezas y 15 copas. El principio de todo.",
-        "foto": "img/vestuario/j9-cuenta.jpg",
-        "pieza": "tercer-tiempo"
-      }
-    ],
-    "franja": [
       {
         "etiqueta": "La portería",
         "titulo": "LA CHOPA",
         "texto": "Fran comete el penalti del 1-1, el buzón culpa al GTA VI y el vestuario le pone mote.",
+        "foto": "img/vestuario/j9-la-chopa.jpg",
         "pieza": "chopa"
       },
       {
         "etiqueta": "Sálvame",
-        "titulo": "ROJA A POPE Y «LA TENGO GRABADA»",
-        "texto": "Tanganas al final, Gabri en modo destroyer y Guty con el móvil.",
+        "titulo": "TANGANA, ROJA A POPE Y «LA TENGO GRABADA»",
+        "texto": "Serra, Gabri y Mel convierten el final en un ring. Guty lo grabó todo. Eso dice él.",
+        "foto": "img/memes/2026-11-23-3.jpg",
         "pieza": "tangana"
+      }
+    ],
+    "franja": [
+      {
+        "etiqueta": "La tabla",
+        "titulo": "SEXTOS, A DOS DEL BERRÓN",
+        "texto": "Celtic y La Manjoya escapan con 24. El Centro Asturiano pincha en Grisú.",
+        "pieza": "tabla"
+      },
+      {
+        "etiqueta": "La lista",
+        "titulo": "DIEGO, FUERA; KURKI, DENTRO",
+        "texto": "Empieza la criba: el delantero estrella, sin convocar. El lesionado, en el banquillo.",
+        "pieza": "convocatoria"
       },
       {
         "etiqueta": "Próximo rival",
@@ -97,67 +98,6 @@
     ]
   },
   "piezas": [
-    {
-      "id": "duru",
-      "seccion": "Especial · El caso Duru",
-      "saga": "donde-esta-duru",
-      "firma": "Gabinete de investigación",
-      "titulo": "Apareció Duru: 14 horas sin rastro, un vestuario movilizado y un final feliz (y dormido)",
-      "subtitulo": "Del preticket de la mesa 15 a la llamada de las 11:03. La reconstrucción, hora a hora, de la mañana en la que La Florida entera dejó lo que estaba haciendo para buscar a su extremo.",
-      "foto": "img/memes/2026-11-23-8.jpg",
-      "foto_pie": "El cartel que circuló por La Florida, ya con el sello. Recompensa pendiente de pago: un cañón rubia.",
-      "cuerpo": [
-        "**Domingo 22, 13:56.** Final en La Pixarra: 1-1 ante el Berrón. **Duru** ha sido titular hasta el **58'**, cuando dejó su sitio a Ari. Lo que viene después no sale en el acta: comida en el **Pichote** y cañas toda la tarde.",
-        "**21:55.** El Café Bulevar emite el famoso preticket de la **mesa 15**: **213 euros** (ver «Tercer tiempo»). Duru sale en las fotos de la noche. En la que acompaña a la portada es el que sonríe al lado de Colli. Se le ve feliz. Se le ve con planes.",
-        "**23:59.** **Castro** manda al grupo una foto de Colli con un parte médico demoledor: *«Fundió. No levanta ni»*. Es, según su testimonio, el momento en que se separa de Duru, que todavía tenía noche por delante. Hacia **la una**, Duru le dice a su madre que en una hora está en casa. **Spoiler: no.**",
-        "**Lunes 23, 7:45.** Suena el teléfono de **Pedro Górriz**, presidente y jugador. Es **la madre de Duru**: no ha llegado a casa y tiene el **móvil apagado**. A las **8:03**, Górriz da la alerta en el grupo: *«¿Alguien sabe algo de Duru?»*. Empieza el operativo.",
-        "**8:30.** Llueven las teorías. **Manute**: *«Está sobando en el coche, fijo»*. **Mesa**, con la frialdad del entrenador: *«Durmiendo en el coche es una posibilidad. Pero cuando ya amanece, despiertas»*. **Diego**, que se queda fuera de la convocatoria pero no fuera del operativo, coordina la búsqueda desde Pravia.",
-        "**8:50.** **Mel**, que teletrabajaba, baja a comprobarlo en persona. Su informe pasará a la historia del club: ***«El coche está. Él no»***. A la pregunta de si había mirado en los asientos de atrás: *«Soy tonto, pero no tanto»*.",
-        "**9:00-10:00.** Se interroga a los últimos testigos. Castro lo dejó con la foto de Colli. **Lucho**, señalado como último acompañante, no recuerda nada: en su coche, asegura, no subió. **Pope** pide a su novia, que trabaja en urgencias, que eche un ojo. **Iñaki** lanza el hashtag **#FreeDuru**. Y **Mel** se dirige a esta redacción: *«Jorge, tienes que sacar un libro de lo de hoy»*. Lo intentamos.",
-        "**11:03.** **Diego**: *«Tengo noticias. ¿Estáis listos?»*. Convoca una **llamada de grupo** y se unen **14 participantes**, más que a muchos entrenamientos. **11:07**: Duru ha aparecido. **Sano, salvo y profundamente dormido**, en casa de una nueva amistad cuya identidad esta redacción protege.",
-        "¿Qué pasó entre la una de la madrugada y las once de la mañana? Según fuentes del vestuario, la noche fue **larga y productiva**: se habla de un **hat-trick como mínimo**. Esta redacción no ha tenido acceso al acta y no puede confirmar los goles ni los minutos. Duru, el buzón está abierto.",
-        "Lo único serio de esta historia: **su madre lo pasó mal**, y con razón. Así que, antes que nada: **Duru, llama a tu madre**. Y después, al grupo, que hay catorce personas esperando la versión oficial."
-      ]
-    },
-    {
-      "id": "mvp",
-      "seccion": "MVP de la jornada",
-      "firma": "Redacción",
-      "titulo": "Duru, MVP de la jornada: por su ardua labor y su compromiso con el gol y con el equipo, dentro y (sobre todo) fuera del campo",
-      "subtitulo": "Titular hasta el 58' ante el Berrón y, después, catorce horas en paradero desconocido. Ningún jugador había movilizado nunca tanto al vestuario.",
-      "foto": "img/mvp/j9-duru.jpg",
-      "foto_pie": "El cartel del MVP de la jornada 9. Foto: el vestuario, domingo por la noche.",
-      "cuerpo": [
-        "Esta semana el MVP no se decide en el césped. Se decide un lunes a las 11:07 de la mañana, cuando el grupo del equipo recibe la noticia de que **Duru ha aparecido**. Ya lo dijo **Mel** al instante: *«Ya tenemos MVP»*. Y **Poli** lo había avisado una hora antes: *«Igual hay que darle el MVP, eh»*.",
-        "En el campo, Duru cumplió: **titular** ante el Berrón y cambiado en el **58'** por Ari. Fuera del campo, todo lo demás. Su **ardua labor** y su **compromiso con el gol**, según fuentes del vestuario, se prolongaron hasta bien entrada la mañana del lunes, con un balance que se cifra en **un hat-trick como mínimo**. Ningún otro jugador de la plantilla puede presentar esos números esta jornada.",
-        "Pero el premio va, sobre todo, por **lo que hizo por el equipo**. Consiguió lo que ni Mesa con sus convocatorias: **catorce jugadores conectados a una llamada** un lunes por la mañana, el presidente despierto a las 7:45, un delantero sin convocar coordinando la búsqueda desde Pravia y un lateral pidiendo a su novia que mirase en urgencias. Eso es **un barrio, un equipo, una familia**.",
-        "Dentro del campo, el mejor fue **Iñaki** (ver pieza aparte), y así lo votó el vestuario. Pero el cartel de esta semana es para Duru. Que lo disfrute. Y que llame a su madre."
-      ],
-      "saga": "donde-esta-duru"
-    },
-    {
-      "id": "duru-grupo",
-      "seccion": "Especial · El caso Duru",
-      "firma": "Redacción",
-      "titulo": "Las frases de una mañana histórica: lo que se dijo en el grupo mientras se buscaba a Duru",
-      "subtitulo": "De 8:03 a 11:15, el grupo del equipo fue la mejor emisora de Asturias. Seleccionamos lo publicable (que no es todo).",
-      "foto": "img/mvp/j9-duru.jpg",
-      "foto_pie": "El cartel del MVP de la jornada 9.",
-      "cuerpo": [
-        "*«Cuando aparezca vamos a flipar con la historia que nos va a contar. Seguro que va a ser algo que entre todos no se nos ocurre ni pa Dios»*. — **Manute**, 8:53. Profeta.",
-        "*«El coche está. Él no»*. — **Mel**, 8:50. Seis palabras que resumen una mañana.",
-        "*«Estará en el almacén abrazado a una caja de 1906»*. — **Górriz**, 10:01. La teoría presidencial.",
-        "*«Si bajo y está el Duru haciendo pinchos, es el mejor día de mi vida»*. — **Mel**, 10:01.",
-        "*«Na, está siendo mi tele este grupo desde las 8 a. m.»*. — **Iñaki**, 10:08. Y poco después: **#FreeDuru**.",
-        "*«Me tuve que salir de la reunión de Teams porque estaba llorando mirando el móvil»*. — **Kevin**, 10:23.",
-        "*«Yo doy gracias de que no vino nadie a la oficina hoy y puedo hacer seguimiento tranquilamente de esto»*. — **Giorgio**, 10:26. El redactor, en su papel.",
-        "*«Tres bajas un domingo: Colli roto, Pope roja y Duru desaparecido»*. — **Poli**, 10:54 (versión editada por esta redacción).",
-        "*«Hoy no se entrenará. Habrá solo que comentarla en el bar»*. — **Mel**, 11:10.",
-        "*«A mí me levantó a las 8 menos cuarto una llamada de la madre del Duru»*. — **Górriz**, 11:09. Presidente, jugador y, desde el lunes, teléfono de emergencias.",
-        "*«Y nosotros preocupados porque Jorge está triste»*. — **Kevin**, 11:11. Jorge Álvarez, por cierto, no se ha manifestado.",
-        "*«Un barrio, un equipo, una familia»*. — **Poli**, 11:15. Cierre de la emisión."
-      ]
-    },
     {
       "id": "cronica",
       "seccion": "Crónica",
@@ -177,18 +117,18 @@
       ]
     },
     {
-      "id": "inaki",
-      "seccion": "El mejor sobre el césped",
+      "id": "mvp",
+      "seccion": "MVP de la jornada",
       "firma": "Redacción",
-      "titulo": "Iñaki, el último fichaje ya carbura: titular, lateral izquierdo y el más votado del vestuario",
-      "subtitulo": "Se estrena en el once en un puesto nuevo, marca un gol que le anulan por un fuera de juego dudoso y se va al cambio en el 69' sin una gota de gasolina.",
+      "titulo": "Iñaki, el último fichaje ya carbura: titular, lateral izquierdo y MVP del vestuario",
+      "subtitulo": "Se estrena en el once en un puesto nuevo, marca un gol que le anulan por un fuera de juego dudoso y se va al cambio en el 69' sin una gota de gasolina. MVP de la jornada 9.",
       "foto": "img/mvp/j9-inaki.jpg",
-      "foto_pie": "El cartel que se había ganado antes de que apareciera Duru. Foto original: @clubatleticodelaflorida",
+      "foto_pie": "El cartel del MVP de la jornada 9. Foto original: @clubatleticodelaflorida",
       "cuerpo": [
         "Hace tres semanas, el club presentaba a **Iñaki** como su último fichaje. Debutó en San Ignacio, jugó la segunda parte entera ante el Juvencia B y esperó su momento. El domingo, ante el Berrón, llegó: **primera titularidad en liga**.",
         "Y no en su sitio. Mesa le puso de **lateral izquierdo**, el puesto de **Poli**, que llegaba tarde al partido (ver «La lista»). Iñaki ni se inmutó: fue **de lo mejor del equipo**, cerró su banda, se sumó arriba y llegó a **marcar**. El línea vio un fuera de juego que, desde la grada, nadie más vio.",
         "En el **69'** pidió el cambio por **agotamiento total**, de los que se ganan dejándolo todo. Según el acta, en el **85'** vio una amarilla, dieciséis minutos después de haber sido sustituido: o protestó desde el banquillo o el acta se ha liado.",
-        "En la votación del grupo tras el partido, **Iñaki abrió la lista** y apareció en ella **hasta cuatro veces**. Era el MVP. Hasta que, el lunes a las 11:07, apareció otro. El último fichaje de La Florida **empieza a carburar**: que tiemble el lateral izquierdo de la liga. Y Poli."
+        "En la votación del grupo tras el partido, **Iñaki abrió la lista** y apareció en ella **hasta cuatro veces**. MVP sin discusión. El último fichaje de La Florida **empieza a carburar y a rendir en plena forma**: que tiemble el lateral izquierdo de la liga. Y Poli."
       ]
     },
     {
@@ -197,14 +137,30 @@
       "firma": "Gabinete de investigación",
       "titulo": "47 cervezas, 15 copas y una mesa 15: el tercer tiempo que sí fue goleada",
       "subtitulo": "Tras el empate, comida en el Pichote y cañas toda la tarde hasta bien entrada la noche. La prueba documental: un preticket del Café Bulevar de 213 euros.",
-      "foto": "img/vestuario/j9-colli-2.jpg",
+      "foto": "img/vestuario/j9-colli-solo.jpg",
       "foto_pie": "Colli, autor oficial del 1-0 según el acta, celebra su gol. O el del Berrón. A estas alturas ya le da igual.",
       "cuerpo": [
         "Si el empate dejó mal sabor de boca, el vestuario supo cómo quitárselo. Varios integrantes de la plantilla se fueron de **comida al Pichote** y, de ahí, **de cañas toda la tarde** hasta bien entrada la noche. Lo que en el campo fue falta de acierto, en la barra fue **pegada pura**.",
         "Esta redacción ha tenido acceso a la prueba documental: un **preticket del Café Bulevar**, emitido el **22/11/2026 a las 21:55**, **mesa 15**. Alguien rodeó en verde la palabra **«Mesa»**: el míster ya sabe a quién le toca pagar.",
         "El desglose: **38 cañones de rubia**, **5 de 1906**, **2 Estrellas** y **2 cañas**: **47 cervezas**. A eso súmale **10 Seagram's**, **2 Brugal** y **3 Barceló**: **15 copas**. Total: **213,00 €**, IVA incluido. Una pregunta queda en el aire: ¿quién fue el que, entre 38 cañones, pidió **dos cañas pequeñas**? Se investiga. En el grupo, **Diego** lo resumió en tres palabras: *«La virgen. 213»*. **Kurki**, con más perspectiva: *«38 humildes cañones, pa calentar»*.",
         "En el campo, muchas ocasiones y un gol que ni siquiera fue nuestro. En el Bulevar, **62 consumiciones y ni una fallada**. Si el equipo tuviera delante de la portería la puntería que tiene delante de la barra, iríamos líderes.",
-        "Mención especial para **Colli**, autor oficial del 1-0 según el acta, que celebró *su* gol como se merecía. A las 23:59, **Castro** mandó al grupo el último parte: *«Fundió. No levanta ni»*. Y a esa hora, uno de los comensales todavía tenía mucha noche por delante: ver «El caso Duru»."
+        "Mención especial para **Colli**, autor oficial del 1-0 según el acta, que celebró *su* gol como se merecía. A las 23:59 llegó al grupo el último parte médico: *«Fundió. No levanta ni»*. Las fotos hablan solas y esta redacción no va a añadir nada."
+      ]
+    },
+    {
+      "id": "chopa",
+      "seccion": "La portería",
+      "saga": "guerra-porteros",
+      "firma": "Gabinete de investigación",
+      "titulo": "La Chopa",
+      "subtitulo": "Fran comete y encaja el penalti del 1-1. Un lector culpa al GTA VI. El vestuario, a la sidra. Y por el grupo empieza a circular una imagen que lo explica todo.",
+      "foto": "img/vestuario/j9-la-chopa.jpg",
+      "foto_pie": "La Chopa, en su hábitat natural. Imagen que circula por el vestuario (no, no es una foto de verdad).",
+      "cuerpo": [
+        "Tercera jornada seguida de titular para **Fran** y tercera jornada seguida con la portería a su cargo en plena **guerra de los guantes**. Pero esta vez no hubo portería a cero: amarilla en el **71'** y, un minuto después, **penalti** que Darío González convirtió en el 1-1.",
+        "El buzón del lector no ha tardado en pronunciarse. Un lector que firma como *«El GTA VI está matando a Fran»* lo resume sin piedad: *«Fran comete y encaja un penalti (su especialidad)»*. Su teoría: **esta semana ha salido el GTA VI**, la semana pasada **una herida mermó su rendimiento** y esta semana el equipo no gana. Aun así, el remitente asegura que sus compañeros recalcan **su importancia en la plantilla** y la necesidad de que **recupere su mejor nivel** para meter al equipo en playoff. En redes, dice, ya es tendencia **#FranVuelve**.",
+        "Mientras tanto, por el grupo del vestuario circula **la imagen** que acompaña a esta pieza: Fran, medio hombre medio pez, tirado en el sofá con una **sidra natural** en la aleta. El vestuario le ha bautizado: **La Chopa**. Esta redacción no sabe quién la ha hecho, pero sí sabe una cosa: el apodo ya no se lo quita nadie.",
+        "La guerra de los guantes queda así: **Fran**, dos porterías a cero y un penalti cometido; **Guty**, una portería a cero y un vídeo de la actuación arbitral que, eso dice él, *tiene grabado*. Mesa decide en el campo del Centro Asturiano. Los lectores, en el buzón."
       ]
     },
     {
@@ -225,22 +181,6 @@
       ]
     },
     {
-      "id": "chopa",
-      "seccion": "La portería",
-      "saga": "guerra-porteros",
-      "firma": "Gabinete de investigación",
-      "titulo": "La Chopa",
-      "subtitulo": "Fran comete y encaja el penalti del 1-1. Un lector culpa al GTA VI. El vestuario, a la sidra. Y por el grupo empieza a circular una imagen que lo explica todo.",
-      "foto": "img/vestuario/j9-la-chopa.jpg",
-      "foto_pie": "La Chopa, en su hábitat natural. Imagen que circula por el vestuario (no, no es una foto de verdad).",
-      "cuerpo": [
-        "Tercera jornada seguida de titular para **Fran** y tercera jornada seguida con la portería a su cargo en plena **guerra de los guantes**. Pero esta vez no hubo portería a cero: amarilla en el **71'** y, un minuto después, **penalti** que Darío González convirtió en el 1-1.",
-        "El buzón del lector no ha tardado en pronunciarse. Un lector que firma como *«El GTA VI está matando a Fran»* lo resume sin piedad: *«Fran comete y encaja un penalti (su especialidad)»*. Su teoría: **esta semana ha salido el GTA VI**, la semana pasada **una herida mermó su rendimiento** y esta semana el equipo no gana. Aun así, el remitente asegura que sus compañeros recalcan **su importancia en la plantilla** y la necesidad de que **recupere su mejor nivel** para meter al equipo en playoff. En redes, dice, ya es tendencia **#FranVuelve**.",
-        "Mientras tanto, por el grupo del vestuario circula **la imagen** que acompaña a esta pieza: Fran, medio hombre medio pez, tirado en el sofá con una **sidra natural** en la aleta. El vestuario le ha bautizado: **La Chopa**. Esta redacción no sabe quién la ha hecho, pero sí sabe una cosa: el apodo ya no se lo quita nadie.",
-        "La guerra de los guantes queda así: **Fran**, dos porterías a cero y un penalti cometido; **Guty**, una portería a cero y un vídeo de la actuación arbitral que, eso dice él, *tiene grabado*. Mesa decide en el campo del Centro Asturiano. Los lectores, en el buzón."
-      ]
-    },
-    {
       "id": "servidor",
       "seccion": "El rincón del servidor",
       "saga": "rincon-del-servidor",
@@ -252,7 +192,7 @@
       "cuerpo": [
         "Lo reconozco: dos partidos seguidos de titular **contra los colistas** me habían hecho creerme alguien. Llegaba el Berrón, tocaba ponerse **el mono de trabajo**, y **Mesa se puso serio**: banquillo y muy pocas opciones de jugar.",
         "Pero la vida da vueltas. **Kurki** no podía saltar al campo por sus molestias e **Iñaki** pidió el cambio por agotamiento en el 69', así que en el **78'** se abrió la puerta y entré. El acta dice que por Pelayo; en el campo, ocupé el sitio de **Kevin**.",
-        "Y pude **lucirme**: cometí en el área un **penalti clamoroso por mano**. De los que se pitan en cualquier campo de Asturias. Pero no se pitó. ¿Por qué? Porque **la noche anterior**, en el **Olimpo**, en pleno **show de Latrosky**, un servidor hizo **un trabajo** con el árbitro. No daré más detalles. *Según mi propia versión*, que esta redacción no puede ni quiere verificar. Duru ya lo había chivado en el grupo el sábado a medianoche: *«Y Jorge Moreno en el Olimpo viendo el show»*. **Kurki** contestó: *«Eso no sale en el Florida News, por lo que sea»*. Pues sale.",
+        "Y pude **lucirme**: cometí en el área un **penalti clamoroso por mano**. De los que se pitan en cualquier campo de Asturias. Pero no se pitó. ¿Por qué? Porque **la noche anterior**, en el **Olimpo**, en pleno **show de Latrosky**, un servidor hizo **un trabajo** con el árbitro. No daré más detalles. *Según mi propia versión*, que esta redacción no puede ni quiere verificar. Alguien ya lo había chivado en el grupo el sábado a medianoche: *«Y Jorge Moreno en el Olimpo viendo el show»*. **Kurki** contestó: *«Eso no sale en el Florida News, por lo que sea»*. Pues sale.",
         "Si lo llegan a pitar, habría sido **el segundo penalti del partido** y, seguramente, **la derrota**. Así que, a mi manera, salvé un punto. La semana pasada fue Poli el de la mano delante del juez de línea; esta, yo. **Dos manos en el área en dos jornadas y ningún penalti.** Alguien en el vestuario debería investigar qué tiene este equipo con los árbitros. Yo ya lo sé."
       ]
     },
@@ -311,7 +251,7 @@
       "cuerpo": [
         "**Jornada 10 · domingo 29 de noviembre · a domicilio**: **Centro Asturiano – La Florida**. Tercero con **21 puntos** (7 victorias y 2 derrotas), llega tocado tras el **3-1 en Grisú**. Su referencia sigue siendo **Rodrigo García**, **9 goles**.",
         "Bajas: **Pope**, **sancionado** por la doble amarilla ante el Berrón. **Manute**, del aductor. Y la gran duda: **Kurki** y su isquio (o su dedo). Sin él, el equipo genera mucho y marca poco; con él, es otra cosa.",
-        "Las claves: **mantener el dominio** de las últimas dos jornadas, **afinar la puntería**, que Pope no tenga a nadie a quien protestar (está en la grada) y que **la defensa no regale penaltis**. Y, por pedir, que Kevin duerma en su cama el sábado. Y que aparezca Duru.",
+        "Las claves: **mantener el dominio** de las últimas dos jornadas, **afinar la puntería**, que Pope no tenga a nadie a quien protestar (está en la grada) y que **la defensa no regale penaltis**. Y, por pedir, que Kevin duerma en su cama el sábado.",
         "Si se gana, La Florida se pone **a uno del Centro Asturiano** y en plena pelea por los puestos de arriba. Llevamos cuatro partidos sin perder. Toca el quinto."
       ]
     }
@@ -340,15 +280,15 @@
   ],
   "memes": [
     {
-      "img": "img/memes/2026-11-23-8.jpg",
-      "alt": "SE BUSCA: Duru. ENCONTRADO, lunes 23, 11:07, dormido",
-      "pieza": "duru"
+      "img": "img/mvp/j9-inaki.jpg",
+      "alt": "Iñaki, MVP de la jornada 9",
+      "pieza": "mvp"
     },
     {
-      "foto": "img/vestuario/j9-colli-2.jpg",
+      "foto": "img/vestuario/j9-colli-solo.jpg",
       "arriba": "EL ACTA DICE QUE EL GOL ES MÍO",
       "abajo": "Y YO NO DISCUTO CON LA FEDERACIÓN",
-      "pos": "50% 30%",
+      "pos": "50% 20%",
       "alt": "Colli celebra con una caña el gol del 51'",
       "pieza": "tercer-tiempo"
     },
