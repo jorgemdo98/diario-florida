@@ -13,7 +13,7 @@ el buzón (Supabase), el acta de la J10 y las sagas abiertas.
 - **Diego**: sin convocar en la J9. ¿Vuelve a la lista?
 - **Gol del 51'**: el acta se lo da a Colli; el vestuario dice que fue en propia tras centro de Pelayo.
   Encuesta `gol-51-j9`.
-- **Gabri** = Mingo (Domingo Gabriel), deducido de las listas de tallas del grupo. Confirmar.
+- **Gabri** = Mingo (Domingo Gabriel), confirmado.
 - **Iñaki**: amarilla en el 85' según el acta, cuando ya había sido sustituido (69'). ¿Desde el banquillo?
 - **Poli**: llegó tarde por trabajar en una carrera en Oviedo; perdió el lateral izquierdo frente a Iñaki.
 

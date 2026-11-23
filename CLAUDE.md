@@ -111,7 +111,7 @@ Cada partido tiene acta oficial con minutos de goles, alineaciones, cambios y ta
 ## Apodos ↔ nombre federativo (ver data/plantilla.json)
 
 Guty = Gutiérrez Llamazares, Alejandro · Fran = Artime Naveda, Francisco · Giorgio = Moreno de Orbe, Jorge ·
-Jorge = Álvarez García, Jorge · Serra = Rodríguez Serrano, Daniel · Mingo = Sandoval Sisa, Domingo Gabriel ·
+Jorge = Álvarez García, Jorge · Serra = Rodríguez Serrano, Daniel · Mingo (o Gabri) = Sandoval Sisa, Domingo Gabriel ·
 Kurki = Valle Martínez, Marcos Jesús · Manute = López Fernández, Manuel · Iñaki = González Bayón, Ignacio ·
 Duru = Prieto Álvarez, Pedro · Poli = Prieto Gabelas, Pablo · Pelayo = Eyaralar Baizán, Pelayo Vicente ·
 Colli = Collar García, Sergio · Diego = González-Quirós, Diego · Kevin = Amado Rodríguez, Kevin ·
