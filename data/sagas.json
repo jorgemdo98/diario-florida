@@ -2,41 +2,56 @@
   "_nota": "Hilos que se arrastran de edición en edición. Cada nueva edición debe revisar estas sagas, añadir capítulo si hay novedad y cerrar las que terminen. Es lo que da continuidad (y mala leche) al periódico.",
   "sagas": [
     { "slug": "diego-banquillo", "titulo": "La travesía del banquillo", "protagonista": "diego", "estado": "abierta",
-      "resumen": "El delantero estrella lleva 8 jornadas saliendo desde el banquillo. Marcó en la J7; en la J8 entró en el 89'. ¿Llegará al once?",
+      "resumen": "El delantero estrella no ha sido titular en liga en 9 jornadas. En la J9 ni siquiera entró en la convocatoria... y Kurki, lesionado, sí.",
       "contador": { "etiqueta": "titularidades de Diego en liga", "valor": 0 },
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Primer gol en liga en la J7 (9-0 al Juvencia B), saliendo desde el banquillo por séptima vez." },
-        { "edicion": "2026-11-16", "texto": "J8 en el campo del Rosal: entra en el 89' por Mingo. Octava jornada sin ser titular." } ] },
+        { "edicion": "2026-11-16", "texto": "J8 en el campo del Rosal: entra en el 89' por Mingo. Octava jornada sin ser titular." },
+        { "edicion": "2026-11-23", "texto": "J9 ante el Berrón: sin convocar. Del banquillo a la grada, mientras Kurki, con molestias en el isquio, sí entra en la lista y no juega." } ] },
     { "slug": "kevin-y-la-noche", "titulo": "Kevin y la noche", "protagonista": "kevin", "estado": "abierta",
-      "resumen": "Fuera en la J7 por una despedida; titular en la J8 de lateral izquierdo tras 12 horas de fiesta. Promete no salir más la víspera de los partidos.",
-      "contador": { "etiqueta": "partidos cumpliendo la promesa (de 2: Berrón y Centro Asturiano)", "valor": 0 },
+      "resumen": "Fuera en la J7 por una despedida; titular en la J8 de lateral izquierdo tras 12 horas de fiesta. Promete no salir la víspera de los partidos... y ante el Berrón cumple.",
+      "contador": { "etiqueta": "partidos cumpliendo la promesa (de 2: Berrón y Centro Asturiano)", "valor": 1 },
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Fuera de la convocatoria de la J7 por dos días de despedida. Promete reaparecer ante el Rosal." },
-        { "edicion": "2026-11-16", "texto": "Titular en la J8... de lateral izquierdo (es central) tras 12 horas de fiesta hasta las 2 de la mañana. Cumple, agradece el cambio en el 55' y promete dejar de salir la víspera de los partidos." } ] },
+        { "edicion": "2026-11-16", "texto": "Titular en la J8... de lateral izquierdo (es central) tras 12 horas de fiesta hasta las 2 de la mañana. Cumple, agradece el cambio en el 55' y promete dejar de salir la víspera de los partidos." },
+        { "edicion": "2026-11-23", "texto": "J9: ¡cumple! La víspera, «esposado al sofá» viendo El Señor de los Anillos. Titular de central y cambiado en el 78'. El jurado popular (8 de 11) no se lo creía. 1 de 2." } ] },
     { "slug": "sequia-mingo", "titulo": "La sequía de Mingo", "protagonista": "mingo", "estado": "abierta",
-      "resumen": "MVP en San Ignacio, cero goles en liga. Ni en un 9-0 ni contra el colista.",
-      "contador": { "etiqueta": "jornadas sin marcar en liga", "valor": 8 },
+      "resumen": "MVP en San Ignacio, cero goles en liga. Ni en un 9-0, ni contra el colista, ni los 90 minutos ante el Berrón.",
+      "contador": { "etiqueta": "jornadas sin marcar en liga", "valor": 9 },
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Ni en un 9-0. Se le resisten más los goles que a Kevin la caída del pelo." },
-        { "edicion": "2026-11-16", "texto": "Titular en el campo del Rosal, cambiado en el 89'. Tampoco marca al colista: 8 jornadas." } ] },
-    { "slug": "enigma-kurki", "titulo": "El enigma del dedo de Kurki", "protagonista": "kurki", "estado": "abierta",
-      "resumen": "Se lesiona del isquiotibial y acaba de baja por el dedo del pie. Sin convocar en la J8 y, probablemente, en la J9: no puede trotar hasta el viernes.",
+        { "edicion": "2026-11-16", "texto": "Titular en el campo del Rosal, cambiado en el 89'. Tampoco marca al colista: 8 jornadas." },
+        { "edicion": "2026-11-23", "texto": "J9 ante el Berrón: titular los 90 minutos y sin gol. 9 jornadas." } ] },
+    { "slug": "enigma-kurki", "titulo": "El enigma del isquio (o el dedo) de Kurki", "protagonista": "kurki", "estado": "abierta",
+      "resumen": "Se lesiona del isquio en la J7, la baja se achaca al dedo del pie y en la J9 vuelve a ser el isquio. Convocado ante el Berrón, no juega.",
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Gol en el 22' y cambio por lesión de isquio en el 33' de la J7. El fisio dice que el dedo del pie 'pinta feo'. Su sustituto, Pelayo, marca cuatro." },
-        { "edicion": "2026-11-16", "texto": "No convocado ante el Rosal. Se confirma que el problema es el dedo: hasta el viernes no puede ni empezar a trotar, así que es muy probable que tampoco llegue al Berrón." } ] },
+        { "edicion": "2026-11-16", "texto": "No convocado ante el Rosal. Se confirma que el problema es el dedo: hasta el viernes no puede ni empezar a trotar, así que es muy probable que tampoco llegue al Berrón." },
+        { "edicion": "2026-11-23", "texto": "J9: convocado, pero no juega: sigue con molestias en el isquio. El dedo desaparece de los partes. Sin él, al equipo le cuesta un mundo marcar." } ] },
     { "slug": "guerra-porteros", "titulo": "La guerra de los guantes", "protagonista": "mesa", "estado": "abierta",
-      "resumen": "Fran 2 porterías a cero (J1, J8), Guty 1 (J7). En la J8 Mesa eligió a Fran, la opción menos votada por los lectores.",
+      "resumen": "Fran 2 porterías a cero (J1, J8), Guty 1 (J7). Fran repite ante el Berrón, comete el penalti del 1-1 y ve amarilla.",
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Empate técnico: Fran (J1, 4-0) y Guty (J7, 9-0) con una portería a cero cada uno." },
-        { "edicion": "2026-11-16", "texto": "Los lectores votan «los dos, uno en cada palo» (60%); Fran saca un 10%. Mesa pone a Fran y Fran la deja a cero en el campo del Rosal (0-2)." } ] },
+        { "edicion": "2026-11-16", "texto": "Los lectores votan «los dos, uno en cada palo» (60%); Fran saca un 10%. Mesa pone a Fran y Fran la deja a cero en el campo del Rosal (0-2)." },
+        { "edicion": "2026-11-23", "texto": "J9: Fran titular por tercera vez seguida... y comete el penalti del 1-1 (amarilla en el 71', gol en el 72'). Guty, al banquillo y con el móvil: «LA TENGO GRABADA». El vestuario bautiza a Fran como «La Chopa»." } ] },
     { "slug": "rincon-del-servidor", "titulo": "El rincón del servidor", "protagonista": "giorgio", "estado": "abierta",
-      "resumen": "Giorgio, redactor de este periódico, también juega (a veces). Y lo cuenta con la honestidad que exige el oficio.",
+      "resumen": "Giorgio, redactor de este periódico, también juega (a veces). Y lo cuenta con la honestidad que exige el oficio... o casi.",
       "capitulos": [
-        { "edicion": "2026-11-10", "texto": "Vuelve al once tras quedarse fuera en la J6. Cesión horripilante a Guty, que la salva de forma maravillosa." } ] },
+        { "edicion": "2026-11-10", "texto": "Vuelve al once tras quedarse fuera en la J6. Cesión horripilante a Guty, que la salva de forma maravillosa." },
+        { "edicion": "2026-11-23", "texto": "J9: suplente tras dos titularidades. Entra en el 78' y comete una mano clarísima en el área que no se pita. Según su versión, gracias al trabajo previo con el árbitro en el Olimpo la noche anterior." } ] },
     { "slug": "cuerpo-manute", "titulo": "El cuerpo de Manute", "protagonista": "manute", "estado": "abierta",
       "resumen": "Debutó con 4 sprints y sin oxígeno. Una semana después, 500 chilenas en el fútbol-tenis le rompen el aductor.",
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Debut en liga ante el Juvencia B: «Pegué 4 sprints y ya no podía más»." },
-        { "edicion": "2026-11-16", "texto": "Pequeña rotura en el aductor tras unas 500 chilenas en el fútbol-tenis del lunes. Baja ante el Rosal. Su equipo de fútbol-tenis (Manute, Duru y Mel) quedó último." } ] }
+        { "edicion": "2026-11-16", "texto": "Pequeña rotura en el aductor tras unas 500 chilenas en el fútbol-tenis del lunes. Baja ante el Rosal. Su equipo de fútbol-tenis (Manute, Duru y Mel) quedó último." },
+        { "edicion": "2026-11-23", "texto": "J9: sigue de baja por el aductor y no entra en la convocatoria ante el Berrón." } ] },
+    { "slug": "tarjetero-pope", "titulo": "Pope contra el mundo", "protagonista": "pope", "estado": "abierta",
+      "resumen": "Protesta todo. En la J9, amarilla por protestar en el 19' y segunda en el 95' por una entrada que tocó balón. Sancionado para el Centro Asturiano.",
+      "capitulos": [
+        { "edicion": "2026-11-23", "texto": "Doble amarilla ante el Berrón (19' y 90'+5): la primera por protestar, la segunda por una entrada fea que tocó balón. Un rival le define como «un señor de 45 años que insulta a un niño de 18». Se pierde la J10." } ] },
+    { "slug": "donde-esta-duru", "titulo": "¿Dónde está Duru?", "protagonista": "duru", "estado": "cerrada",
+      "resumen": "Tras el Berrón, comida en el Pichote, cañas y 14 horas sin rastro. El lunes a las 11:07 aparece, sano, salvo y dormido. MVP de la jornada 9.",
+      "capitulos": [
+        { "edicion": "2026-11-23", "texto": "Titular ante el Berrón (sale en el 58'). Tras la comida y las cañas, desaparece. El lunes a las 7:45 su madre llama a Górriz; el vestuario se moviliza (Mel: «El coche está. Él no»). A las 11:07 aparece, dormido, en casa de una nueva amistad. MVP de la jornada." } ] }
   ]
 }
