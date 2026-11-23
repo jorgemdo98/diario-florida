@@ -1,6 +1,11 @@
 {
   "_nota": "Banco de fotos para el generador de memes. Añade aquí cada foto nueva que se guarde en img/ig/ (fuente: Instagram del club).",
   "fotos": [
+    { "src": "img/vestuario/j9-campo.jpg", "texto": "Saque de esquina ante el Berrón (J9)", "fecha": "2026-11-22" },
+    { "src": "img/mvp/j9-inaki.jpg", "texto": "Iñaki, MVP de la J9", "fecha": "2026-11-22" },
+    { "src": "img/vestuario/j9-colli-2.jpg", "texto": "Colli celebra su gol (o el del Berrón)", "fecha": "2026-11-22" },
+    { "src": "img/vestuario/j9-colli-1.jpg", "texto": "Colli, 21:55, mesa 15", "fecha": "2026-11-22" },
+    { "src": "img/vestuario/j9-cuenta.jpg", "texto": "La cuenta del Bulevar: 213 €", "fecha": "2026-11-22" },
     { "src": "img/ig/j8-1.webp", "texto": "Once ante el Rosal (J8)", "fecha": "2026-11-15" },
     { "src": "img/ig/jul28-serra.jpg", "texto": "Serra, presentación como fichaje", "fecha": "2026-07-28" },
     { "src": "img/mvp/j8-serra.jpg", "texto": "Serra, MVP de la J8", "fecha": "2026-11-15" },

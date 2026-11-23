@@ -1,0 +1,197 @@
+{
+  "fecha": "2026-11-23",
+  "numero": 3,
+  "publicada": "2026-11-23T20:00:00Z",
+  "jornada": 9,
+  "titulo_web": "Mucha sed, poco gol",
+  "resumen": "1-1 ante el Berrón en La Pixarra: La Florida domina pero solo marca cuando le echa una mano un defensa rival (el acta se lo da a Colli). Penalti en el 72', roja a Pope y, por la noche, 213 euros en el Bulevar.",
+  "ticker": [
+    "La Florida 1 - 1 Berrón",
+    "El 1-0: centro de Pelayo y gol en propia... que el acta da a Colli",
+    "Penalti en el 72': 1-1",
+    "Iñaki, MVP en su estreno de titular",
+    "Gol anulado a Iñaki por un fuera de juego dudoso",
+    "Pope, expulsado por doble amarilla: baja ante el Centro Asturiano",
+    "Diego, sin convocar · Kurki, convocado y sin jugar",
+    "Guty: «LA TENGO GRABADA, EH»",
+    "Tercer tiempo: 47 cervezas, 15 copas, 213 €",
+    "SE BUSCA: Duru",
+    "Cuarto partido seguido sin perder",
+    "Mingo: 9 jornadas sin marcar",
+    "Próxima parada: Centro Asturiano, fuera"
+  ],
+  "portada": {
+    "kicker": "Jornada 9 · 3ª Asturfútbol · Grupo 2",
+    "titular": ["MUCHA SED,", "POCO GOL"],
+    "subtitulo": "La Florida domina al Berrón como dominó al Rosal, pero sin Kurki no hay manera: ocasiones clarísimas al limbo, un gol anulado y un 1-0 que, según el vestuario, se metió el rival. Penalti en el 72' y 1-1. Por la noche, en el Bulevar, ni una fallada.",
+    "foto": "img/vestuario/j9-portada.jpg",
+    "foto_pos": "100% 50%",
+    "foto_movil": "img/vestuario/j9-campo-movil.jpg",
+    "foto_pie": "Saque de esquina de La Florida ante el Berrón en La Pixarra. Foto: el vestuario.",
+    "marcador": { "local": "florida", "gl": 1, "gv": 1, "visitante": "berron",
+      "goles_local": ["Colli 51'", "Darío (p.) 72'"] },
+    "pieza": "cronica",
+    "laterales": [
+      { "etiqueta": "MVP", "titulo": "IÑAKI YA CARBURA", "texto": "Primer partido de titular, de lateral izquierdo, y de lo mejor del equipo. Hasta marcó, pero se lo anularon.", "foto": "img/mvp/j9-inaki.jpg", "pieza": "mvp", "tono": "naranja" },
+      { "etiqueta": "Tercer tiempo", "titulo": "213 EUROS Y NI UNA OCASIÓN FALLADA", "texto": "Comida en el Pichote, cañas hasta la noche y un preticket de la mesa 15 que ya es historia del club.", "foto": "img/vestuario/j9-cuenta.jpg", "pieza": "tercer-tiempo", "tono": "negro" },
+      { "etiqueta": "Última hora", "titulo": "SE BUSCA: DURU", "texto": "No ha vuelto a casa ni ha ido a trabajar. El coche está; él, no.", "foto": "img/memes/2026-11-23-7.jpg", "pieza": "duru" },
+      { "etiqueta": "Sálvame", "titulo": "TANGANA, ROJA A POPE Y «LA TENGO GRABADA»", "texto": "Serra, Gabri y Mel convierten el final en un ring. Guty lo grabó todo. Eso dice él.", "foto": "img/memes/2026-11-23-3.jpg", "pieza": "tangana" }
+    ],
+    "franja": [
+      { "etiqueta": "La tabla", "titulo": "SEXTOS, A DOS DEL BERRÓN", "texto": "Celtic y La Manjoya escapan con 24. El Centro Asturiano pincha en Grisú.", "pieza": "tabla" },
+      { "etiqueta": "La lista", "titulo": "DIEGO, FUERA; KURKI, DENTRO", "texto": "Empieza la criba: el delantero estrella, sin convocar. El lesionado, en el banquillo.", "pieza": "convocatoria" },
+      { "etiqueta": "Próximo rival", "titulo": "CENTRO ASTURIANO", "texto": "21 puntos, viene de perder 3-1 en Grisú. Dom 29/11, a domicilio. Sin Pope.", "pieza": "previa", "escudo": "centro-asturiano" }
+    ]
+  },
+  "piezas": [
+    {
+      "id": "cronica", "seccion": "Crónica", "firma": "Redacción",
+      "titulo": "Mucha sed, poco gol: La Florida domina al Berrón y solo marca cuando le ayuda el rival",
+      "subtitulo": "Partido serio ante un rival directo, ocasiones clarísimas falladas, un gol anulado a Iñaki y un 1-0 que el vestuario atribuye a un defensa del Berrón. Penalti en el 72' y reparto de puntos.",
+      "foto": "img/vestuario/j9-campo.jpg", "foto_pie": "Balón parado de La Florida en La Pixarra. Así se defendía el Berrón: con todo el mundo dentro.",
+      "cuerpo": [
+        "Llegaba el **Berrón** a La Pixarra con 18 puntos, dos más que La Florida, y con la idea de cobrarse la derrota de la semana anterior ante el Centro Asturiano. Partido duro, de los de verdad. Y La Florida lo **dominó**, igual que una semana antes había dominado en el campo del Rosal.",
+        "El problema fue el mismo que en el Rosal, pero sin Serra para desatascarlo a tiempo: **el gol**. Hubo **ocasiones muy claras**, de las que se cuentan luego en el bar con las manos en la cabeza, y ninguna entró. Se nota, y mucho, la **falta de gol en ausencia de Kurki**. **Iñaki**, en su estreno como titular, llegó a marcar, pero el línea levantó la bandera por un **fuera de juego más que dudoso**.",
+        "El 1-0 llegó en el **51'** y llegó como llegan las cosas cuando no salen: **Pelayo** puso un centro y, según el vestuario, fue **un defensa del Berrón** quien la metió en su propia portería. El acta, que para eso es el acta, se lo da a **Colli**: sexto gol del curso y empate con Kurki en lo alto del pichichi naranja. Esta redacción no va a discutir con la Federación. Colli, tampoco (ver «Tercer tiempo»).",
+        "En el **58'** entró **Ari** por **Duru**, y en el **69'** llegó el doble cambio: **Poli** por **Iñaki**, que pidió el cambio exhausto tras un partidazo, y **Lucho** por **Colli**.",
+        "Y en el **71'**, el disgusto: amarilla para **Fran** y, un minuto después, **penalti** que transformó **Darío González** en el **72'**. 1-1. Un lector del buzón señala a Fran como autor del penalti; la amarilla del minuto anterior apunta en la misma dirección. En el **76'** vio amarilla el propio **Mesa**.",
+        "En el **78'**, Mesa agotó los cambios con **Serra** y **Giorgio** por **Kevin** y **Pelayo**. Serra tuvo **una ocasión increíble** para ser el salvador por segunda semana seguida; esta vez no entró. Giorgio, por su parte, cometió en el área una **mano clarísima** que el árbitro no pitó (ver «El rincón del servidor»). En la otra área, un **penalti a favor** que tampoco se pitó (ver «Sálvame en La Pixarra», donde Guty tiene algo que decir).",
+        "El final fue de todo menos fútbol: amarilla a Serra en el **90'+3**, **segunda amarilla y roja para Pope** en el **90'+5** y varias tanganas que merecen pieza aparte. Resultado: **1-1**, **cuarto partido seguido sin perder**, **17 puntos** y sexta plaza. Un punto que sabe a poco por lo que se vio, pero que, visto lo que no pitó el árbitro en nuestra área, podía haber sido ninguno."
+      ]
+    },
+    {
+      "id": "mvp", "seccion": "MVP de la jornada", "firma": "Redacción",
+      "titulo": "Iñaki, el último fichaje ya carbura: titular, lateral izquierdo y de lo mejor del equipo",
+      "subtitulo": "Se estrena en el once en un puesto nuevo, marca un gol que le anulan por un fuera de juego dudoso y se va al cambio en el 69' sin una gota de gasolina. MVP de la jornada 9.",
+      "foto": "img/mvp/j9-inaki.jpg", "foto_pie": "El cartel del MVP de la jornada 9. Foto original: @clubatleticodelaflorida",
+      "cuerpo": [
+        "Hace tres semanas, el club presentaba a **Iñaki** como su último fichaje. Debutó en San Ignacio, jugó la segunda parte entera ante el Juvencia B y esperó su momento. El domingo, ante el Berrón, llegó: **primera titularidad en liga**.",
+        "Y no en su sitio. Mesa le puso de **lateral izquierdo**, el puesto de **Poli**, que llegaba tarde al partido (ver «La lista»). Iñaki ni se inmutó: fue **de lo mejor del equipo**, cerró su banda, se sumó arriba y llegó a **marcar**. El línea vio un fuera de juego que, desde la grada, nadie más vio. Gol anulado y una injusticia más para la colección.",
+        "En el **69'** pidió el cambio: **agotamiento total**, de los buenos, de los que se ganan dejándolo todo. Entró Poli. Según el acta, en el **85'** vio una amarilla, dieciséis minutos después de haber sido sustituido: o protestó desde el banquillo o el acta se ha liado. Esta redacción investiga.",
+        "El último fichaje de La Florida **empieza a carburar y a rendir en plena forma**. Si esto es el principio, que tiemble el lateral izquierdo de la liga. Y Poli."
+      ]
+    },
+    {
+      "id": "tercer-tiempo", "seccion": "Tercer tiempo", "firma": "Gabinete de investigación",
+      "titulo": "47 cervezas, 15 copas y una mesa 15: el tercer tiempo que sí fue goleada",
+      "subtitulo": "Tras el empate, comida en el Pichote y cañas toda la tarde hasta bien entrada la noche. La prueba documental: un preticket del Café Bulevar de 213 euros.",
+      "foto": "img/vestuario/j9-colli-2.jpg", "foto_pie": "Colli, autor oficial del 1-0 según el acta, celebra su gol. O el del Berrón. A estas alturas ya le da igual.",
+      "cuerpo": [
+        "Si el empate dejó mal sabor de boca, el vestuario supo cómo quitárselo. Varios integrantes de la plantilla se fueron de **comida al Pichote** y, de ahí, **de cañas toda la tarde** hasta bien entrada la noche. Lo que en el campo fue falta de acierto, en la barra fue **pegada pura**.",
+        "Esta redacción ha tenido acceso a la prueba documental: un **preticket del Café Bulevar**, emitido el **22/11/2026 a las 21:55**, **mesa 15**. Alguien rodeó en verde la palabra **«Mesa»**: el míster ya sabe a quién le toca pagar.",
+        "El desglose: **38 cañones de rubia**, **5 de 1906**, **2 Estrellas** y **2 cañas**: **47 cervezas**. A eso súmale **10 Seagram's**, **2 Brugal** y **3 Barceló**: **15 copas**. Total: **213,00 €**, IVA incluido. Una pregunta queda en el aire: ¿quién fue el que, entre 38 cañones, pidió **dos cañas pequeñas**? Se investiga.",
+        "En el campo, muchas ocasiones y un gol que ni siquiera fue nuestro. En el Bulevar, **62 consumiciones y ni una fallada**. Si el equipo tuviera delante de la portería la puntería que tiene delante de la barra, iríamos líderes.",
+        "Mención especial para **Colli**, autor oficial del 1-0 según el acta, que celebró *su* gol como se merecía. Las fotos que nos han llegado hablan solas y esta redacción no va a añadir nada. Solo que, a las 21:55, todavía quedaba noche. Y que uno de los comensales **sigue sin aparecer** (ver «Se busca»)."
+      ]
+    },
+    {
+      "id": "duru", "seccion": "Última hora", "saga": "donde-esta-duru", "firma": "Gabinete de investigación",
+      "titulo": "SE BUSCA: Duru no ha vuelto a casa desde el tercer tiempo",
+      "subtitulo": "Titular ante el Berrón, de comida en el Pichote y de cañas por la tarde. Desde entonces, nada. Ni en casa ni en el trabajo. El vestuario, movilizado.",
+      "foto": "img/memes/2026-11-23-7.jpg", "foto_pie": "El cartel que circula por La Florida. Recompensa: un cañón rubia.",
+      "cuerpo": [
+        "**Duru** fue titular ante el Berrón hasta el **58'**, cuando dejó su sitio a Ari. Después se sumó a la expedición del Pichote y a las cañas de la tarde. Y ahí se le pierde la pista.",
+        "Al cierre de esta edición, según fuentes del vestuario, Duru **no ha vuelto a casa**, **no ha ido a trabajar** y **su madre está preocupada**. El equipo está **movilizado**. **Mel** bajó a comprobar si el coche seguía donde lo había dejado: **el coche estaba; Duru, no**.",
+        "Las preguntas se acumulan. ¿Dónde está Duru? ¿Qué le ha pasado? Y, sobre todo: cuando aparezca, ¿**se acordará** y nos lo contará?",
+        "Si alguien sabe algo, el **buzón** está abierto. **Ampliaremos.**"
+      ]
+    },
+    {
+      "id": "tangana", "seccion": "Sálvame en La Pixarra", "saga": "tarjetero-pope", "firma": "Redacción",
+      "titulo": "Tanganas, «un señor de 45 años», roja a Pope y la frase del año: «LA TENGO GRABADA, EH»",
+      "subtitulo": "El final del partido se convirtió en un ring de boxeo comentado por los de Sálvame. Serra, Gabri y Mel, en primera línea. Guty, con el móvil.",
+      "foto": "img/memes/2026-11-23-3.jpg", "foto_pie": "El plan de Guty, en cuatro viñetas.",
+      "cuerpo": [
+        "Con el 1-1 en el marcador y el reloj en el descuento, La Pixarra dejó de ser un campo de fútbol y pasó a ser **un plató de Sálvame**. Hubo **varias tanganas**, empujones y reproches entre rivales, con **Serra**, **Gabri** y **Mel** como protagonistas.",
+        "**Gabri** entró en **modo destroyer**: empujó a algún rival y **hubo que separarlo entre varios**, porque, según testigos, quería poner en práctica sus **conocimientos de artes marciales**. Serra vio amarilla en el **90'+3**. Y **Mel**, cuando el árbitro ya había pitado el final, **seguía encarándose** con los contrarios.",
+        "Los del Berrón también tuvieron su repertorio. A **Pope** le describieron como **«un señor de 45 años que insulta a un niño de 18»** y a **Mel**, sin más, como **«un señor mayor»**. La redacción no confirma edades.",
+        "Lo de Pope, además, acabó en **roja**: **primera amarilla en el 19' por protestar** y **segunda en el 90'+5** por una entrada un tanto peligrosa que, eso sí, **tocó balón**. **Se pierde el partido ante el Centro Asturiano.** ¿Aprenderá a no protestar todas las decisiones del árbitro? ¿O al menos a hacerlo de forma más calmada? Abrimos saga.",
+        "Pero el gran momento de la tarde lo firmó **Guty**, suplente. En pleno partido **sacó el móvil y se puso a grabar**. Y cuando el árbitro no pitó un **penalti a favor** clarísimo, Guty se lo dejó claro a todo el que quiso oírle: **«¡LA TENGO GRABADA! ¡LA TENGO GRABADA, EH!»**. Así que tranquilos: todo esto, la actuación arbitral incluida, **lo tiene grabado Guty**. Lo tiene grabado, eh."
+      ]
+    },
+    {
+      "id": "servidor", "seccion": "El rincón del servidor", "saga": "rincon-del-servidor", "firma": "Giorgio",
+      "titulo": "Banquillo, mono de trabajo y una mano de penalti que nadie pitó (gracias al Olimpo)",
+      "subtitulo": "Tras dos titularidades seguidas ante los colistas, Mesa se pone serio y me sienta. Entro en el 78', hago una mano clarísima en el área y no pasa nada. Lo explico.",
+      "foto": "img/memes/2026-11-23-2.jpg", "foto_pie": "La preparación del redactor para la jornada 9.",
+      "cuerpo": [
+        "Lo reconozco: dos partidos seguidos de titular **contra los colistas** me habían hecho creerme alguien. Llegaba el Berrón, tocaba ponerse **el mono de trabajo**, y **Mesa se puso serio**: banquillo y muy pocas opciones de jugar.",
+        "Pero la vida da vueltas. **Kurki** no podía saltar al campo por sus molestias e **Iñaki** pidió el cambio por agotamiento en el 69', así que en el **78'** se abrió la puerta y entré. El acta dice que por Pelayo; en el campo, ocupé el sitio de **Kevin**.",
+        "Y pude **lucirme**: cometí en el área un **penalti clamoroso por mano**. De los que se pitan en cualquier campo de Asturias. Pero no se pitó. ¿Por qué? Porque **la noche anterior**, en el **Olimpo**, en pleno **show de Latrosky**, un servidor hizo **un trabajo** con el árbitro. No daré más detalles. *Según mi propia versión*, que esta redacción no puede ni quiere verificar.",
+        "Si lo llegan a pitar, habría sido **el segundo penalti del partido** y, seguramente, **la derrota**. Así que, a mi manera, salvé un punto. La semana pasada fue Poli el de la mano delante del juez de línea; esta, yo. **Dos manos en el área en dos jornadas y ningún penalti.** Alguien en el vestuario debería investigar qué tiene este equipo con los árbitros. Yo ya lo sé."
+      ]
+    },
+    {
+      "id": "convocatoria", "seccion": "La lista", "saga": "diego-banquillo", "firma": "Redacción",
+      "titulo": "Empieza la criba: Diego, sin convocar; Kurki, convocado sin poder jugar; Poli, de la carrera al banquillo",
+      "subtitulo": "Mesa ya no puede convocar a todos y la primera lista deja titulares de los gordos. El delantero estrella, a la grada.",
+      "foto": "img/memes/2026-11-23-6.jpg", "foto_pie": "El criterio del míster para la convocatoria, según el vestuario.",
+      "cuerpo": [
+        "Lo avisamos la semana pasada: se acababa lo de convocar a todos los disponibles. Ante el Berrón, la lista fue de **18** y la criba dejó una sorpresa gorda: **Diego**, el **delantero estrella**, **sin convocar**. Tampoco entraron **Antón**, **Lorenzana**, **José** ni **Edu**. **Manute** sigue de baja por el aductor.",
+        "Lo llamativo es quién sí entró: **Kurki**. Convocado, en el banquillo... y **sin jugar**, porque **seguía con molestias en el isquio** y finalmente **no pudo saltar al campo**. Es decir: el delantero sano, en la grada; el lesionado, en el banquillo. Y el partido, pidiendo un gol a gritos. La saga de Diego pasa de «La travesía del banquillo» a «La travesía de la grada»: **0 titularidades en 9 jornadas**.",
+        "Otro caso: **Poli**. Perdió el lateral izquierdo en favor de Iñaki porque **llegaba tarde al partido**: estaba **trabajando en una carrera** que había en Oviedo. Llegó **sobreexcitado y de mala leche**, algo que, según fuentes del banquillo, **se notó**. Entró en el 69' por Iñaki.",
+        "Y una buena noticia: **Jorge Álvarez**, el que según el buzón andaba triste, **volvió al once** y jugó **los 90 minutos**. No marcó, pero algo es algo. Del nuevo sobrino seguimos sin saber nada."
+      ]
+    },
+    {
+      "id": "contadores", "seccion": "Los contadores", "firma": "Redacción",
+      "titulo": "Mingo sigue seco, el dedo de Kurki vuelve a ser isquio y Fran comete el penalti (según el buzón)",
+      "subtitulo": "Repaso a las sagas abiertas: unas avanzan, otras retroceden y alguna se ha perdido por el camino.",
+      "foto": "img/memes/2026-11-23-5.jpg", "foto_pie": "La redacción descubre de qué estaba lesionado Kurki.",
+      "cuerpo": [
+        "**Mingo**: titular y **90 minutos** ante el Berrón. Ni con el partido pidiendo un gol a gritos. El contador sube a **9 jornadas sin marcar en liga**. La promesa sigue en pie: el día que marque, portada.",
+        "**Kurki**: en la J7 se lesionó del **isquio**. La semana pasada nos dijeron que el problema era **el dedo del pie**. Ahora, convocado y sin jugar, el parte vuelve a ser el **isquio**. Esta redacción ya no sabe qué le duele, pero sabe una cosa: **sin él, no hay gol**.",
+        "**Kevin**: titular de **central** y cambiado en el 78'. ¿Cumplió su promesa de no salir la víspera? **No hay pruebas** ni a favor ni en contra. El jurado popular lo tiene claro: **8 de 11 votos** dicen que *«ni uno: la noche es joven»*; 3, que nace un nuevo Kevin. Veredicto pendiente. Y ojo, que el propio redactor de este periódico estaba esa noche en el Olimpo, así que aquí nadie tira la primera piedra.",
+        "**Fran**: titular por tercera jornada seguida. Amarilla en el **71'** y penalti en el **72'**. Un lector que firma como *«El GTA VI está matando a Fran»* lo resume así: *«Fran comete y encaja un penalti (su especialidad)»*. Su teoría: el lanzamiento del videojuego le está quitando horas de sueño. En redes, dice, ya es tendencia **#FranVuelve**. Guty, mientras tanto, grababa desde el banquillo.",
+        "**Manute**: sigue de baja por el aductor. Las chilenas del fútbol-tenis siguen pasando factura."
+      ]
+    },
+    {
+      "id": "tabla", "seccion": "La tabla", "firma": "Redacción",
+      "titulo": "Celtic y La Manjoya se escapan; La Florida, sexta y a dos del Berrón",
+      "subtitulo": "El Centro Asturiano pincha en Grisú y el Siero cae en Puerto. La Florida suma un punto y sigue en la pelea, empatada con Guillén Lafuerza.",
+      "cuerpo": [
+        "Arriba se ha roto el triple empate: **Celtic de Puerto** (4-1 al Siero) y **La Manjoya** (2-0 al San Ignacio) se escapan con **24 puntos**. El **Centro Asturiano**, nuestro próximo rival, **cayó 3-1 en el campo del Grisú** y se queda con 21.",
+        "Detrás, el **Berrón** suma su punto en La Pixarra y llega a **19**. El **Siero B** se queda en **18** tras perder en Puerto. Y ahí está La Florida: **sexta con 17 puntos** (5 victorias, 2 empates y 2 derrotas), **empatada con Guillén Lafuerza**, que ganó 4-2 al Efro B. A **uno del Siero**, a **dos del Berrón** y a **cuatro del Centro Asturiano**.",
+        "Por abajo, el **Rosal** conoce por fin la victoria: **2-3 en el campo del Rayo Mercadín**. Que conste que a nosotros no nos ganó. Y se cierra la jornada 8 pendiente: Efro B 4-3 Oviedo City y Juvencia B 1-2 Rayo Mercadín.",
+        "En números: **27 goles a favor y 11 en contra** en 9 jornadas, **cuatro partidos seguidos sin perder**: desde el 0-2 ante el Siero, nadie nos ha ganado. El equipo compite. Solo falta que vuelva el gol."
+      ]
+    },
+    {
+      "id": "previa", "seccion": "Previa J10", "firma": "Redacción",
+      "titulo": "Al campo de un líder herido, sin Pope y con la duda de Kurki",
+      "subtitulo": "El Centro Asturiano viene de perder en Grisú y está a cuatro puntos. Ganar en su campo es meterse de lleno en la pelea de arriba.",
+      "escudo": "centro-asturiano",
+      "cuerpo": [
+        "**Jornada 10 · domingo 29 de noviembre · a domicilio**: **Centro Asturiano – La Florida**. Tercero con **21 puntos** (7 victorias y 2 derrotas), llega tocado tras el **3-1 en Grisú**. Su referencia sigue siendo **Rodrigo García**, **9 goles**.",
+        "Bajas: **Pope**, **sancionado** por la doble amarilla ante el Berrón. **Manute**, del aductor. Y la gran duda: **Kurki** y su isquio (o su dedo). Sin él, el equipo genera mucho y marca poco; con él, es otra cosa.",
+        "Las claves: **mantener el dominio** de las últimas dos jornadas, **afinar la puntería**, que Pope no tenga a nadie a quien protestar (está en la grada) y que **la defensa no regale penaltis**. Y, por pedir, que Kevin duerma en su cama el sábado. Y que aparezca Duru.",
+        "Si se gana, La Florida se pone **a uno del Centro Asturiano** y en plena pelea por los puestos de arriba. Llevamos cuatro partidos sin perder. Toca el quinto."
+      ]
+    }
+  ],
+  "breves": [
+    { "titulo": "Cuatro sin perder", "texto": "San Ignacio (2-4), Juvencia B (9-0), Rosal (0-2) y Berrón (1-1): 16 goles a favor y 3 en contra en las cuatro últimas jornadas." },
+    { "titulo": "Colli iguala a Kurki", "texto": "Con el gol del 51' (suyo según el acta, del Berrón según el vestuario), Colli llega a 6 y empata con Kurki como máximo goleador del equipo. Pelayo, con 5, les sigue." },
+    { "titulo": "Romance en el vestuario", "texto": "Un lector asegura que Guty y Diego llevan semanas de bromas «que van más allá». Este domingo, uno en el banquillo y el otro fuera de la lista. ¿Coincidencia? El buzón cree que no. La redacción, de momento, solo toma nota." },
+    { "titulo": "Tarjetas a domicilio", "texto": "Seis amarillas para La Florida ante el Berrón: Pope (dos), Fran, Mesa, Iñaki (ya sustituido) y Serra. Y una roja. El Berrón vio cuatro." }
+  ],
+  "memes": [
+    { "foto": "img/vestuario/j9-colli-2.jpg", "arriba": "EL ACTA DICE QUE EL GOL ES MÍO", "abajo": "Y YO NO DISCUTO CON LA FEDERACIÓN", "pos": "50% 30%", "alt": "Colli celebra con una caña el gol del 51'", "pieza": "tercer-tiempo" },
+    { "foto": "img/vestuario/j9-cuenta.jpg", "arriba": "EN EL CAMPO: 1 GOL", "abajo": "EN EL BULEVAR: 62 DE 62", "pos": "50% 55%", "alt": "El preticket del Café Bulevar: 213 euros", "pieza": "tercer-tiempo" },
+    { "img": "img/memes/2026-11-23-1.jpg", "alt": "La paloma: Colli ante un gol en propia del Berrón — ¿es esto mi sexto gol?", "pieza": "cronica" },
+    { "foto": "img/vestuario/j9-colli-1.jpg", "arriba": "COLLI, 21:55", "abajo": "ANALIZANDO EL PARTIDO", "pos": "50% 30%", "alt": "Colli, sentado en la terraza, con la mirada perdida", "pieza": "tercer-tiempo" },
+    { "img": "img/memes/2026-11-23-7.jpg", "alt": "Cartel de SE BUSCA: Duru. Recompensa: un cañón rubia", "pieza": "duru" },
+    { "img": "img/memes/2026-11-23-3.jpg", "alt": "El plan de Gru: grabar en pleno partido, penalti a favor, no lo pitan, LA TENGO GRABADA EH", "pieza": "tangana" },
+    { "img": "img/memes/2026-11-23-4.jpg", "alt": "Drake: protestar con calma no; protestarlo todo y ver la segunda amarilla en el 95' sí", "pieza": "tangana" },
+    { "img": "img/memes/2026-11-23-2.jpg", "alt": "Roll Safe: no te pueden pitar el penalti si la noche antes trabajaste al árbitro en el Olimpo", "pieza": "servidor" },
+    { "img": "img/memes/2026-11-23-6.jpg", "alt": "El novio distraído: Mesa mirando a Kurki con molestias en el isquio mientras Diego mira", "pieza": "convocatoria" },
+    { "img": "img/memes/2026-11-23-5.jpg", "alt": "Astronautas: ¿a Kurki no le dolía el dedo? Siempre fue el isquio", "pieza": "contadores" }
+  ],
+  "encuesta": {
+    "id": "gol-51-j9",
+    "pregunta": "El 1-0 ante el Berrón (51'): ¿de quién es el gol?",
+    "opciones": ["De Colli: lo dice el acta y la Federación nunca se equivoca", "En propia: lo dice el vestuario", "De Pelayo, que puso el centro"]
+  },
+  "proximo": { "j": 10, "fecha": "2026-11-29", "rival": "centro-asturiano", "casa": false }
+}
