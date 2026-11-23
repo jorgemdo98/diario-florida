@@ -9,12 +9,12 @@
         { "edicion": "2026-11-16", "texto": "J8 en el campo del Rosal: entra en el 89' por Mingo. Octava jornada sin ser titular." },
         { "edicion": "2026-11-23", "texto": "J9 ante el Berrón: sin convocar. Del banquillo a la grada, mientras Kurki, con molestias en el isquio, sí entra en la lista y no juega." } ] },
     { "slug": "kevin-y-la-noche", "titulo": "Kevin y la noche", "protagonista": "kevin", "estado": "abierta",
-      "resumen": "Fuera en la J7 por una despedida; titular en la J8 de lateral izquierdo tras 12 horas de fiesta. Promete no salir más la víspera de los partidos. Ante el Berrón, titular de central 78 minutos.",
-      "contador": { "etiqueta": "partidos cumpliendo la promesa (de 2: Berrón y Centro Asturiano)", "valor": 0 },
+      "resumen": "Fuera en la J7 por una despedida; titular en la J8 de lateral izquierdo tras 12 horas de fiesta. Promete no salir la víspera de los partidos... y ante el Berrón cumple.",
+      "contador": { "etiqueta": "partidos cumpliendo la promesa (de 2: Berrón y Centro Asturiano)", "valor": 1 },
       "capitulos": [
         { "edicion": "2026-11-10", "texto": "Fuera de la convocatoria de la J7 por dos días de despedida. Promete reaparecer ante el Rosal." },
         { "edicion": "2026-11-16", "texto": "Titular en la J8... de lateral izquierdo (es central) tras 12 horas de fiesta hasta las 2 de la mañana. Cumple, agradece el cambio en el 55' y promete dejar de salir la víspera de los partidos." },
-        { "edicion": "2026-11-23", "texto": "J9: titular de central y cambiado en el 78'. Sobre su sábado noche no hay pruebas (ni a favor ni en contra). El jurado popular, 8 de 11 votos, cree que no cumplirá ni uno. Veredicto pendiente." } ] },
+        { "edicion": "2026-11-23", "texto": "J9: ¡cumple! La víspera, «esposado al sofá» viendo El Señor de los Anillos. Titular de central y cambiado en el 78'. El jurado popular (8 de 11) no se lo creía. 1 de 2." } ] },
     { "slug": "sequia-mingo", "titulo": "La sequía de Mingo", "protagonista": "mingo", "estado": "abierta",
       "resumen": "MVP en San Ignacio, cero goles en liga. Ni en un 9-0, ni contra el colista, ni los 90 minutos ante el Berrón.",
       "contador": { "etiqueta": "jornadas sin marcar en liga", "valor": 9 },
@@ -49,9 +49,9 @@
       "resumen": "Protesta todo. En la J9, amarilla por protestar en el 19' y segunda en el 95' por una entrada que tocó balón. Sancionado para el Centro Asturiano.",
       "capitulos": [
         { "edicion": "2026-11-23", "texto": "Doble amarilla ante el Berrón (19' y 90'+5): la primera por protestar, la segunda por una entrada fea que tocó balón. Un rival le define como «un señor de 45 años que insulta a un niño de 18». Se pierde la J10." } ] },
-    { "slug": "donde-esta-duru", "titulo": "¿Dónde está Duru?", "protagonista": "duru", "estado": "abierta",
-      "resumen": "Después del Berrón, comida en el Pichote y cañas hasta la noche. Duru no volvió a casa ni fue a trabajar. El vestuario, movilizado.",
+    { "slug": "donde-esta-duru", "titulo": "¿Dónde está Duru?", "protagonista": "duru", "estado": "cerrada",
+      "resumen": "Tras el Berrón, comida en el Pichote, cañas y 14 horas sin rastro. El lunes a las 11:07 aparece, sano, salvo y dormido. MVP de la jornada 9.",
       "capitulos": [
-        { "edicion": "2026-11-23", "texto": "Titular ante el Berrón (sale en el 58'). Tras la comida en el Pichote y las cañas, desaparece. El coche está; Duru, no. Se busca." } ] }
+        { "edicion": "2026-11-23", "texto": "Titular ante el Berrón (sale en el 58'). Tras la comida y las cañas, desaparece. El lunes a las 7:45 su madre llama a Górriz; el vestuario se moviliza (Mel: «El coche está. Él no»). A las 11:07 aparece, dormido, en casa de una nueva amistad. MVP de la jornada." } ] }
   ]
 }

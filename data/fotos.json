@@ -1,6 +1,7 @@
 {
   "_nota": "Banco de fotos para el generador de memes. Añade aquí cada foto nueva que se guarde en img/ig/ (fuente: Instagram del club).",
   "fotos": [
+    { "src": "img/mvp/j9-duru.jpg", "texto": "Duru, MVP de la J9 (fuera del campo)", "fecha": "2026-11-23" },
     { "src": "img/vestuario/j9-la-chopa.jpg", "texto": "Fran, La Chopa", "fecha": "2026-11-22" },
     { "src": "img/vestuario/j9-campo.jpg", "texto": "Saque de esquina ante el Berrón (J9)", "fecha": "2026-11-22" },
     { "src": "img/mvp/j9-inaki.jpg", "texto": "Iñaki, MVP de la J9", "fecha": "2026-11-22" },
