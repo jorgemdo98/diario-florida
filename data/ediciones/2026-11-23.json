@@ -14,6 +14,7 @@
     "Pope, expulsado por doble amarilla: baja ante el Centro Asturiano",
     "Diego, sin convocar · Kurki, convocado y sin jugar",
     "Guty: «LA TENGO GRABADA, EH»",
+    "Fran comete el penalti y nace LA CHOPA",
     "Tercer tiempo: 47 cervezas, 15 copas, 213 €",
     "SE BUSCA: Duru",
     "Cuarto partido seguido sin perder",
@@ -39,7 +40,7 @@
     ],
     "franja": [
       { "etiqueta": "La tabla", "titulo": "SEXTOS, A DOS DEL BERRÓN", "texto": "Celtic y La Manjoya escapan con 24. El Centro Asturiano pincha en Grisú.", "pieza": "tabla" },
-      { "etiqueta": "La lista", "titulo": "DIEGO, FUERA; KURKI, DENTRO", "texto": "Empieza la criba: el delantero estrella, sin convocar. El lesionado, en el banquillo.", "pieza": "convocatoria" },
+      { "etiqueta": "La portería", "titulo": "LA CHOPA", "texto": "Fran comete el penalti del 1-1, el buzón culpa al GTA VI y el vestuario le pone mote.", "pieza": "chopa" },
       { "etiqueta": "Próximo rival", "titulo": "CENTRO ASTURIANO", "texto": "21 puntos, viene de perder 3-1 en Grisú. Dom 29/11, a domicilio. Sin Pope.", "pieza": "previa", "escudo": "centro-asturiano" }
     ]
   },
@@ -110,6 +111,18 @@
       ]
     },
     {
+      "id": "chopa", "seccion": "La portería", "saga": "guerra-porteros", "firma": "Gabinete de investigación",
+      "titulo": "La Chopa",
+      "subtitulo": "Fran comete y encaja el penalti del 1-1. Un lector culpa al GTA VI. El vestuario, a la sidra. Y por el grupo empieza a circular una imagen que lo explica todo.",
+      "foto": "img/vestuario/j9-la-chopa.jpg", "foto_pie": "La Chopa, en su hábitat natural. Imagen que circula por el vestuario (no, no es una foto de verdad).",
+      "cuerpo": [
+        "Tercera jornada seguida de titular para **Fran** y tercera jornada seguida con la portería a su cargo en plena **guerra de los guantes**. Pero esta vez no hubo portería a cero: amarilla en el **71'** y, un minuto después, **penalti** que Darío González convirtió en el 1-1.",
+        "El buzón del lector no ha tardado en pronunciarse. Un lector que firma como *«El GTA VI está matando a Fran»* lo resume sin piedad: *«Fran comete y encaja un penalti (su especialidad)»*. Su teoría: **esta semana ha salido el GTA VI**, la semana pasada **una herida mermó su rendimiento** y esta semana el equipo no gana. Aun así, el remitente asegura que sus compañeros recalcan **su importancia en la plantilla** y la necesidad de que **recupere su mejor nivel** para meter al equipo en playoff. En redes, dice, ya es tendencia **#FranVuelve**.",
+        "Mientras tanto, por el grupo del vestuario circula **la imagen** que acompaña a esta pieza: Fran, medio hombre medio pez, tirado en el sofá con una **sidra natural** en la aleta. El vestuario le ha bautizado: **La Chopa**. Esta redacción no sabe quién la ha hecho, pero sí sabe una cosa: el apodo ya no se lo quita nadie.",
+        "La guerra de los guantes queda así: **Fran**, dos porterías a cero y un penalti cometido; **Guty**, una portería a cero y un vídeo de la actuación arbitral que, eso dice él, *tiene grabado*. Mesa decide en el campo del Centro Asturiano. Los lectores, en el buzón."
+      ]
+    },
+    {
       "id": "servidor", "seccion": "El rincón del servidor", "saga": "rincon-del-servidor", "firma": "Giorgio",
       "titulo": "Banquillo, mono de trabajo y una mano de penalti que nadie pitó (gracias al Olimpo)",
       "subtitulo": "Tras dos titularidades seguidas ante los colistas, Mesa se pone serio y me sienta. Entro en el 78', hago una mano clarísima en el área y no pasa nada. Lo explico.",
@@ -142,7 +155,7 @@
         "**Mingo**: titular y **90 minutos** ante el Berrón. Ni con el partido pidiendo un gol a gritos. El contador sube a **9 jornadas sin marcar en liga**. La promesa sigue en pie: el día que marque, portada.",
         "**Kurki**: en la J7 se lesionó del **isquio**. La semana pasada nos dijeron que el problema era **el dedo del pie**. Ahora, convocado y sin jugar, el parte vuelve a ser el **isquio**. Esta redacción ya no sabe qué le duele, pero sabe una cosa: **sin él, no hay gol**.",
         "**Kevin**: titular de **central** y cambiado en el 78'. ¿Cumplió su promesa de no salir la víspera? **No hay pruebas** ni a favor ni en contra. El jurado popular lo tiene claro: **8 de 11 votos** dicen que *«ni uno: la noche es joven»*; 3, que nace un nuevo Kevin. Veredicto pendiente. Y ojo, que el propio redactor de este periódico estaba esa noche en el Olimpo, así que aquí nadie tira la primera piedra.",
-        "**Fran**: titular por tercera jornada seguida. Amarilla en el **71'** y penalti en el **72'**. Un lector que firma como *«El GTA VI está matando a Fran»* lo resume así: *«Fran comete y encaja un penalti (su especialidad)»*. Su teoría: el lanzamiento del videojuego le está quitando horas de sueño. En redes, dice, ya es tendencia **#FranVuelve**. Guty, mientras tanto, grababa desde el banquillo.",
+        "**Fran**: titular por tercera jornada seguida, amarilla en el **71'** y penalti en el **72'**. Su caso tiene pieza propia: ver «La Chopa». Guty, mientras tanto, grababa desde el banquillo.",
         "**Manute**: sigue de baja por el aductor. Las chilenas del fútbol-tenis siguen pasando factura."
       ]
     },
@@ -179,6 +192,7 @@
   "memes": [
     { "foto": "img/vestuario/j9-colli-2.jpg", "arriba": "EL ACTA DICE QUE EL GOL ES MÍO", "abajo": "Y YO NO DISCUTO CON LA FEDERACIÓN", "pos": "50% 30%", "alt": "Colli celebra con una caña el gol del 51'", "pieza": "tercer-tiempo" },
     { "foto": "img/vestuario/j9-cuenta.jpg", "arriba": "EN EL CAMPO: 1 GOL", "abajo": "EN EL BULEVAR: 62 DE 62", "pos": "50% 55%", "alt": "El preticket del Café Bulevar: 213 euros", "pieza": "tercer-tiempo" },
+    { "foto": "img/vestuario/j9-la-chopa.jpg", "arriba": "LA CHOPA", "abajo": "", "pos": "50% 30%", "alt": "Fran, La Chopa, en el sofá con una sidra natural", "pieza": "chopa" },
     { "img": "img/memes/2026-11-23-1.jpg", "alt": "La paloma: Colli ante un gol en propia del Berrón — ¿es esto mi sexto gol?", "pieza": "cronica" },
     { "foto": "img/vestuario/j9-colli-1.jpg", "arriba": "COLLI, 21:55", "abajo": "ANALIZANDO EL PARTIDO", "pos": "50% 30%", "alt": "Colli, sentado en la terraza, con la mirada perdida", "pieza": "tercer-tiempo" },
     { "img": "img/memes/2026-11-23-7.jpg", "alt": "Cartel de SE BUSCA: Duru. Recompensa: un cañón rubia", "pieza": "duru" },
